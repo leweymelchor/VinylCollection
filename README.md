@@ -34,6 +34,9 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Created Django Project "vinyl_collection"
 - Created Django app "records"
 - Started README.md file
+- Added app to settings.py INSTALLED_APPS
+- Created urls.py in records app
+- Added app urls path to project urls path
 
 ### Future Updates:
 
