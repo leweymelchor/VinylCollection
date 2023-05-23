@@ -1,3 +1,39 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
+from django.urls import reverse_lazy
+from django.views.generic.list import ListView
+from django.views.generic.edit import CreateView
 
-# Create your views here.
+from records.models import Record
+
+
+
+# CLASS BASED VIEWS
+class PageTitleViewMixin:
+    title = ""
+
+    def get_title(self):
+        return self.title
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["title"] = self.get_title()
+        return context
+
+
+class RecordListView(PageTitleViewMixin, ListView):
+    paginate_by = 10
+    model = Record
+    template_name = "records/list.html"
+    title = "Vinyl Catologue"
+
+
+class RecordCreateView(PageTitleViewMixin, CreateView):
+    model = Record
+    template_name = "record/new.html"
+    fields = ["artist", "album", "artwork", "date", "price"]
+    success_url = reverse_lazy("records_list")
+    title = "New Record"
+
+    # def form_valid(self, form):
+    #     form.instance.author = self.request.user
+    #     return super().form_valid(form)
