@@ -38,6 +38,12 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Created urls.py in records app
 - Added app urls path to project urls path
 
+- Created Record Model
+- Registered Record Model in admin.py
+- Created Record ListView and CreateView
+- Added ListView and CreateView url paths
+- Converted Numbers. CSV file into JSON and loaded the table into SQLite database
+
 ### Future Updates:
 
 ## Created By:
