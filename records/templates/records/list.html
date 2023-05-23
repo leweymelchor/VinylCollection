@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <body>
+    {% comment %} Main Card List Start {% endcomment %}
+    <main>
+      {% for record in record_list %}
+        <div>
+          <div>
+            {% if record.artwork %}
+              <a href="{% url 'record_detail' record.pk %}">
+                <img
+                     src="{{ record.artwork }}"
+                     height="200"
+                     width="200"
+                     alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+              </a>
+            {% endif %}
+            <div>
+              <a href="{% url 'record_detail' record.pk %}">{{ record.artist }}</a>
+              <p>{{ record.album }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="pagination">
+        <span class="step-links">
+          {% if page_obj.has_previous %}
+            <a id="page" href="?page=1">&laquo; first</a>
+            <a id="page" href="?page={{ page_obj.previous_page_number }}">previous</a>
+          {% endif %}
+          <span id="page" class="current">Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.</span>
+          {% if page_obj.has_next %}
+            <a id="page" href="?page={{ page_obj.next_page_number }}">next</a>
+            <a id="page" href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+          {% endif %}
+        </span>
+      </div>
+    </main>
+    <footer>
+      <div class="col">Copyright 2022 by David "Lewey" Melchor</div>
+      <div class="col">The Finest Recipes Money Can Buy</div>
+    </footer>
+  </div>
+</body>
+{% endblock content %}

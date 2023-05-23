@@ -44,6 +44,12 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Added ListView and CreateView url paths
 - Converted Numbers. CSV file into JSON and loaded the table into SQLite database
 
+- Created list.html detail.html file and add.html file
+- Built basic List template
+- Created RecordDetailView
+- Added RecordDetailView to urls.py
+- Added ListView to project URL's as 'home'
+
 ### Future Updates:
 
 ## Created By:
