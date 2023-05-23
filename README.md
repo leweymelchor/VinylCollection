@@ -50,6 +50,12 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Added RecordDetailView to urls.py
 - Added ListView to project URL's as 'home'
 
+- Created css static files
+- Linked static file to base.html
+- Loaded Static in base.html
+- Added STATICFILE_DIRS = [BASE_DIR / "static"] to project settings to point django to static file directory
+- Changed BG color and text color
+
 ### Future Updates:
 
 ## Created By:
