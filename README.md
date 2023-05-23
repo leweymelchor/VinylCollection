@@ -56,6 +56,9 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Added STATICFILE_DIRS = [BASE_DIR / "static"] to project settings to point django to static file directory
 - Changed BG color and text color
 
+- Filled in artwork data for database
+- Dumped data into db.json file
+
 ### Future Updates:
 
 ## Created By:

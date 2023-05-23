@@ -6,7 +6,7 @@ class Record(models.Model):
     artist= models.CharField(max_length=125)
     artwork = models.URLField(null=True, blank=True, max_length=300)
     date = models.DateField(auto_now_add=False, blank=True)
-    price= models.DecimalField(max_digits=10, decimal_places=2, null=True)
+    price= models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
 
 
     def __str__(self):
