@@ -30,6 +30,8 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Open your browser to http://localhost:8000
 - ENJOY!!!
 
+
+### Latest Updates
 <details>
 <Summary>Latest Updates:</Summary>
 
@@ -80,6 +82,8 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Position elements via CSS
 - Stylized form in add.html using CSS
 - fixed small CSS issues
+</details>
+</details>
 </details>
 </details>
 </details>
