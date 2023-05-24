@@ -31,13 +31,13 @@ class RecordListView(PageTitleViewMixin, ListView):
 class RecordCreateView(PageTitleViewMixin, CreateView):
     model = Record
     template_name = "records/add.html"
-    fields = ["album", "artist", "artwork", "date", "price"]
+    fields = ["artist", "album", "artwork", "date", "price"]
     success_url = reverse_lazy("records_list")
     title = "New Record"
 
-    # def form_valid(self, form):
-    #     form.instance.author = self.request.user
-    #     return super().form_valid(form)
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
 
 
 class RecordDetailView(PageTitleViewMixin, DetailView):

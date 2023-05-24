@@ -2,3 +2,54 @@ body {
     background-color: palevioletred;
     color: aliceblue;
 }
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+}
+
+li {
+    list-style: none;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-list-albums {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    justify-items: center;
+    padding: 25px;
+    background-color: rgba(0, 255, 255, 0.62);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+}

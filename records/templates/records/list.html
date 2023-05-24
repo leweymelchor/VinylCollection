@@ -4,25 +4,26 @@
   <body>
     {% comment %} Main Card List Start {% endcomment %}
     <main>
-      {% for record in record_list %}
-        <div>
-          <div>
-            {% if record.artwork %}
-              <a href="{% url 'record_detail' record.pk %}">
-                <img
-                     src="{{ record.artwork }}"
-                     height="200"
-                     width="200"
-                     alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
-              </a>
-            {% endif %}
-            <div>
-              <a href="{% url 'record_detail' record.pk %}">{{ record.artist }}</a>
-              <p>{{ record.album }}</p>
-            </div>
-          </div>
+        <div class="container-list-albums">
+            {% for record in record_list %}
+
+                <div class="card">
+                    {% if record.artwork %}
+                    <a href="{% url 'record_detail' record.pk %}">
+                        <img
+                            src="{{ record.artwork }}"
+                            height="200"
+                            width="200"
+                            alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+                    </a>
+                    {% endif %}
+                    <div>
+                    <a href="{% url 'record_detail' record.pk %}">{{ record.artist }}</a>
+                    <p>{{ record.album }}</p>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-      {% endfor %}
       <div class="pagination">
         <span class="step-links">
           {% if page_obj.has_previous %}
@@ -38,7 +39,7 @@
       </div>
     </main>
     <footer>
-      <div class="col">Copyright 2022 by David "Lewey" Melchor</div>
+      <div class="col">Copyright 2023 by David "Lewey" Melchor</div>
       <div class="col">The Finest Recipes Money Can Buy</div>
     </footer>
   </div>
