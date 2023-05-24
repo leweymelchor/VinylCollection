@@ -30,13 +30,14 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Open your browser to http://localhost:8000
 - ENJOY!!!
 
-### Latest Updates:
-- Created Django Project "vinyl_collection"
-- Created Django app "records"
-- Started README.md file
-- Added app to settings.py INSTALLED_APPS
-- Created urls.py in records app
-- Added app urls path to project urls path
++ ### Latest Updates:
+    + Day 1
+    - Created Django Project "vinyl_collection"
+    - Created Django app "records"
+    - Started README.md file
+    - Added app to settings.py INSTALLED_APPS
+    - Created urls.py in records app
+    - Added app urls path to project urls path
 
 - Created Record Model
 - Registered Record Model in admin.py
@@ -62,6 +63,10 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Added css to start styling the templates
 - Created Add record template
 - Created forms.py and added Record form
+
+- Position elements via CSS
+- Stylized form in add.html using CSS
+- fixed small CSS issues
 
 ### Future Updates:
 

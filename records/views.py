@@ -44,10 +44,5 @@ class RecordDetailView(PageTitleViewMixin, DetailView):
     model = Record
     template_name = "records/detail.html"
 
-    # def get_context_data(self, **kwargs):
-    #     context = super().get_context_data(**kwargs)
-    #     context["rating_form"] = RatingForm()
-    #     return context
-
     def get_title(self):
         return self.object.artist + "Vinyls"

@@ -3,17 +3,14 @@
 {% block content %}
   <body>
     <main>
-      <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <div>
-          <button type="submit">Add</button>
-        </div>
-      </form>
+        <h3 class="form-title">Add Your Record</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="form-button">
+            <button type="submit">Add</button>
+            </div>
+        </form>
     </main>
-    <footer>
-      <div>Copyright 2022 by David "Lewey" Melchor</div>
-      <div>The Finest Recipes Money Can Buy</div>
-    </footer>
   </body>
 {% endblock content %}
