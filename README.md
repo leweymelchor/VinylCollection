@@ -31,7 +31,7 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - ENJOY!!!
 
 <details>
-<Summary>### Latest Updates:</Summary>
+###<Summary>Latest Updates:</Summary>
 
 Day 1
 - Created Django Project "vinyl_collection"
