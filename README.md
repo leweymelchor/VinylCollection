@@ -41,7 +41,6 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Added app to settings.py INSTALLED_APPS
 - Created urls.py in records app
 - Added app urls path to project urls path
-</details>
 
 <detail>
 <Summary>Day 2</Summary>
@@ -50,7 +49,6 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Created Record ListView and CreateView
 - Added ListView and CreateView url paths
 - Converted Numbers. CSV file into JSON and loaded the table into SQLite database
-</details>
 
 <detail>
 <Summary>Day 3</Summary>
@@ -59,7 +57,6 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Created RecordDetailView
 - Added RecordDetailView to urls.py
 - Added ListView to project URL's as 'home'
-</details>
 
 <detail>
 <Summary>Day 4</Summary>
@@ -68,7 +65,6 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Loaded Static in base.html
 - Added STATICFILE_DIRS = [BASE_DIR / "static"] to project settings to point django to static file directory
 - Changed BG color and text color
-</details>
 
 <detail>
 <Summary>Day 5</Summary>
@@ -78,13 +74,15 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Added css to start styling the templates
 - Created Add record template
 - Created forms.py and added Record form
-</details>
 
 <detail>
 <Summary>Day 6</Summary>
 - Position elements via CSS
 - Stylized form in add.html using CSS
 - fixed small CSS issues
+</details>
+</details>
+</details>
 </details>
 </details>
 
