@@ -67,7 +67,7 @@ Day 4
 Day 5
 - Filled in artwork data for database
 - Dumped data into db.json file
-
+---
 - Added css to start styling the templates
 - Created Add record template
 - Created forms.py and added Record form
