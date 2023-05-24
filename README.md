@@ -31,12 +31,11 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - ENJOY!!!
 
 
-### Latest Updates
+### Latest Updates:
 <details>
-<Summary>Latest Updates:</Summary>
+<Summary>Latest Updates</Summary>
 
-<detail>
-<Summary>Day 1</Summary>
+Day 1
 - Created Django Project "vinyl_collection"
 - Created Django app "records"
 - Started README.md file
@@ -44,32 +43,28 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Created urls.py in records app
 - Added app urls path to project urls path
 
-<detail>
-<Summary>Day 2</Summary>
+Day 2
 - Created Record Model
 - Registered Record Model in admin.py
 - Created Record ListView and CreateView
 - Added ListView and CreateView url paths
 - Converted Numbers. CSV file into JSON and loaded the table into SQLite database
 
-<detail>
-<Summary>Day 3</Summary>
+Day 3
 - Created list.html detail.html file and add.html file
 - Built basic List template
 - Created RecordDetailView
 - Added RecordDetailView to urls.py
 - Added ListView to project URL's as 'home'
 
-<detail>
-<Summary>Day 4</Summary>
+Day 4
 - Created css static files
 - Linked static file to base.html
 - Loaded Static in base.html
 - Added STATICFILE_DIRS = [BASE_DIR / "static"] to project settings to point django to static file directory
 - Changed BG color and text color
 
-<detail>
-<Summary>Day 5</Summary>
+Day 5
 - Filled in artwork data for database
 - Dumped data into db.json file
 
@@ -77,17 +72,10 @@ Building a carousel view for the collection would be nice, but a paginated list 
 - Created Add record template
 - Created forms.py and added Record form
 
-<detail>
-<Summary>Day 6</Summary>
+Day 6
 - Position elements via CSS
 - Stylized form in add.html using CSS
 - fixed small CSS issues
-</details>
-</details>
-</details>
-</details>
-</details>
-</details>
 </details>
 
 ### Future Updates:
