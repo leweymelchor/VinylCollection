@@ -1,0 +1,81 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$RV3eKZOmpQaSkAXdVgcqBk$I43EmQl0mbPTexhaa4f+5WDLr04ZIPahbm3T+m71JLI=",
+        "last_login": "2023-05-27T18:33:45.121Z",
+        "is_superuser": true,
+        "username": "Lewey",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-27T18:33:06.737Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7xikw944e0szf31xmpddpo6igq50eqis",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSE8ioBL934D4T6QqqFJaVfGf7dNutBkVnPOzFukvC41rZ3nNJK4CC1Ovx1kfHLbAT1yu08Sp7bMI8hdkQft8jYRv66H-3dQc6_buoRgraYBvPNUQHmlvWJrCp4JIoXBuhhROYTgSjTaYvEGODNH3ILi8wXdcjh3:1q2yjZ:ZW3pAgNFWZJF70k6c8l5zOIQfFk9u-FmuQoR6stLCCI",
+        "expire_date": "2023-06-10T18:33:45.122Z"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 1,
+    "fields": {
+        "artist": "test artist"
+    }
+},
+{
+    "model": "records.record",
+    "pk": 1,
+    "fields": {
+        "album": "test album",
+        "artist": 1,
+        "artwork": "http://test.jpg",
+        "date": "2022-09-01",
+        "price": "29.99"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-05-27T18:33:58.123Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "artist"
+        ],
+        "object_id": "1",
+        "object_repr": "Artist object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-05-27T18:36:51.876Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "1",
+        "object_repr": "test artist / test album",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

@@ -98,14 +98,32 @@ form {
     grid-template-rows: repeat(5, 1fr);
     align-items: flex-start;
 
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 35px;
     padding-left: 150px;
     padding-right: 150px;
-    background-color: rgba(0, 255, 255, 0.62);
+
     border-radius: 25px;
+
     margin-top: 15px;
     margin-bottom: 50px;
+
+    background-color: rgba(0, 255, 255, 0.62);
+}
+
+.form-button-a {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    margin-top: 20px;
+}
+
+.form-button-a > a {
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 23px;
 }
 
 .form-button {
@@ -117,7 +135,7 @@ form {
     margin-top: 10%;
 }
 
-.form-button > button {
+.form-button > button, .form-button-a > a {
     background-color: palevioletred;
     border: none;
     border-radius: 8px;
@@ -126,14 +144,16 @@ form {
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    text-decoration: none;
 
     transition: all .3s ease-in-out;
 }
 
-.form-button > button:hover {
+.form-button > button:hover, .form-button-a > a:hover {
     background-color: pink;
     transform: scale(1.2);
 }
+
 
 form > p {
     border-color: blueviolet;
@@ -145,11 +165,20 @@ form > p {
     padding-bottom: 18px;
     max-width: 150px;
     text-align: center;
+
+    margin-bottom: 0px;
 }
 
-form > p > input {
+form > p > input, form > p > select {
     border-radius: 8px;
     border: none;
     padding: 5px;
+    min-width: 150px;
+}
 
+.form-album,
+.form-artwork,
+.form-date,
+.form-price {
+    margin-top: -15px;
 }

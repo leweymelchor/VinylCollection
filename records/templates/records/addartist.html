@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <body>
+    <main>
+        <h3 class="form-title">Add Artist</h3>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="form-button">
+            <button type="submit">Add</button>
+            </div>
+        </form>
+    </main>
+  </body>
+{% endblock content %}

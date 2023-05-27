@@ -76,6 +76,16 @@ Day 6
 - Position elements via CSS
 - Stylized form in add.html using CSS
 - fixed small CSS issues
+
+Day 7
+- Built Artist Model
+- Edited Record Model
+- Made Migrations
+- Built Artist CreateView
+- Built Artist Form and corresponding New Artist Template
+- Connected views via urls
+- Styled New Record Template
+- Cleared data from tables
 </details>
 
 ### Future Updates:
