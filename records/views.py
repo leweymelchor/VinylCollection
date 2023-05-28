@@ -59,7 +59,7 @@ class RecordDetailView(PageTitleViewMixin, DetailView):
     template_name = "records/detail.html"
 
     def get_title(self):
-        return self.object.artist + "Vinyls"
+        return str(self.object.artist) + " Vinyls"
 
 
 # def create_record(request):

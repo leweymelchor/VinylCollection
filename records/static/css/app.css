@@ -163,17 +163,26 @@ form > p {
     padding-left: 15px;
     padding-right: 17px;
     padding-bottom: 18px;
-    max-width: 150px;
+    max-width: 175px;
     text-align: center;
 
     margin-bottom: 0px;
+}
+
+select > option {
+    text-overflow: hidden;
+}
+
+select {
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 form > p > input, form > p > select {
     border-radius: 8px;
     border: none;
     padding: 5px;
-    min-width: 150px;
+    min-width: 163px;
 }
 
 .form-album,

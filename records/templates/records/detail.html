@@ -4,7 +4,7 @@
   <body>
     <main>
         <h1><b>{{ record.artist | default_if_none:"Unknown" }}</b></h1>
-        {% for i in record.artist %}
+        {% for rec in record.records %}
             <div>
                 {% if record.artwork %}
                 <img src="{{ record.artwork }}"
@@ -13,9 +13,9 @@
                     alt="{{ record.album }} cover"/>
                 {% endif %}
             </div>
-            <p>{{ record.album | default_if_none:"Unknown" }}</p>
-            <p>{{ record.date | default_if_none:"Unknown" }}</p>
-            <p>{{ record.price | default_if_none:"Unknown" }}</p>
+            <p>{{ rec.album | default_if_none:"Unknown" }}</p>
+            <p>{{ rec.date | default_if_none:"Unknown" }}</p>
+            <p>{{ rec.price | default_if_none:"Unknown" }}</p>
         {% endfor %}
       {% comment %} <div>
         <a href="{% url 'record_edit' record.id %}">Edit</a>
