@@ -3160,7 +3160,7 @@
     "fields": {
         "album": "Ones",
         "artist": 125,
-        "artwork": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/465dfe45-db24-4488-be3e-0c1e48aea9bc/df25jcl-5d82dedd-1559-43a2-ab37-e08ffaa09a9c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmM",
+        "artwork": "https://target.scene7.com/is/image/Target/GUEST_d10bc0fa-ebf8-43be-bb50-bd31a5e94cf9?wid=325&hei=325&qlt=80&fmt=pjpeg",
         "date": "2020-01-01",
         "price": null
     }
@@ -3369,7 +3369,7 @@
     "fields": {
         "album": "The Mamas and the Papas",
         "artist": 136,
-        "artwork": null,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/9/91/MamasPapas.jpg",
         "date": "1966-01-01",
         "price": "1.00"
     }
