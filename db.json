@@ -2,8 +2,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$600000$u9sINcMxhF33ypfmxdTEgV$m2QWVB46xc7Hk42F8I/XbxAr0dilWOXkSWgV3PTTyc8=",
-        "last_login": "2023-05-23T03:40:17.574Z",
+        "password": "pbkdf2_sha256$600000$YcrNobZgE59Wz2re5xhoVU$GsV01IQsRk4+VMT1qwNyhFBw9w0ZYcLrhP3YkqpEagI=",
+        "last_login": null,
         "is_superuser": true,
         "username": "Lewey",
         "first_name": "",
@@ -11,17 +11,1024 @@
         "email": "",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2023-05-23T03:38:22.771Z",
+        "date_joined": "2023-05-27T22:15:15.057Z",
         "groups": [],
         "user_permissions": []
     }
 },
 {
-    "model": "sessions.session",
-    "pk": "lndsxyz4wvx1katsymv2or6kvk7sqzwu",
+    "model": "records.artist",
+    "pk": 1,
     "fields": {
-        "session_data": ".eJxVjMsOwiAQRf-FtSGFUR4u3fcbyMAMUjWQlHZl_HfbpAvd3nPOfYuA61LC2nkOE4mrUOL0u0VMT647oAfWe5Op1WWeotwVedAux0b8uh3u30HBXrY6kcGBnbFADKC3EK2i6I1y7GPMkC3DJavEGcGwN1Y7c3bWgR80khefLwZmOEw:1q1Isj:wpUwL3tMqvRMgfYx-peENrKA95uzgyppPgxuTC598aI",
-        "expire_date": "2023-06-06T03:40:17.575Z"
+        "artist": "6lack"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 2,
+    "fields": {
+        "artist": "A Tribe Called Quest"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 3,
+    "fields": {
+        "artist": "AC/DC"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 4,
+    "fields": {
+        "artist": "Aerosmith"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 5,
+    "fields": {
+        "artist": "Al Green"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 6,
+    "fields": {
+        "artist": "Al Price"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 7,
+    "fields": {
+        "artist": "Alanis Morissette"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 8,
+    "fields": {
+        "artist": "Alice in Chains"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 9,
+    "fields": {
+        "artist": "Alvin and the chipmunks"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 10,
+    "fields": {
+        "artist": "Ambré"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 11,
+    "fields": {
+        "artist": "Ann Peebles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 12,
+    "fields": {
+        "artist": "Aretha Franklin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 13,
+    "fields": {
+        "artist": "Ari Lennox"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 14,
+    "fields": {
+        "artist": "Audio Slave"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 15,
+    "fields": {
+        "artist": "Avenged Sevenfold"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 16,
+    "fields": {
+        "artist": "B.B. King"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 17,
+    "fields": {
+        "artist": "Bare naked ladies"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 18,
+    "fields": {
+        "artist": "Beach Boys"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 19,
+    "fields": {
+        "artist": "Beethoven: Arturo Toscanini & NBC Symphony Orchestra"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 20,
+    "fields": {
+        "artist": "Benny Goodman"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 21,
+    "fields": {
+        "artist": "Betty Davis"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 22,
+    "fields": {
+        "artist": "Big Brother & the Holding Company"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 23,
+    "fields": {
+        "artist": "Big Sean"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 24,
+    "fields": {
+        "artist": "Bill Withers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 25,
+    "fields": {
+        "artist": "Billie Eilish"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 26,
+    "fields": {
+        "artist": "Billie Holiday"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 27,
+    "fields": {
+        "artist": "Bing Crosby"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 28,
+    "fields": {
+        "artist": "Black Sabbath"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 29,
+    "fields": {
+        "artist": "Blink 182"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 30,
+    "fields": {
+        "artist": "Bob Marley & The Wailers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 31,
+    "fields": {
+        "artist": "Bruno Mars"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 32,
+    "fields": {
+        "artist": "Bryson Tiller"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 33,
+    "fields": {
+        "artist": "Cage the Elephant"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 34,
+    "fields": {
+        "artist": "Camila Cabello"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 35,
+    "fields": {
+        "artist": "Chance the Rapper"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 36,
+    "fields": {
+        "artist": "Cheech & Chong"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 37,
+    "fields": {
+        "artist": "Childish Gambino"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 38,
+    "fields": {
+        "artist": "Chuck Berry"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 39,
+    "fields": {
+        "artist": "Comp."
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 40,
+    "fields": {
+        "artist": "Count Basie"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 41,
+    "fields": {
+        "artist": "Creed"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 42,
+    "fields": {
+        "artist": "Curtis Mayfield"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 43,
+    "fields": {
+        "artist": "Daft Punk"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 44,
+    "fields": {
+        "artist": "David Bowie"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 45,
+    "fields": {
+        "artist": "Dean Martin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 46,
+    "fields": {
+        "artist": "Dolly Parton"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 47,
+    "fields": {
+        "artist": "Dr. Seuss"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 48,
+    "fields": {
+        "artist": "Drake"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 49,
+    "fields": {
+        "artist": "Drake & Future"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 50,
+    "fields": {
+        "artist": "Drowning Pool"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 51,
+    "fields": {
+        "artist": "Earl Sweatshirt"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 52,
+    "fields": {
+        "artist": "Earth Gang"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 53,
+    "fields": {
+        "artist": "Earth Wind and Fire"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 54,
+    "fields": {
+        "artist": "Ella Fitzgerald & Louis Armstrong"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 55,
+    "fields": {
+        "artist": "Ella Mai"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 56,
+    "fields": {
+        "artist": "Elliott Smith"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 57,
+    "fields": {
+        "artist": "Elton John"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 58,
+    "fields": {
+        "artist": "Elvis Presley"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 59,
+    "fields": {
+        "artist": "Etta James"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 60,
+    "fields": {
+        "artist": "Fats Domino"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 61,
+    "fields": {
+        "artist": "George Strait"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 62,
+    "fields": {
+        "artist": "Grateful Dead"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 63,
+    "fields": {
+        "artist": "Green Day"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 64,
+    "fields": {
+        "artist": "Guns n’ Roses"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 65,
+    "fields": {
+        "artist": "H.E.R."
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 66,
+    "fields": {
+        "artist": "Harry Nilsson"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 67,
+    "fields": {
+        "artist": "Harry Styles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 68,
+    "fields": {
+        "artist": "Herb Alpert’s Tijuana Brass"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 69,
+    "fields": {
+        "artist": "Incubus"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 70,
+    "fields": {
+        "artist": "Iron Butterfly"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 71,
+    "fields": {
+        "artist": "Isaac Hayes"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 72,
+    "fields": {
+        "artist": "J. Cole"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 73,
+    "fields": {
+        "artist": "Jack Johnson and Friends:"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 74,
+    "fields": {
+        "artist": "Jaden Smith"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 75,
+    "fields": {
+        "artist": "James Brown"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 76,
+    "fields": {
+        "artist": "Jane’s Addiction"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 77,
+    "fields": {
+        "artist": "Janis Joplin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 78,
+    "fields": {
+        "artist": "Jethro Tull"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 79,
+    "fields": {
+        "artist": "Jimi Hendrix"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 80,
+    "fields": {
+        "artist": "John Coltrane"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 81,
+    "fields": {
+        "artist": "Johnny Cash"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 82,
+    "fields": {
+        "artist": "Jon batiste"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 83,
+    "fields": {
+        "artist": "Kehlani"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 84,
+    "fields": {
+        "artist": "Kendrick Lamar"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 85,
+    "fields": {
+        "artist": "Khalid"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 86,
+    "fields": {
+        "artist": "Korn"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 87,
+    "fields": {
+        "artist": "Kota the Friend"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 88,
+    "fields": {
+        "artist": "Led Zeppelin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 89,
+    "fields": {
+        "artist": "Louis Armstrong"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 90,
+    "fields": {
+        "artist": "Metallica"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 91,
+    "fields": {
+        "artist": "Miles Davis"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 92,
+    "fields": {
+        "artist": "Miles Davis and Michael Legrand"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 93,
+    "fields": {
+        "artist": "Misc. Compilation"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 94,
+    "fields": {
+        "artist": "Mister Rogers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 95,
+    "fields": {
+        "artist": "Nat King Cole"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 96,
+    "fields": {
+        "artist": "Neil Young"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 97,
+    "fields": {
+        "artist": "Nerf Herder"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 98,
+    "fields": {
+        "artist": "Nine Inch Nails"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 99,
+    "fields": {
+        "artist": "Nirvana"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 100,
+    "fields": {
+        "artist": "No Doubt"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 101,
+    "fields": {
+        "artist": "Notorious B.I.G."
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 102,
+    "fields": {
+        "artist": "Oasis"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 103,
+    "fields": {
+        "artist": "Oddisee"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 104,
+    "fields": {
+        "artist": "Oscar Peterson"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 105,
+    "fields": {
+        "artist": "Oscar Peterson Trio"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 106,
+    "fields": {
+        "artist": "Otis Redding"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 107,
+    "fields": {
+        "artist": "Panic! At The Disco"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 108,
+    "fields": {
+        "artist": "Parliament"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 109,
+    "fields": {
+        "artist": "Patsy Cline"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 110,
+    "fields": {
+        "artist": "Pearl Jam"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 111,
+    "fields": {
+        "artist": "Phil Collins"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 112,
+    "fields": {
+        "artist": "Pink Floyd"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 113,
+    "fields": {
+        "artist": "Prince"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 114,
+    "fields": {
+        "artist": "Prince and the Revolution"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 115,
+    "fields": {
+        "artist": "Queen"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 116,
+    "fields": {
+        "artist": "Rage Against the Machine"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 117,
+    "fields": {
+        "artist": "Ramones"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 118,
+    "fields": {
+        "artist": "Ray Charles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 119,
+    "fields": {
+        "artist": "Red Hot Chili Peppers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 120,
+    "fields": {
+        "artist": "Rihanna"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 121,
+    "fields": {
+        "artist": "Ritchie Valens"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 122,
+    "fields": {
+        "artist": "Rush"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 123,
+    "fields": {
+        "artist": "Saba"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 124,
+    "fields": {
+        "artist": "Santo & Johnny"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 125,
+    "fields": {
+        "artist": "Selena"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 126,
+    "fields": {
+        "artist": "Shawn Mendes"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 127,
+    "fields": {
+        "artist": "Stone Temple Pilots"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 128,
+    "fields": {
+        "artist": "Sublime"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 129,
+    "fields": {
+        "artist": "Syl Johnson"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 130,
+    "fields": {
+        "artist": "System of a Down"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 131,
+    "fields": {
+        "artist": "SZA"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 132,
+    "fields": {
+        "artist": "The Beatles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 133,
+    "fields": {
+        "artist": "The California Raisins"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 134,
+    "fields": {
+        "artist": "The Chilites"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 135,
+    "fields": {
+        "artist": "The Jackson 5"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 136,
+    "fields": {
+        "artist": "The Mamas and the Papas"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 137,
+    "fields": {
+        "artist": "TheWeeknd"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 138,
+    "fields": {
+        "artist": "TOOL"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 139,
+    "fields": {
+        "artist": "Train"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 140,
+    "fields": {
+        "artist": "Travis Scott"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 141,
+    "fields": {
+        "artist": "Tyler, The Creator"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 142,
+    "fields": {
+        "artist": "Van Halen"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 143,
+    "fields": {
+        "artist": "Vince Gauraldi Trio"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 144,
+    "fields": {
+        "artist": "War"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 145,
+    "fields": {
+        "artist": "Zapp & Roger"
     }
 },
 {
@@ -29,7 +1036,7 @@
     "pk": 1,
     "fields": {
         "album": "Free 6lack",
-        "artist": "6lack",
+        "artist": 1,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/6/6c/FREE6LACKalbum.jpg",
         "date": "2016-11-01",
         "price": null
@@ -40,7 +1047,7 @@
     "pk": 2,
     "fields": {
         "album": "The Low End Theory",
-        "artist": "A Tribe Called Quest",
+        "artist": 2,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/ATribeCalledQuestTheLowEndtheory.jpg/220px-ATribeCalledQuestTheLowEndtheory.jpg",
         "date": "1991-09-01",
         "price": "33.99"
@@ -51,7 +1058,7 @@
     "pk": 3,
     "fields": {
         "album": "Midnight Marauders",
-        "artist": "A Tribe Called Quest",
+        "artist": 2,
         "artwork": "https://m.media-amazon.com/images/I/61PyCnl6GfL._SX300_SY300_QL70_FMwebp_.jpg",
         "date": "1993-11-01",
         "price": "19.99"
@@ -62,7 +1069,7 @@
     "pk": 4,
     "fields": {
         "album": "High Voltage",
-        "artist": "AC/DC",
+        "artist": 3,
         "artwork": "https://m.media-amazon.com/images/I/61rfs6u0R3L._SX522_.jpg",
         "date": "1976-04-01",
         "price": null
@@ -73,7 +1080,7 @@
     "pk": 5,
     "fields": {
         "album": "The Road Starts Here",
-        "artist": "Aerosmith",
+        "artist": 4,
         "artwork": "https://m.media-amazon.com/images/I/81bwWlqztrL._UF1000,1000_QL80_.jpg",
         "date": "1971-01-01",
         "price": "21.99"
@@ -84,7 +1091,7 @@
     "pk": 6,
     "fields": {
         "album": "Toys in the Attic",
-        "artist": "Aerosmith",
+        "artist": 4,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/37/Aerosmith_-_Toys_in_the_Attic.jpg",
         "date": "1975-04-01",
         "price": "24.99"
@@ -95,7 +1102,7 @@
     "pk": 7,
     "fields": {
         "album": "Gets Next To You",
-        "artist": "Al Green",
+        "artist": 5,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273fec6bb271749b854c35e5f5c",
         "date": "1971-03-01",
         "price": null
@@ -106,7 +1113,7 @@
     "pk": 8,
     "fields": {
         "album": "Lets Stay Together",
-        "artist": "Al Green",
+        "artist": 5,
         "artwork": "https://m.media-amazon.com/images/I/A1K8haDSN4L._UF1000,1000_QL80_.jpg",
         "date": "1972-01-01",
         "price": null
@@ -117,7 +1124,7 @@
     "pk": 9,
     "fields": {
         "album": "I’m Still In Love With You",
-        "artist": "Al Green",
+        "artist": 5,
         "artwork": "https://cdn.shopify.com/s/files/1/0658/8461/products/AlGreen_ImStillInLoveWithYou_3000_081b4607-44ec-4ec0-9d8a-509e28027da2_3000x.jpg?v=1669240813",
         "date": "1972-10-01",
         "price": null
@@ -128,7 +1135,7 @@
     "pk": 10,
     "fields": {
         "album": "Swinging on Broadway",
-        "artist": "Al Price",
+        "artist": 6,
         "artwork": "https://m.media-amazon.com/images/I/81pXJPzmqOL._UF1000,1000_QL80_.jpg",
         "date": "1960-01-01",
         "price": "2.29"
@@ -139,7 +1146,7 @@
     "pk": 11,
     "fields": {
         "album": "jagged little pill",
-        "artist": "Alanis Morissette",
+        "artist": 7,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg",
         "date": "1995-06-01",
         "price": "25.99"
@@ -150,7 +1157,7 @@
     "pk": 12,
     "fields": {
         "album": "Dirt",
-        "artist": "Alice in Chains",
+        "artist": 8,
         "artwork": "https://m.media-amazon.com/images/I/81g0YcT68pL._UF1000,1000_QL80_.jpg",
         "date": "1992-09-01",
         "price": "34.99"
@@ -161,7 +1168,7 @@
     "pk": 13,
     "fields": {
         "album": "Christmas with the Chipmunks",
-        "artist": "Alvin and the chipmunks",
+        "artist": 9,
         "artwork": "https://m.media-amazon.com/images/I/81nXkL10MML._SX522_.jpg",
         "date": "1962-12-01",
         "price": "20.68"
@@ -172,7 +1179,7 @@
     "pk": 14,
     "fields": {
         "album": "Pulp (Directors Cut)",
-        "artist": "Ambré",
+        "artist": 10,
         "artwork": "https://cdn.shoplightspeed.com/shops/636018/files/34209686/1500x4000x3/ambre-pulp-directors-cut-2lp.jpg",
         "date": "2019-11-01",
         "price": null
@@ -183,7 +1190,7 @@
     "pk": 15,
     "fields": {
         "album": "I Can’t Stand the Rain",
-        "artist": "Ann Peebles",
+        "artist": 11,
         "artwork": "https://www.mbmusic.it/wp-content/uploads/2020/03/I-Cant-Stand-the-Rain-Ann-Peebles.jpg",
         "date": "1974-01-01",
         "price": null
@@ -194,7 +1201,7 @@
     "pk": 16,
     "fields": {
         "album": "Aretha",
-        "artist": "Aretha Franklin",
+        "artist": 12,
         "artwork": "https://m.media-amazon.com/images/I/91yNeMEcwWL._SL1425_.jpg",
         "date": "2021-01-01",
         "price": null
@@ -205,7 +1212,7 @@
     "pk": 17,
     "fields": {
         "album": "PHO",
-        "artist": "Ari Lennox",
+        "artist": 13,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f6/Ari_Lennox_Pho.JPG",
         "date": "2016-01-01",
         "price": null
@@ -216,7 +1223,7 @@
     "pk": 18,
     "fields": {
         "album": "Shea Butter Baby",
-        "artist": "Ari Lennox",
+        "artist": 13,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0c/Ari_SBB.jpg",
         "date": "2019-01-01",
         "price": null
@@ -227,7 +1234,7 @@
     "pk": 19,
     "fields": {
         "album": "Audio Slave",
-        "artist": "Audio Slave",
+        "artist": 14,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273a7292b6863258e889b78d787",
         "date": "2002-11-01",
         "price": "31.99"
@@ -238,7 +1245,7 @@
     "pk": 20,
     "fields": {
         "album": "City of Evil",
-        "artist": "Avenged Sevenfold",
+        "artist": 15,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7b/City_of_Evil_album_cover.jpg",
         "date": "2005-06-01",
         "price": "35.99"
@@ -249,7 +1256,7 @@
     "pk": 21,
     "fields": {
         "album": "The Best of B.B. King",
-        "artist": "B.B. King",
+        "artist": 16,
         "artwork": "https://m.media-amazon.com/images/I/717jdPLexwL._UF1000,1000_QL80_.jpg",
         "date": "1994-01-01",
         "price": "1.00"
@@ -260,7 +1267,7 @@
     "pk": 22,
     "fields": {
         "album": "Stunt",
-        "artist": "Bare naked ladies",
+        "artist": 17,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/47/Barenaked_Ladies_-_Stunt.jpg",
         "date": "1998-07-01",
         "price": "34.99"
@@ -271,7 +1278,7 @@
     "pk": 23,
     "fields": {
         "album": "Pet Sounds",
-        "artist": "Beach Boys",
+        "artist": 18,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bb/PetSoundsCover.jpg",
         "date": "1966-01-01",
         "price": null
@@ -282,7 +1289,7 @@
     "pk": 24,
     "fields": {
         "album": "Nine Beethoven Symphonies",
-        "artist": "Beethoven: Arturo Toscanini & NBC Symphony Orchestra",
+        "artist": 19,
         "artwork": "https://i.discogs.com/gRD0py-P6LhTwOPt1Ofw-5wu4NdECCENp8DWrwgxDhQ/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzEw/MzgtMTYwNzYyNTU5/NS0yNTU1LmpwZWc.jpeg",
         "date": "1958-01-01",
         "price": "3.29"
@@ -293,7 +1300,7 @@
     "pk": 25,
     "fields": {
         "album": "Lets Dance with Benny Goodman",
-        "artist": "Benny Goodman",
+        "artist": 20,
         "artwork": "https://i.discogs.com/JzNOEUqWBEcL1L2Qprl3aIW4BWxbGw8TX41rV2cGGak/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MzY2/MDItMTQ3MTY0MzEz/NC01NzM3LmpwZWc.jpeg",
         "date": "1947-01-01",
         "price": "5.00"
@@ -304,7 +1311,7 @@
     "pk": 26,
     "fields": {
         "album": "This is Benny Goodman",
-        "artist": "Benny Goodman",
+        "artist": 20,
         "artwork": "https://i.discogs.com/3MOtOEBUPN6IAGhSvbw8qiiF3MwWvrMoCX3Ru_NRqO8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3Njk5/MDAtMTQyNjI2MjIy/Mi0yNTkyLmpwZWc.jpeg",
         "date": "1971-01-01",
         "price": "4.00"
@@ -315,7 +1322,7 @@
     "pk": 27,
     "fields": {
         "album": "Betty Davis",
-        "artist": "Betty Davis",
+        "artist": 21,
         "artwork": "https://light-in-the-attic.s3.amazonaws.com/uploads/release_image/162/image/large_550_bettydavis-bettydavis-cover.jpg",
         "date": "1973-01-01",
         "price": null
@@ -326,7 +1333,7 @@
     "pk": 28,
     "fields": {
         "album": "Cheap Thrills",
-        "artist": "Big Brother & the Holding Company",
+        "artist": 22,
         "artwork": "https://m.media-amazon.com/images/I/913wQUYhz+L._SX522_.jpg",
         "date": "1968-08-01",
         "price": "59.99"
@@ -337,7 +1344,7 @@
     "pk": 29,
     "fields": {
         "album": "Detroit 2",
-        "artist": "Big Sean",
+        "artist": 23,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/a3/Big_Sean_-_Detroit_2.gif",
         "date": "2020-01-01",
         "price": null
@@ -348,7 +1355,7 @@
     "pk": 30,
     "fields": {
         "album": "Greatest Hits - Just the Two of Us & Soul Shadows",
-        "artist": "Bill Withers",
+        "artist": 24,
         "artwork": "https://cdn.shopify.com/s/files/1/0570/3919/2106/products/3891647-2662760.jpg?v=1652204690",
         "date": "1981-01-01",
         "price": null
@@ -359,9 +1366,20 @@
     "pk": 31,
     "fields": {
         "album": "Don’t Smile at Me",
-        "artist": "Billie Eilish",
+        "artist": 25,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
         "date": "2017-01-01",
+        "price": null
+    }
+},
+{
+    "model": "records.record",
+    "pk": 32,
+    "fields": {
+        "album": "When We All Fall Asleep, Where Do We Go?",
+        "artist": 25,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
+        "date": "2019-01-01",
         "price": null
     }
 },
@@ -370,7 +1388,7 @@
     "pk": 33,
     "fields": {
         "album": "Lady Sings the Blues",
-        "artist": "Billie Holiday",
+        "artist": 26,
         "artwork": "https://billieholiday.com/wp-content/uploads/2013/08/ladysingstheblues-1.jpg",
         "date": "1956-01-01",
         "price": "43.00"
@@ -381,7 +1399,7 @@
     "pk": 34,
     "fields": {
         "album": "Christmas Classics",
-        "artist": "Bing Crosby",
+        "artist": 27,
         "artwork": "https://m.media-amazon.com/images/I/41BkKv30NkL._UF1000,1000_QL80_.jpg",
         "date": "1949-01-01",
         "price": "24.99"
@@ -392,7 +1410,7 @@
     "pk": 35,
     "fields": {
         "album": "Black Sabbath",
-        "artist": "Black Sabbath",
+        "artist": 28,
         "artwork": "https://m.media-amazon.com/images/I/81K4W71c38L._UF1000,1000_QL80_.jpg",
         "date": "1970-06-01",
         "price": "29.99"
@@ -403,7 +1421,7 @@
     "pk": 36,
     "fields": {
         "album": "Paranoid",
-        "artist": "Black Sabbath",
+        "artist": 28,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
         "date": "1971-01-01",
         "price": null
@@ -414,7 +1432,7 @@
     "pk": 37,
     "fields": {
         "album": "Buddha",
-        "artist": "Blink 182",
+        "artist": 29,
         "artwork": "https://m.media-amazon.com/images/I/71I4DBP69IL._UF1000,1000_QL80_.jpg",
         "date": "1994-01-01",
         "price": "31.99"
@@ -425,7 +1443,7 @@
     "pk": 38,
     "fields": {
         "album": "Exodus",
-        "artist": "Bob Marley & The Wailers",
+        "artist": 30,
         "artwork": "https://i.discogs.com/7euFMytBkAZGvAdKZv93lq2ilW6mzmuKckOYN6FSQ80/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNTY4/OS0xNTQzNTc4Mzcz/LTM5ODAuanBlZw.jpeg",
         "date": "1977-06-01",
         "price": "29.99"
@@ -436,7 +1454,7 @@
     "pk": 39,
     "fields": {
         "album": "Unorthodox Jukebox",
-        "artist": "Bruno Mars",
+        "artist": 31,
         "artwork": "https://i.discogs.com/FX3NljY5t-uH30aNydtzCSnUh7VFRxcB3jqSYMFzYzo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3ODUw/MzEtMTQwMjU4ODg5/NC0xODc4LmpwZWc.jpeg",
         "date": "2012-12-01",
         "price": "24.99"
@@ -447,7 +1465,7 @@
     "pk": 40,
     "fields": {
         "album": "Trap Soul",
-        "artist": "Bryson Tiller",
+        "artist": 32,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4e/Trapsoulalbum.jpeg",
         "date": "2015-09-01",
         "price": null
@@ -458,7 +1476,7 @@
     "pk": 41,
     "fields": {
         "album": "Cage the Elephant",
-        "artist": "Cage the Elephant",
+        "artist": 33,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/95/Cage_the_elephant_album.jpg",
         "date": "2008-06-01",
         "price": null
@@ -469,7 +1487,7 @@
     "pk": 42,
     "fields": {
         "album": "Camila",
-        "artist": "Camila Cabello",
+        "artist": 34,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/97/Camila_%28Official_Album_Cover%29_by_Camila_Cabello.png",
         "date": "2018-01-01",
         "price": null
@@ -480,7 +1498,7 @@
     "pk": 43,
     "fields": {
         "album": "10 Day",
-        "artist": "Chance the Rapper",
+        "artist": 35,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/11/Chance10Day.jpeg",
         "date": "2012-01-01",
         "price": "89.99"
@@ -491,7 +1509,7 @@
     "pk": 44,
     "fields": {
         "album": "Acid Rap",
-        "artist": "Chance the Rapper",
+        "artist": 35,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273d95ab48a8a9de3c4a2cbfe80",
         "date": "2013-01-01",
         "price": "42.24"
@@ -502,7 +1520,7 @@
     "pk": 45,
     "fields": {
         "album": "Los Cochinos",
-        "artist": "Cheech & Chong",
+        "artist": 36,
         "artwork": "https://m.media-amazon.com/images/I/41KPEHWWR4L._UF1000,1000_QL80_.jpg",
         "date": "1973-01-01",
         "price": "1.00"
@@ -513,7 +1531,7 @@
     "pk": 46,
     "fields": {
         "album": "Because the Internet",
-        "artist": "Childish Gambino",
+        "artist": 37,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/70/Childish-gambino-because-the-internet.gif",
         "date": "2013-01-01",
         "price": null
@@ -524,7 +1542,7 @@
     "pk": 47,
     "fields": {
         "album": "“Awaken, My Love!”",
-        "artist": "Childish Gambino",
+        "artist": 37,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png",
         "date": "2016-01-01",
         "price": null
@@ -535,7 +1553,7 @@
     "pk": 48,
     "fields": {
         "album": "Live From Blueberry Hill",
-        "artist": "Chuck Berry",
+        "artist": 38,
         "artwork": "https://m.media-amazon.com/images/I/71s0kVezj-L._UF1000,1000_QL80_.jpg",
         "date": "2021-01-01",
         "price": null
@@ -546,7 +1564,7 @@
     "pk": 49,
     "fields": {
         "album": "A Gift to Pops - The Wonderful World of Louis Armstrong all stars",
-        "artist": "Comp.",
+        "artist": 39,
         "artwork": "https://cdn.louisianamusicfactory.com/media/wp-content/uploads/2021/10/15124443/a-gift-to-pops.jpg",
         "date": "2021-01-01",
         "price": null
@@ -557,7 +1575,7 @@
     "pk": 50,
     "fields": {
         "album": "Basie at Birdland",
-        "artist": "Count Basie",
+        "artist": 40,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Basie_at_Birdland.jpeg/220px-Basie_at_Birdland.jpeg",
         "date": "1961-07-01",
         "price": "2.29"
@@ -568,7 +1586,7 @@
     "pk": 51,
     "fields": {
         "album": "Pop Goes the Basie",
-        "artist": "Count Basie",
+        "artist": 40,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/59/Pop_Goes_the_Basie.jpg",
         "date": "1965-01-01",
         "price": "2.29"
@@ -579,7 +1597,7 @@
     "pk": 52,
     "fields": {
         "album": "My Own Prison",
-        "artist": "Creed",
+        "artist": 41,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9e/Creed_My_Own_Prison.jpg",
         "date": "1997-06-01",
         "price": "24.99"
@@ -590,7 +1608,7 @@
     "pk": 53,
     "fields": {
         "album": "Human Clay",
-        "artist": "Creed",
+        "artist": 41,
         "artwork": "https://m.media-amazon.com/images/I/71nXtTZpY6L._UF1000,1000_QL80_.jpg",
         "date": "1999-01-01",
         "price": null
@@ -601,7 +1619,7 @@
     "pk": 54,
     "fields": {
         "album": "Curtis",
-        "artist": "Curtis Mayfield",
+        "artist": 42,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Curtismayfield-1970lp.jpg/220px-Curtismayfield-1970lp.jpg",
         "date": "1970-01-01",
         "price": null
@@ -612,7 +1630,7 @@
     "pk": 55,
     "fields": {
         "album": "Roots",
-        "artist": "Curtis Mayfield",
+        "artist": 42,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4c/Curtis_Mayfield_-_Roots_album_cover.jpg",
         "date": "1971-01-01",
         "price": null
@@ -623,7 +1641,7 @@
     "pk": 56,
     "fields": {
         "album": "Super Fly",
-        "artist": "Curtis Mayfield",
+        "artist": 42,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/26/CurtisMayfieldSuperfly.jpg",
         "date": "1972-01-01",
         "price": null
@@ -634,7 +1652,7 @@
     "pk": 57,
     "fields": {
         "album": "Homework",
-        "artist": "Daft Punk",
+        "artist": 43,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Daftpunk-homework.jpg",
         "date": "1997-01-01",
         "price": null
@@ -645,7 +1663,7 @@
     "pk": 58,
     "fields": {
         "album": "Random Access Memories",
-        "artist": "Daft Punk",
+        "artist": 43,
         "artwork": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
         "date": "2013-01-01",
         "price": null
@@ -656,7 +1674,7 @@
     "pk": 59,
     "fields": {
         "album": "David Bowie (Space Oddity)",
-        "artist": "David Bowie",
+        "artist": 44,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b9/DavidBowiePhilips.jpg",
         "date": "1969-11-01",
         "price": "24.99"
@@ -667,7 +1685,7 @@
     "pk": 60,
     "fields": {
         "album": "Young Americans",
-        "artist": "David Bowie",
+        "artist": 44,
         "artwork": "https://m.media-amazon.com/images/I/71E8AwdAlTL._UF1000,1000_QL80_.jpg",
         "date": "1975-01-01",
         "price": null
@@ -678,7 +1696,7 @@
     "pk": 61,
     "fields": {
         "album": "A winter romance",
-        "artist": "Dean Martin",
+        "artist": 45,
         "artwork": "https://m.media-amazon.com/images/I/61F2CZUZ3CL._UF1000,1000_QL80_.jpg",
         "date": "1959-11-01",
         "price": "29.99"
@@ -689,7 +1707,7 @@
     "pk": 62,
     "fields": {
         "album": "Here You Come Again",
-        "artist": "Dolly Parton",
+        "artist": 46,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/47/Hereyoucomeagain.jpg",
         "date": "1977-01-01",
         "price": "1.00"
@@ -700,7 +1718,7 @@
     "pk": 63,
     "fields": {
         "album": "How The Grinch Stole Christmas",
-        "artist": "Dr. Seuss",
+        "artist": 47,
         "artwork": "https://i.scdn.co/image/ab67616d0000b2733c7c2f36269debe54658e0f2",
         "date": "1966-12-01",
         "price": "32.99"
@@ -711,7 +1729,7 @@
     "pk": 64,
     "fields": {
         "album": "Take Care",
-        "artist": "Drake",
+        "artist": 48,
         "artwork": "https://m.media-amazon.com/images/I/51VrAqTZoPL._UF1000,1000_QL80_.jpg",
         "date": "2011-01-01",
         "price": null
@@ -722,7 +1740,7 @@
     "pk": 65,
     "fields": {
         "album": "Nothing Was the Same",
-        "artist": "Drake",
+        "artist": 48,
         "artwork": "https://m.media-amazon.com/images/I/41aLMoRW0HL._UF1000,1000_QL80_.jpg",
         "date": "2013-01-01",
         "price": null
@@ -733,7 +1751,7 @@
     "pk": 66,
     "fields": {
         "album": "If You’re Reading This It’s Too Late",
-        "artist": "Drake",
+        "artist": 48,
         "artwork": "https://i.scdn.co/image/ab67616d0000b2732090f4f6cc406e6d3c306733",
         "date": "2016-01-01",
         "price": "28.24"
@@ -744,7 +1762,7 @@
     "pk": 67,
     "fields": {
         "album": "Views",
-        "artist": "Drake",
+        "artist": 48,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/af/Drake_-_Views_cover.jpg",
         "date": "2016-01-01",
         "price": "39.99"
@@ -755,7 +1773,7 @@
     "pk": 68,
     "fields": {
         "album": "What A Time To Be Alive",
-        "artist": "Drake & Future",
+        "artist": 48,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/94/Drake_and_Future_-_What_a_Time_to_Be_Alive_cover.jpg",
         "date": "2015-01-01",
         "price": null
@@ -766,7 +1784,7 @@
     "pk": 69,
     "fields": {
         "album": "Sinners",
-        "artist": "Drowning Pool",
+        "artist": 50,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4f/DrowningpoolsinnerAP.JPG",
         "date": "2001-01-01",
         "price": null
@@ -777,7 +1795,7 @@
     "pk": 70,
     "fields": {
         "album": "Doris",
-        "artist": "Earl Sweatshirt",
+        "artist": 51,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/40/Earl_Sweatshirt_Doris.jpg",
         "date": "2013-01-01",
         "price": null
@@ -788,7 +1806,7 @@
     "pk": 71,
     "fields": {
         "album": "Mirror Land",
-        "artist": "Earth Gang",
+        "artist": 52,
         "artwork": "https://media.pitchfork.com/photos/5d76619f53e80c0008f437cc/1:1/w_600/earthgang_mirrorland.jpeg",
         "date": "2019-01-01",
         "price": null
@@ -799,7 +1817,7 @@
     "pk": 72,
     "fields": {
         "album": "The Best of Earth Wind & Fire Vol. 1",
-        "artist": "Earth Wind and Fire",
+        "artist": 53,
         "artwork": "https://m.media-amazon.com/images/I/71csVS21jkL._UF1000,1000_QL80_.jpg",
         "date": "1978-01-01",
         "price": null
@@ -810,7 +1828,7 @@
     "pk": 73,
     "fields": {
         "album": "Ella & Louis",
-        "artist": "Ella Fitzgerald & Louis Armstrong",
+        "artist": 54,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0d/Ellaandlouis.jpg",
         "date": "1956-01-01",
         "price": "14.99"
@@ -821,7 +1839,7 @@
     "pk": 74,
     "fields": {
         "album": "3 LP Set  Time, Chance & Ready",
-        "artist": "Ella Mai",
+        "artist": 55,
         "artwork": "https://cdn.shopify.com/s/files/1/1377/6983/products/R-22988654-1651182375-7620_1296x.jpg?v=1651344580",
         "date": "2017-02-01",
         "price": "39.99"
@@ -832,7 +1850,7 @@
     "pk": 75,
     "fields": {
         "album": "From a Basement on the Hill",
-        "artist": "Elliot Smith",
+        "artist": 56,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/8/8c/Elliott_smith_from_a_basement_on_the_hill_cover.jpg",
         "date": "2004-01-01",
         "price": "30.99"
@@ -843,7 +1861,7 @@
     "pk": 76,
     "fields": {
         "album": "An Introduction to… Elliott Smith",
-        "artist": "Elliott Smith",
+        "artist": 56,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/52/Es_anintroduction.jpg",
         "date": "2010-01-01",
         "price": null
@@ -854,7 +1872,7 @@
     "pk": 77,
     "fields": {
         "album": "Victim of Love",
-        "artist": "Elton John",
+        "artist": 57,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/a9/Album_Victim_of_Love.jpg",
         "date": "1979-01-01",
         "price": "1.00"
@@ -865,7 +1883,7 @@
     "pk": 78,
     "fields": {
         "album": "The Classic Christmas Album",
-        "artist": "Elvis Presley",
+        "artist": 58,
         "artwork": "https://m.media-amazon.com/images/I/71yAA0w2NEL._SX522_.jpg",
         "date": "1957-01-01",
         "price": null
@@ -876,7 +1894,7 @@
     "pk": 79,
     "fields": {
         "album": "Elvis’ Christmas Album",
-        "artist": "Elvis Presley",
+        "artist": 58,
         "artwork": "https://i.discogs.com/RMw3AEXBhdgZk1v07_1G-i8ugLeYIRZoqJ6l8Thcj40/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjE5/MzctMTYxMDMwMjMy/NS04OTQ0LmpwZWc.jpeg",
         "date": "1957-01-01",
         "price": null
@@ -887,7 +1905,7 @@
     "pk": 80,
     "fields": {
         "album": "at last!",
-        "artist": "Etta James",
+        "artist": 59,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/fd/At_Last_-_Etta_James.jpg",
         "date": "1960-01-01",
         "price": null
@@ -898,7 +1916,7 @@
     "pk": 81,
     "fields": {
         "album": "All-Time Greatest Hits",
-        "artist": "Fats Domino",
+        "artist": 60,
         "artwork": "https://m.media-amazon.com/images/I/81BScvnc9CL._UF1000,1000_QL80_.jpg",
         "date": "2022-01-01",
         "price": "23.99"
@@ -909,7 +1927,7 @@
     "pk": 82,
     "fields": {
         "album": "Greatest Hits",
-        "artist": "George Strait",
+        "artist": 61,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/52/Georgehits.jpg",
         "date": "1985-03-01",
         "price": "24.77"
@@ -920,7 +1938,7 @@
     "pk": 83,
     "fields": {
         "album": "Workingmans Dead",
-        "artist": "Grateful Dead",
+        "artist": 62,
         "artwork": "https://m.media-amazon.com/images/I/81wWTSyo5IL._UF1000,1000_QL80_.jpg",
         "date": "1970-06-01",
         "price": "22.99"
@@ -931,7 +1949,7 @@
     "pk": 84,
     "fields": {
         "album": "The Best of the Grateful Dead",
-        "artist": "Grateful Dead",
+        "artist": 62,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7d/The-Best-of-the-Grateful-Dead.jpg",
         "date": "2015-03-01",
         "price": "34.99"
@@ -942,7 +1960,7 @@
     "pk": 85,
     "fields": {
         "album": "dookie",
-        "artist": "Green Day",
+        "artist": 63,
         "artwork": "https://m.media-amazon.com/images/I/614-PTaP5KL._UF1000,1000_QL80_.jpg",
         "date": "1994-01-01",
         "price": "23.99"
@@ -953,7 +1971,7 @@
     "pk": 86,
     "fields": {
         "album": "Appetite For Destruction",
-        "artist": "Guns n’ Roses",
+        "artist": 64,
         "artwork": "https://m.media-amazon.com/images/I/71H9ZR6EGFL._UF1000,1000_QL80_.jpg",
         "date": "1987-01-01",
         "price": "29.99"
@@ -964,7 +1982,7 @@
     "pk": 87,
     "fields": {
         "album": "H.E.R.",
-        "artist": "H.E.R.",
+        "artist": 65,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4f/H.E.R._%282017%29_album_cover.jpg",
         "date": "2017-01-01",
         "price": null
@@ -975,7 +1993,7 @@
     "pk": 88,
     "fields": {
         "album": "Son of Schmilsson",
-        "artist": "Harry Nilsson",
+        "artist": 66,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/27/Harry_Nilsson_Son_of_Schmilsson.jpg",
         "date": "1972-01-01",
         "price": "1.00"
@@ -986,7 +2004,7 @@
     "pk": 89,
     "fields": {
         "album": "Fine Line",
-        "artist": "Harry Styles",
+        "artist": 67,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b1/Harry_Styles_-_Fine_Line.png",
         "date": "2019-12-01",
         "price": "28.77"
@@ -997,7 +2015,7 @@
     "pk": 90,
     "fields": {
         "album": "Harry’s House",
-        "artist": "Harry Styles",
+        "artist": 67,
         "artwork": "https://cdn.shopify.com/s/files/1/0551/1056/6043/products/lzkkrlqnrwrihls7gfck.jpg?v=1683397234&width=599",
         "date": "2022-05-01",
         "price": "33.77"
@@ -1008,7 +2026,7 @@
     "pk": 91,
     "fields": {
         "album": "South of the Border",
-        "artist": "Herb Alpert’s Tijuana Brass",
+        "artist": 68,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/aa/SouthOfTheBordercover.jpg",
         "date": "1964-10-01",
         "price": "2.29"
@@ -1019,7 +2037,7 @@
     "pk": 92,
     "fields": {
         "album": "Make Yourself",
-        "artist": "Incubus",
+        "artist": 69,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/ba/Incubus_make_yourself.jpg",
         "date": "1999-01-01",
         "price": "26.99"
@@ -1030,7 +2048,7 @@
     "pk": 93,
     "fields": {
         "album": "Metamorphosis",
-        "artist": "Iron Butterfly",
+        "artist": 70,
         "artwork": "https://www.progarchives.com/progressive_rock_discography_covers/2428/cover_2824171632017_r.jpg",
         "date": "1970-01-01",
         "price": "1.00"
@@ -1041,7 +2059,7 @@
     "pk": 94,
     "fields": {
         "album": "Greatest Singles",
-        "artist": "Isaac Hayes",
+        "artist": 71,
         "artwork": "https://cdn11.bigcommerce.com/s-rdecee92oy/images/stencil/1280x1280/products/16346/5891612/fanlp88515-large__50680.1676617823.jpg?c=2",
         "date": "1991-01-01",
         "price": null
@@ -1052,7 +2070,7 @@
     "pk": 95,
     "fields": {
         "album": "2014 Forest Hills Drive",
-        "artist": "J. Cole",
+        "artist": 72,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2a/2014ForestHillsDrive.jpg",
         "date": "2014-01-01",
         "price": null
@@ -1063,7 +2081,7 @@
     "pk": 96,
     "fields": {
         "album": "Revenge Of The Dreamers III",
-        "artist": "J. Cole",
+        "artist": 72,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/02/Dreamville_-_Revenge_of_the_Dreamers_III.png",
         "date": "2019-01-01",
         "price": null
@@ -1074,7 +2092,7 @@
     "pk": 97,
     "fields": {
         "album": "Sing-A-Longs and Lullabies for the Film Curious George",
-        "artist": "Jack Johnson and Friends:",
+        "artist": 73,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/fd/Sing-A-Longs_and_Lullabies_for_the_Film_Curious_George_%282006_Jack_Johnson_album%29.jpg",
         "date": "2006-01-01",
         "price": null
@@ -1085,7 +2103,7 @@
     "pk": 98,
     "fields": {
         "album": "SYRE",
-        "artist": "Jaden Smith",
+        "artist": 74,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f8/SyreJadenSmith.jpg",
         "date": "2017-01-01",
         "price": "32.71"
@@ -1096,7 +2114,7 @@
     "pk": 99,
     "fields": {
         "album": "Collected",
-        "artist": "James Brown",
+        "artist": 75,
         "artwork": "https://www.musiconvinyl.com/fotos/5165_foto1_product_xl.jpg?0d9234bd19675e9aef9fa72ca3e30d88",
         "date": "2020-01-01",
         "price": null
@@ -1107,7 +2125,7 @@
     "pk": 100,
     "fields": {
         "album": "Nothing’s Shocking",
-        "artist": "Jane’s Addiction",
+        "artist": 76,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Nothing%27s_Shocking_%28Jane%27s_Addiction_album_-_cover_art%29.jpg/220px-Nothing%27s_Shocking_%28Jane%27s_Addiction_album_-_cover_art%29.jpg",
         "date": "1988-01-01",
         "price": null
@@ -1118,7 +2136,7 @@
     "pk": 101,
     "fields": {
         "album": "Pearl",
-        "artist": "Janis Joplin",
+        "artist": 77,
         "artwork": "https://img.songfacts.com/calendar/7925.jpg",
         "date": "1970-10-01",
         "price": "22.99"
@@ -1129,7 +2147,7 @@
     "pk": 102,
     "fields": {
         "album": "Aqualung",
-        "artist": "Jethro Tull",
+        "artist": 78,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/19/JethroTullAqualungalbumcover.jpg",
         "date": "1971-03-01",
         "price": "21.99"
@@ -1140,7 +2158,7 @@
     "pk": 103,
     "fields": {
         "album": "Are You Experienced",
-        "artist": "Jimi Hendrix",
+        "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/61ybI8BGViL._UF1000,1000_QL80_.jpg",
         "date": "1967-01-01",
         "price": "13.87"
@@ -1151,7 +2169,7 @@
     "pk": 104,
     "fields": {
         "album": "Axis: Bold As Love",
-        "artist": "Jimi Hendrix",
+        "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/81f20JroW9L._UF1000,1000_QL80_.jpg",
         "date": "1967-01-01",
         "price": "15.86"
@@ -1162,7 +2180,7 @@
     "pk": 105,
     "fields": {
         "album": "Electric Lady Land",
-        "artist": "Jimi Hendrix",
+        "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/51VWpTObMvL._UF1000,1000_QL80_.jpg",
         "date": "1968-01-01",
         "price": "19.99"
@@ -1173,7 +2191,7 @@
     "pk": 106,
     "fields": {
         "album": "Jimi Hendrix Experience Smash Hits",
-        "artist": "Jimi Hendrix",
+        "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/51WeIBq+EWL._UF1000,1000_QL80_.jpg",
         "date": "1969-01-01",
         "price": null
@@ -1184,7 +2202,7 @@
     "pk": 107,
     "fields": {
         "album": "Welcome Home",
-        "artist": "Jimi Hendrix",
+        "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/51Hw+O3WdgL._UF1000,1000_QL80_.jpg",
         "date": "1981-01-01",
         "price": null
@@ -1195,7 +2213,7 @@
     "pk": 108,
     "fields": {
         "album": "Blues",
-        "artist": "Jimi Hendrix",
+        "artist": 79,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/e7/Blues.JPG",
         "date": "1994-01-01",
         "price": null
@@ -1206,7 +2224,7 @@
     "pk": 109,
     "fields": {
         "album": "Blue Train",
-        "artist": "John Coltrane",
+        "artist": 80,
         "artwork": "https://classicalbumsundays.com/wp-content/uploads/2012/01/cover-700x700.jpg",
         "date": "1958-01-01",
         "price": null
@@ -1217,7 +2235,7 @@
     "pk": 110,
     "fields": {
         "album": "Giant Steps",
-        "artist": "John Coltrane",
+        "artist": 80,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Coltrane_Giant_Steps.jpg/220px-Coltrane_Giant_Steps.jpg",
         "date": "2020-01-01",
         "price": null
@@ -1228,7 +2246,7 @@
     "pk": 111,
     "fields": {
         "album": "Another Side of John Coltrane",
-        "artist": "John Coltrane",
+        "artist": 80,
         "artwork": "https://m.media-amazon.com/images/I/A1MI1xKooML._UF1000,1000_QL80_.jpg",
         "date": "2021-01-01",
         "price": null
@@ -1239,7 +2257,7 @@
     "pk": 112,
     "fields": {
         "album": "Folsom Prison",
-        "artist": "Johnny Cash",
+        "artist": 81,
         "artwork": "https://img.songfacts.com/calendar/17597.jpg",
         "date": "1968-01-01",
         "price": null
@@ -1250,7 +2268,7 @@
     "pk": 113,
     "fields": {
         "album": "American IV: The Man Comes Around",
-        "artist": "Johnny Cash",
+        "artist": 81,
         "artwork": "https://m.media-amazon.com/images/I/41rK7BMW3lL._UF1000,1000_QL80_.jpg",
         "date": "2002-11-01",
         "price": "42.99"
@@ -1261,7 +2279,7 @@
     "pk": 114,
     "fields": {
         "album": "Music Inspired by Disney’s Soul",
-        "artist": "Jon batiste",
+        "artist": 82,
         "artwork": "https://cdn.louisianamusicfactory.com/media/wp-content/uploads/2021/01/30164549/JON-BATISTE-SOUL.jpg",
         "date": "2021-01-01",
         "price": null
@@ -1272,7 +2290,7 @@
     "pk": 115,
     "fields": {
         "album": "You Should Be Here",
-        "artist": "Kehlani",
+        "artist": 83,
         "artwork": "https://media.pitchfork.com/photos/5929ae1e5e6ef95969321bd2/1:1/w_600/5e882289.jpg",
         "date": "2015-01-01",
         "price": null
@@ -1283,7 +2301,7 @@
     "pk": 116,
     "fields": {
         "album": "While We Wait",
-        "artist": "Kehlani",
+        "artist": 83,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/3a/Kehlani_-_While_We_Wait.png",
         "date": "2019-01-01",
         "price": null
@@ -1294,7 +2312,7 @@
     "pk": 117,
     "fields": {
         "album": "good kid, m.A.A.d city",
-        "artist": "Kendrick Lamar",
+        "artist": 84,
         "artwork": "https://m.media-amazon.com/images/I/A1r-m2odnnL._UF1000,1000_QL80_.jpg",
         "date": "2012-01-01",
         "price": null
@@ -1305,7 +2323,7 @@
     "pk": 118,
     "fields": {
         "album": "untitled unmastered.",
-        "artist": "Kendrick Lamar",
+        "artist": 84,
         "artwork": "https://media.pitchfork.com/photos/5929b49e9d034d5c69bf4ec7/1:1/w_600/1bcdfd6b.jpg",
         "date": "2016-01-01",
         "price": "31.99"
@@ -1316,7 +2334,7 @@
     "pk": 119,
     "fields": {
         "album": "American Teen",
-        "artist": "Khalid",
+        "artist": 85,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7d/Khalid_-_American_Teen.png",
         "date": "2017-01-01",
         "price": null
@@ -1327,7 +2345,7 @@
     "pk": 120,
     "fields": {
         "album": "Requiem",
-        "artist": "Korn",
+        "artist": 86,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/43/Korn_-_Requiem.png",
         "date": "2022-01-01",
         "price": "21.99"
@@ -1338,7 +2356,7 @@
     "pk": 121,
     "fields": {
         "album": "EVERYTHING",
-        "artist": "Kota the Friend",
+        "artist": 87,
         "artwork": "https://i.scdn.co/image/ab67616d0000b27327298ef27ce2c39f8177d1af",
         "date": "2020-05-01",
         "price": null
@@ -1349,7 +2367,7 @@
     "pk": 122,
     "fields": {
         "album": "Lyrics To Go Vol. II",
-        "artist": "Kota the Friend",
+        "artist": 87,
         "artwork": "https://images.genius.com/bc48758c5412288b9e047d2deb6733e7.999x999x1.png",
         "date": "2021-01-01",
         "price": null
@@ -1360,7 +2378,7 @@
     "pk": 123,
     "fields": {
         "album": "Led Zeppelin",
-        "artist": "Led Zeppelin",
+        "artist": 88,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png",
         "date": "1969-01-01",
         "price": null
@@ -1371,7 +2389,7 @@
     "pk": 124,
     "fields": {
         "album": "Led Zeppelin II",
-        "artist": "Led Zeppelin",
+        "artist": 88,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg",
         "date": "1969-01-01",
         "price": null
@@ -1382,7 +2400,7 @@
     "pk": 125,
     "fields": {
         "album": "Led Zeppelin III",
-        "artist": "Led Zeppelin",
+        "artist": 88,
         "artwork": "https://m.media-amazon.com/images/I/81elx3TCpqL._SX522_.jpg",
         "date": "1970-01-01",
         "price": null
@@ -1393,7 +2411,7 @@
     "pk": 126,
     "fields": {
         "album": "Led Zeppelin IV",
-        "artist": "Led Zeppelin",
+        "artist": 88,
         "artwork": "https://m.media-amazon.com/images/I/51h-cJeHf0L.jpg",
         "date": "1971-01-01",
         "price": null
@@ -1404,7 +2422,7 @@
     "pk": 127,
     "fields": {
         "album": "Houses of the Holy",
-        "artist": "Led Zeppelin",
+        "artist": 88,
         "artwork": "https://m.media-amazon.com/images/I/8149D4kJ8oL._SX522_.jpg",
         "date": "1973-01-01",
         "price": null
@@ -1415,7 +2433,7 @@
     "pk": 128,
     "fields": {
         "album": "I Will Wait For You",
-        "artist": "Louis Armstrong",
+        "artist": 89,
         "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/15/bf/0e/15bf0e4c-f2cc-a46a-e14b-72e51539c256/23UMGIM17449.rgb.jpg/1200x1200bf-60.jpg",
         "date": "1968-01-01",
         "price": "5.98"
@@ -1426,7 +2444,7 @@
     "pk": 129,
     "fields": {
         "album": "V.S.O.P. Vol 3/4",
-        "artist": "Louis Armstrong",
+        "artist": 89,
         "artwork": "https://i.discogs.com/3S45TXRZ6hs0X1ntRJbrNQZpIMJxLWX_xckS0rsHXfw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0OTU1/ODAtMTU4OTEyMDQ0/MC02ODQ3LmpwZWc.jpeg",
         "date": "1974-01-01",
         "price": "10.00"
@@ -1437,7 +2455,7 @@
     "pk": 130,
     "fields": {
         "album": "Archive Jazz Vol 26 - Louis Armstrong in New York",
-        "artist": "Louis Armstrong",
+        "artist": 89,
         "artwork": "https://i.discogs.com/cxp8h5f0MftVMIWPkVjFxRY8k0l2hv4g8gMyYxEPfMw/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MzQ1/MzItMTYyOTQ4MzY0/NC03MDk3LmpwZWc.jpeg",
         "date": "1964-01-01",
         "price": "5.00"
@@ -1448,7 +2466,7 @@
     "pk": 131,
     "fields": {
         "album": "Kill ‘Em All",
-        "artist": "Metallica",
+        "artist": 90,
         "artwork": "https://m.media-amazon.com/images/I/512YhL-QdIL._UF350,350_QL50_.jpg",
         "date": "1983-01-01",
         "price": null
@@ -1459,7 +2477,7 @@
     "pk": 132,
     "fields": {
         "album": "Ride The Lightning",
-        "artist": "Metallica",
+        "artist": 90,
         "artwork": "https://m.media-amazon.com/images/I/41S71EWF1ZL._UF350,350_QL50_.jpg",
         "date": "1984-01-01",
         "price": null
@@ -1470,7 +2488,7 @@
     "pk": 133,
     "fields": {
         "album": "Master of Puppets",
-        "artist": "Metallica",
+        "artist": 90,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
         "date": "1986-01-01",
         "price": null
@@ -1481,7 +2499,7 @@
     "pk": 134,
     "fields": {
         "album": "The $5.98 EP - Garage Days RE-Revisited",
-        "artist": "Metallica",
+        "artist": 90,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7b/Metallica_-_The_%245.98_E.P.-Garage_Days_Re-Revisited_cover.jpg",
         "date": "1987-01-01",
         "price": null
@@ -1492,7 +2510,7 @@
     "pk": 135,
     "fields": {
         "album": "Metallica",
-        "artist": "Metallica",
+        "artist": 90,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2c/Metallica_-_Metallica_cover.jpg",
         "date": "1991-08-01",
         "price": "24.99"
@@ -1503,7 +2521,7 @@
     "pk": 136,
     "fields": {
         "album": "Someday My Prince Will Come",
-        "artist": "Miles Davis",
+        "artist": 91,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg/220px-MilesDavis_SomedayMyPrinceWillCome.jpg",
         "date": "1961-01-01",
         "price": null
@@ -1514,7 +2532,7 @@
     "pk": 137,
     "fields": {
         "album": "Bitches Brew",
-        "artist": "Miles Davis",
+        "artist": 91,
         "artwork": "https://m.media-amazon.com/images/I/91bA8lgsSbS._UF1000,1000_QL80_.jpg",
         "date": "1970-01-01",
         "price": null
@@ -1525,7 +2543,7 @@
     "pk": 138,
     "fields": {
         "album": "DINGO",
-        "artist": "Miles Davis and Michael Legrand",
+        "artist": 92,
         "artwork": "https://m.media-amazon.com/images/I/513LYrbfcyL._UF1000,1000_QL80_.jpg",
         "date": "1991-01-01",
         "price": null
@@ -1536,7 +2554,7 @@
     "pk": 139,
     "fields": {
         "album": "Baby Driver",
-        "artist": "Misc. Compelation",
+        "artist": 93,
         "artwork": "https://m.media-amazon.com/images/I/510p8g9eFtL.jpg",
         "date": "2017-01-01",
         "price": null
@@ -1547,7 +2565,7 @@
     "pk": 140,
     "fields": {
         "album": "It’s Such A Good Feeling",
-        "artist": "Mister Rogers",
+        "artist": 94,
         "artwork": "https://m.media-amazon.com/images/I/71x-Qv+f0yL._UF1000,1000_QL80_.jpg",
         "date": "2019-01-01",
         "price": null
@@ -1558,7 +2576,7 @@
     "pk": 141,
     "fields": {
         "album": "The Christmas Song",
-        "artist": "Nat King Cole",
+        "artist": 95,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273cb474d056615c2c9b49bb4e6",
         "date": "1960-07-01",
         "price": "24.99"
@@ -1569,7 +2587,7 @@
     "pk": 142,
     "fields": {
         "album": "Ramblin’ Rose",
-        "artist": "Nat King Cole",
+        "artist": 95,
         "artwork": "https://i.discogs.com/mxzSukzCagMcF2AzSdsEFgGA7lLxhLP2mNahUfSxY6w/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzA5/MDYtMTUyNzg3MDE2/My05MTM1LmpwZWc.jpeg",
         "date": "1962-01-01",
         "price": "1.00"
@@ -1580,7 +2598,7 @@
     "pk": 143,
     "fields": {
         "album": "Harvest",
-        "artist": "Neil Young",
+        "artist": 96,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9b/NeilYoungHarvestalbumcover.jpg",
         "date": "1972-02-01",
         "price": "25.99"
@@ -1591,7 +2609,7 @@
     "pk": 144,
     "fields": {
         "album": "American Cheese",
-        "artist": "Nerf Herder",
+        "artist": 97,
         "artwork": "https://f4.bcbits.com/img/a1484388501_10.jpg",
         "date": "2002-01-01",
         "price": "21.99"
@@ -1602,7 +2620,7 @@
     "pk": 145,
     "fields": {
         "album": "Pretty Hate Machine",
-        "artist": "Nine Inch Nails",
+        "artist": 98,
         "artwork": "https://m.media-amazon.com/images/I/61mXXvvFz5L._UF1000,1000_QL80_.jpg",
         "date": "1989-01-01",
         "price": "21.99"
@@ -1613,7 +2631,7 @@
     "pk": 146,
     "fields": {
         "album": "BLEACH",
-        "artist": "Nirvana",
+        "artist": 99,
         "artwork": "https://m.media-amazon.com/images/I/71ThvtmT-FL._UF1000,1000_QL80_.jpg",
         "date": "1989-01-01",
         "price": "24.99"
@@ -1624,7 +2642,7 @@
     "pk": 147,
     "fields": {
         "album": "Nevermind",
-        "artist": "Nirvana",
+        "artist": 99,
         "artwork": "https://m.media-amazon.com/images/I/91G5ndi8yFL._AC_SX679_.jpg",
         "date": "1991-01-01",
         "price": "37.54"
@@ -1635,7 +2653,7 @@
     "pk": 148,
     "fields": {
         "album": "Incesticide",
-        "artist": "Nirvana",
+        "artist": 99,
         "artwork": "https://m.media-amazon.com/images/I/81N6OZTI7zL._UF1000,1000_QL80_.jpg",
         "date": "1992-01-01",
         "price": "39.99"
@@ -1646,7 +2664,7 @@
     "pk": 149,
     "fields": {
         "album": "Nirvana",
-        "artist": "Nirvana",
+        "artist": 99,
         "artwork": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nirvana_album_cover.svg/1200px-Nirvana_album_cover.svg.png",
         "date": "2002-01-01",
         "price": "29.99"
@@ -1657,7 +2675,7 @@
     "pk": 150,
     "fields": {
         "album": "Paladium, Hollywood 1990",
-        "artist": "Nirvana",
+        "artist": 99,
         "artwork": "https://i.discogs.com/6V51Pcba0WZJ-oDUR46oQzgO-0ZguDZ9TlStv5R0I6k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTk5/MDM3LTE2MDYyMjk0/ODMtODk5Ny5qcGVn.jpeg",
         "date": "2019-01-01",
         "price": null
@@ -1668,7 +2686,7 @@
     "pk": 151,
     "fields": {
         "album": "Tragic Kingdom",
-        "artist": "No Doubt",
+        "artist": 100,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9d/No_Doubt_-_Tragic_Kingdom.png",
         "date": "1995-10-01",
         "price": "29.99"
@@ -1679,7 +2697,7 @@
     "pk": 152,
     "fields": {
         "album": "ready to die",
-        "artist": "Notorious B.I.G.",
+        "artist": 101,
         "artwork": "https://m.media-amazon.com/images/I/31nNlEFb7PL.jpg",
         "date": "1994-01-01",
         "price": "47.99"
@@ -1690,7 +2708,7 @@
     "pk": 153,
     "fields": {
         "album": "Life After Death",
-        "artist": "Notorious B.I.G.",
+        "artist": 101,
         "artwork": "https://m.media-amazon.com/images/I/A12Zf24D5AL._SX522_.jpg",
         "date": "1997-01-01",
         "price": null
@@ -1701,7 +2719,7 @@
     "pk": 154,
     "fields": {
         "album": "(What’s The Story) Morning Glory?",
-        "artist": "Oasis",
+        "artist": 102,
         "artwork": "https://m.media-amazon.com/images/I/91s+CxEDriL._UF1000,1000_QL80_.jpg",
         "date": "1995-01-01",
         "price": "30.99"
@@ -1712,7 +2730,7 @@
     "pk": 155,
     "fields": {
         "album": "The Good Fight",
-        "artist": "Oddisee",
+        "artist": 103,
         "artwork": "https://f4.bcbits.com/img/a0695595692_10.jpg",
         "date": "2015-01-01",
         "price": null
@@ -1723,7 +2741,7 @@
     "pk": 156,
     "fields": {
         "album": "Motions & Emotions",
-        "artist": "Oscar Peterson",
+        "artist": 104,
         "artwork": "https://i.ytimg.com/vi/T5gHmWZATCM/maxresdefault.jpg",
         "date": "2014-01-01",
         "price": null
@@ -1734,7 +2752,7 @@
     "pk": 157,
     "fields": {
         "album": "In Tune",
-        "artist": "Oscar Peterson Trio",
+        "artist": 105,
         "artwork": "https://m.media-amazon.com/images/I/71A-TbGshZL._UF1000,1000_QL80_.jpg",
         "date": "2014-01-01",
         "price": null
@@ -1745,7 +2763,7 @@
     "pk": 158,
     "fields": {
         "album": "The Best of Otis Redding",
-        "artist": "Otis Redding",
+        "artist": 106,
         "artwork": "https://prodimage.images-bn.com/pimages/0603497847037_p0_v2_s1200x630.jpg",
         "date": "2020-01-01",
         "price": null
@@ -1756,7 +2774,7 @@
     "pk": 159,
     "fields": {
         "album": "A Fever You Can’t Sweat Out",
-        "artist": "Panic! At The Disco",
+        "artist": 107,
         "artwork": "https://m.media-amazon.com/images/I/91vKScuJ4tL._UF1000,1000_QL80_.jpg",
         "date": "2005-09-01",
         "price": "21.99"
@@ -1767,7 +2785,7 @@
     "pk": 160,
     "fields": {
         "album": "Chocolate City",
-        "artist": "Parliament",
+        "artist": 108,
         "artwork": "https://www.udiscovermusic.com/wp-content/uploads/2019/06/Parliament-Chocolate-City-album-cover-820-brightness-low.jpg",
         "date": "1975-01-01",
         "price": null
@@ -1778,7 +2796,7 @@
     "pk": 161,
     "fields": {
         "album": "Mothership Connection",
-        "artist": "Parliament",
+        "artist": 108,
         "artwork": "https://m.media-amazon.com/images/I/51MeVltr8pL._UF1000,1000_QL80_.jpg",
         "date": "1975-01-01",
         "price": "10.00"
@@ -1789,7 +2807,7 @@
     "pk": 162,
     "fields": {
         "album": "Mothership Connection",
-        "artist": "Parliament",
+        "artist": 108,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/ParliamentMothershipConnection.jpg/220px-ParliamentMothershipConnection.jpg",
         "date": "1975-01-01",
         "price": "28.99"
@@ -1800,7 +2818,7 @@
     "pk": 163,
     "fields": {
         "album": "Clones of Dr. Funkenstein",
-        "artist": "Parliament",
+        "artist": 108,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Parliament-The_Clones_of_Dr._Funkenstein_%28album_cover%29.jpg/220px-Parliament-The_Clones_of_Dr._Funkenstein_%28album_cover%29.jpg",
         "date": "1976-01-01",
         "price": null
@@ -1811,7 +2829,7 @@
     "pk": 164,
     "fields": {
         "album": "Showcase",
-        "artist": "Patsy Cline",
+        "artist": 109,
         "artwork": "https://m.media-amazon.com/images/I/81vfdZQCwuL._UF1000,1000_QL80_.jpg",
         "date": "1961-01-01",
         "price": null
@@ -1822,7 +2840,7 @@
     "pk": 165,
     "fields": {
         "album": "Greatest Hits",
-        "artist": "Patsy Cline",
+        "artist": 109,
         "artwork": "https://m.media-amazon.com/images/I/91EHEDj5PRL._SX522_.jpg",
         "date": "1967-01-01",
         "price": null
@@ -1833,7 +2851,7 @@
     "pk": 166,
     "fields": {
         "album": "Ten / Ten Redux",
-        "artist": "Pearl Jam",
+        "artist": 110,
         "artwork": "https://m.media-amazon.com/images/I/71Isxh1g17L._UF1000,1000_QL80_.jpg",
         "date": "1991-01-01",
         "price": "34.99"
@@ -1844,7 +2862,7 @@
     "pk": 167,
     "fields": {
         "album": "Vs.",
-        "artist": "Pearl Jam",
+        "artist": 110,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f9/PearlJam-Vs.jpg",
         "date": "1993-01-01",
         "price": null
@@ -1855,7 +2873,7 @@
     "pk": 168,
     "fields": {
         "album": "Vitalogy",
-        "artist": "Pearl Jam",
+        "artist": 110,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/30/PearlJamVitalogy.jpg",
         "date": "1994-01-01",
         "price": null
@@ -1866,7 +2884,7 @@
     "pk": 169,
     "fields": {
         "album": "No Code",
-        "artist": "Pearl Jam",
+        "artist": 110,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f3/PearlJam-NoCode.jpg",
         "date": "1996-01-01",
         "price": "34.99"
@@ -1877,7 +2895,7 @@
     "pk": 170,
     "fields": {
         "album": "Hello, I Must Be Going!",
-        "artist": "Phil Collins",
+        "artist": 111,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/59/Hello_i_must_be_going.jpg",
         "date": "1982-01-01",
         "price": "1.00"
@@ -1888,7 +2906,7 @@
     "pk": 171,
     "fields": {
         "album": "The Piper at the Gates of Dawn",
-        "artist": "Pink Floyd",
+        "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/3c/PinkFloyd-album-piperatthegatesofdawn_300.jpg",
         "date": "1967-01-01",
         "price": null
@@ -1899,7 +2917,7 @@
     "pk": 172,
     "fields": {
         "album": "A Saucerful of Secrets",
-        "artist": "Pink Floyd",
+        "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Saucerful_of_secrets2.jpg/220px-Saucerful_of_secrets2.jpg",
         "date": "1968-01-01",
         "price": null
@@ -1910,7 +2928,7 @@
     "pk": 173,
     "fields": {
         "album": "Meddle",
-        "artist": "Pink Floyd",
+        "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/MeddleCover.jpeg/220px-MeddleCover.jpeg",
         "date": "1971-10-01",
         "price": "27.99"
@@ -1921,7 +2939,7 @@
     "pk": 174,
     "fields": {
         "album": "With You Were Here",
-        "artist": "Pink Floyd",
+        "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png",
         "date": "1975-01-01",
         "price": null
@@ -1932,7 +2950,7 @@
     "pk": 175,
     "fields": {
         "album": "For You",
-        "artist": "Prince",
+        "artist": 113,
         "artwork": "https://goldiesparade.co.uk/wp-content/uploads/prince-for-you.jpg",
         "date": "1978-04-01",
         "price": null
@@ -1943,7 +2961,7 @@
     "pk": 176,
     "fields": {
         "album": "Prince",
-        "artist": "Prince",
+        "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/21/Prince_-_Prince.jpg",
         "date": "1979-10-01",
         "price": null
@@ -1954,7 +2972,7 @@
     "pk": 177,
     "fields": {
         "album": "Dirty Mind",
-        "artist": "Prince",
+        "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2e/Prince_-_Dirty_Mind.jpg",
         "date": "1980-10-01",
         "price": null
@@ -1965,7 +2983,7 @@
     "pk": 178,
     "fields": {
         "album": "1999",
-        "artist": "Prince",
+        "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Prince_-1999.jpg",
         "date": "1982-10-01",
         "price": null
@@ -1976,7 +2994,7 @@
     "pk": 179,
     "fields": {
         "album": "Purple Rain",
-        "artist": "Prince",
+        "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Princepurplerain.jpg",
         "date": "1984-06-01",
         "price": null
@@ -1987,7 +3005,7 @@
     "pk": 180,
     "fields": {
         "album": "Piano and a Microphone",
-        "artist": "Prince",
+        "artist": 113,
         "artwork": "https://media.pitchfork.com/photos/5b9c0d6893953040b9469183/1:1/w_600/Prince_Piano%20and%20a%20Microphone.jpg",
         "date": "2018-09-01",
         "price": null
@@ -1998,7 +3016,7 @@
     "pk": 181,
     "fields": {
         "album": "Live",
-        "artist": "Prince and the Revolution",
+        "artist": 113,
         "artwork": "https://media.pitchfork.com/photos/62447e280a5af8767f09c93c/1:1/w_450%2Cc_limit/Prince-and-the-Revolution-Live.jpeg",
         "date": "1985-03-01",
         "price": "55.99"
@@ -2009,7 +3027,7 @@
     "pk": 182,
     "fields": {
         "album": "Queen I",
-        "artist": "Queen",
+        "artist": 115,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Queen_Queen.png/220px-Queen_Queen.png",
         "date": "1973-07-01",
         "price": "29.99"
@@ -2020,7 +3038,7 @@
     "pk": 183,
     "fields": {
         "album": "Rage Against the Machine",
-        "artist": "Rage Against the Machine",
+        "artist": 116,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg",
         "date": "1992-01-01",
         "price": null
@@ -2031,7 +3049,7 @@
     "pk": 184,
     "fields": {
         "album": "Battle of Los Angeles",
-        "artist": "Rage Against the Machine",
+        "artist": 116,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/51/RAtM-BattleofLosAngeles.jpeg",
         "date": "1999-01-01",
         "price": null
@@ -2042,7 +3060,7 @@
     "pk": 185,
     "fields": {
         "album": "Ramones",
-        "artist": "Ramones",
+        "artist": 117,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Ramones_-_Ramones_cover.jpg/220px-Ramones_-_Ramones_cover.jpg",
         "date": "1976-01-01",
         "price": "21.99"
@@ -2053,7 +3071,7 @@
     "pk": 186,
     "fields": {
         "album": "The Best of Ray Charles: The Atlantic Years",
-        "artist": "Ray Charles",
+        "artist": 118,
         "artwork": "https://m.media-amazon.com/images/I/71YlTrhC0XL._SX522_.jpg",
         "date": "1994-01-01",
         "price": "31.99"
@@ -2064,7 +3082,7 @@
     "pk": 187,
     "fields": {
         "album": "Blood, Sugar, Sex, Magik",
-        "artist": "Red Hot Chili Peppers",
+        "artist": 119,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/5e/RHCP-BSSM.jpg",
         "date": "1991-01-01",
         "price": "35.99"
@@ -2075,7 +3093,7 @@
     "pk": 188,
     "fields": {
         "album": "ANTI",
-        "artist": "Rihanna",
+        "artist": 120,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/32/Rihanna_-_Anti.png",
         "date": "2016-01-01",
         "price": null
@@ -2086,7 +3104,7 @@
     "pk": 189,
     "fields": {
         "album": "Ritchie Valens",
-        "artist": "Ritchie Valens",
+        "artist": 121,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0c/Ritchie_Valens_1959.jpg",
         "date": "1959-01-01",
         "price": null
@@ -2097,7 +3115,7 @@
     "pk": 190,
     "fields": {
         "album": "Moving Pictures",
-        "artist": "Rush",
+        "artist": 122,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4a/Moving_Pictures.jpg",
         "date": "1981-02-01",
         "price": "31.99"
@@ -2108,7 +3126,7 @@
     "pk": 191,
     "fields": {
         "album": "Care For Me",
-        "artist": "Saba",
+        "artist": 123,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/d/da/This_is_the_cover_art_for_CARE_FOR_ME_by_Saba._The_cover_art_copyright_is_believed_to_belong_to_the_label%2C_Saba_PIVOT%2C_or_the_graphic_artist%28s%29.jpg",
         "date": "2018-01-01",
         "price": "65.00"
@@ -2119,7 +3137,7 @@
     "pk": 192,
     "fields": {
         "album": "Few Good Things",
-        "artist": "Saba",
+        "artist": 123,
         "artwork": "https://media.pitchfork.com/photos/61faf9857abffafea7cf05e3/1:1/w_600/Saba-Few-Good-Things.jpg",
         "date": "2022-01-01",
         "price": "45.00"
@@ -2130,7 +3148,7 @@
     "pk": 193,
     "fields": {
         "album": "Encore",
-        "artist": "Santo & Johnny",
+        "artist": 124,
         "artwork": "https://m.media-amazon.com/images/I/A1zJma7th3L._UF1000,1000_QL80_.jpg",
         "date": "1960-01-01",
         "price": "17.47"
@@ -2141,7 +3159,7 @@
     "pk": 194,
     "fields": {
         "album": "Ones",
-        "artist": "Selena",
+        "artist": 125,
         "artwork": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/465dfe45-db24-4488-be3e-0c1e48aea9bc/df25jcl-5d82dedd-1559-43a2-ab37-e08ffaa09a9c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmM",
         "date": "2020-01-01",
         "price": null
@@ -2152,7 +3170,7 @@
     "pk": 195,
     "fields": {
         "album": "Shawn Mendes",
-        "artist": "Shawn Mendes",
+        "artist": 126,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/16/Shawn_Mendes_-_Shawn_Mendes_%28Official_Album_Cover%29.png",
         "date": "2018-01-01",
         "price": null
@@ -2163,7 +3181,7 @@
     "pk": 196,
     "fields": {
         "album": "Core",
-        "artist": "Stone Temple Pilots",
+        "artist": 127,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/19/Stonetemplepilotscore.jpeg",
         "date": "1992-01-01",
         "price": "21.99"
@@ -2174,7 +3192,7 @@
     "pk": 197,
     "fields": {
         "album": "40 oz. To Freedom",
-        "artist": "Sublime",
+        "artist": 128,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/57/Sublime40OztoFreedomalbumcover.jpg",
         "date": "1992-06-01",
         "price": "35.99"
@@ -2185,7 +3203,7 @@
     "pk": 198,
     "fields": {
         "album": "Sublime",
-        "artist": "Sublime",
+        "artist": 128,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg",
         "date": "1996-01-01",
         "price": null
@@ -2196,7 +3214,7 @@
     "pk": 199,
     "fields": {
         "album": "Sublime Acoustic",
-        "artist": "Sublime",
+        "artist": 128,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Sublime_Acoustic_Vinyl.jpg/220px-Sublime_Acoustic_Vinyl.jpg",
         "date": "1998-01-01",
         "price": null
@@ -2207,7 +3225,7 @@
     "pk": 200,
     "fields": {
         "album": "Is It Because I’m Black?",
-        "artist": "Syl Johnson",
+        "artist": 129,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273191edb0b7c9a27d5bf6795a9",
         "date": "1970-01-01",
         "price": null
@@ -2218,7 +3236,7 @@
     "pk": 201,
     "fields": {
         "album": "System of a Down",
-        "artist": "System of a Down",
+        "artist": 130,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bc/System_of_a_down.jpg",
         "date": "1998-01-01",
         "price": null
@@ -2229,7 +3247,7 @@
     "pk": 202,
     "fields": {
         "album": "Toxicity",
-        "artist": "System of a Down",
+        "artist": 130,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
         "date": "2001-01-01",
         "price": null
@@ -2240,7 +3258,7 @@
     "pk": 203,
     "fields": {
         "album": "Ctrl",
-        "artist": "SZA",
+        "artist": 131,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png",
         "date": "2017-01-01",
         "price": "25.07"
@@ -2251,7 +3269,7 @@
     "pk": 204,
     "fields": {
         "album": "Please Please Me",
-        "artist": "The Beatles",
+        "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/c/c0/PleasePleaseMe_audio_cover.jpg",
         "date": "1963-03-01",
         "price": "32.99"
@@ -2262,7 +3280,7 @@
     "pk": 205,
     "fields": {
         "album": "With The Beatles",
-        "artist": "The Beatles",
+        "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0a/Withthebeatlescover.jpg",
         "date": "1963-11-22",
         "price": null
@@ -2273,7 +3291,7 @@
     "pk": 206,
     "fields": {
         "album": "A Hard Day’s Night",
-        "artist": "The Beatles",
+        "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/e6/HardDayUK.jpg",
         "date": "1964-07-01",
         "price": "32.99"
@@ -2284,7 +3302,7 @@
     "pk": 207,
     "fields": {
         "album": "Help!",
-        "artist": "The Beatles",
+        "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/e7/Help%21_%28The_Beatles_album_-_cover_art%29.jpg",
         "date": "1965-08-01",
         "price": null
@@ -2295,7 +3313,7 @@
     "pk": 208,
     "fields": {
         "album": "Let It Be",
-        "artist": "The Beatles",
+        "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/25/LetItBe.jpg",
         "date": "1970-05-01",
         "price": null
@@ -2306,7 +3324,7 @@
     "pk": 209,
     "fields": {
         "album": "The California Raisins Sing The Hit Songs",
-        "artist": "The California Raisins",
+        "artist": 133,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273ceaa7729d58f5e88126f7f83",
         "date": "1987-01-01",
         "price": "10.00"
@@ -2317,7 +3335,7 @@
     "pk": 210,
     "fields": {
         "album": "Give More Power to The People",
-        "artist": "The Chilites",
+        "artist": 134,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4b/Givemorepowertothepeoplealbum.jpg",
         "date": "1971-07-01",
         "price": "26.99"
@@ -2328,7 +3346,7 @@
     "pk": 211,
     "fields": {
         "album": "Diana Ross Presents: The Jackson 5",
-        "artist": "The Jackson 5",
+        "artist": 135,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Ross-presents-jackson-5-350.jpg",
         "date": "1969-01-01",
         "price": null
@@ -2339,7 +3357,7 @@
     "pk": 212,
     "fields": {
         "album": "ABC",
-        "artist": "The Jackson 5",
+        "artist": 135,
         "artwork": "https://m.media-amazon.com/images/I/71cBrakTspL._SX522_.jpg",
         "date": "1970-01-01",
         "price": null
@@ -2350,7 +3368,7 @@
     "pk": 213,
     "fields": {
         "album": "The Mamas and the Papas",
-        "artist": "The Mamas and the Papas",
+        "artist": 136,
         "artwork": null,
         "date": "1966-01-01",
         "price": "1.00"
@@ -2361,7 +3379,7 @@
     "pk": 214,
     "fields": {
         "album": "People Like Us",
-        "artist": "The Mamas and the Papas",
+        "artist": 136,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b1/People_Like_Us_Album.jpeg",
         "date": "1971-01-01",
         "price": "1.00"
@@ -2372,7 +3390,7 @@
     "pk": 215,
     "fields": {
         "album": "House of Balloons",
-        "artist": "TheWeeknd",
+        "artist": 137,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Weeknd_-_House_of_Balloons.png/220px-The_Weeknd_-_House_of_Balloons.png",
         "date": "2011-01-01",
         "price": null
@@ -2383,7 +3401,7 @@
     "pk": 216,
     "fields": {
         "album": "Opiate",
-        "artist": "TOOL",
+        "artist": 138,
         "artwork": "https://i.discogs.com/mq8gTOnzyZ0svr0nBSiYUoCpkID2WZbhXZNL4Ym13ZM/rs:fit/g:sm/q:90/h:598/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2NTAx/NS0xMTQ1MTM2Nzc3/LmpwZWc.jpeg",
         "date": "1992-01-01",
         "price": null
@@ -2394,7 +3412,7 @@
     "pk": 217,
     "fields": {
         "album": "Undertow",
-        "artist": "Tool",
+        "artist": 138,
         "artwork": "https://i.scdn.co/image/ab67616d0000b27382298636c94b8167c4793db2",
         "date": "1993-01-01",
         "price": "29.99"
@@ -2405,7 +3423,7 @@
     "pk": 218,
     "fields": {
         "album": "Drops of Jupiter",
-        "artist": "Train",
+        "artist": 139,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9d/Train_Drops_of_Jupiter.jpg",
         "date": "2001-01-01",
         "price": null
@@ -2416,7 +3434,7 @@
     "pk": 219,
     "fields": {
         "album": "Astroworld",
-        "artist": "Travis Scott",
+        "artist": 140,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0b/Astroworld_by_Travis_Scott.jpg",
         "date": "2018-01-01",
         "price": "27.99"
@@ -2427,7 +3445,7 @@
     "pk": 220,
     "fields": {
         "album": "Goblin",
-        "artist": "Tyler, The Creator",
+        "artist": 141,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7a/Goblincover.jpg",
         "date": "2011-05-01",
         "price": "37.99"
@@ -2438,7 +3456,7 @@
     "pk": 221,
     "fields": {
         "album": "Scum Fuck Flower Boy",
-        "artist": "Tyler, The Creator",
+        "artist": 141,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png",
         "date": "2017-01-01",
         "price": "22.70"
@@ -2449,7 +3467,7 @@
     "pk": 222,
     "fields": {
         "album": "IGOR.",
-        "artist": "Tyler, The Creator",
+        "artist": 141,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg",
         "date": "2019-01-01",
         "price": null
@@ -2460,7 +3478,7 @@
     "pk": 223,
     "fields": {
         "album": "Call me if you get lost",
-        "artist": "Tyler, the Creator",
+        "artist": 141,
         "artwork": "https://s3.amazonaws.com/media.thecrimson.com/photos/2023/04/12/214423_1362969.png",
         "date": "2022-01-01",
         "price": "27.99"
@@ -2471,7 +3489,7 @@
     "pk": 224,
     "fields": {
         "album": "Van Halen",
-        "artist": "Van Halen",
+        "artist": 142,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0d/Van_Halen_album.jpg",
         "date": "1978-01-01",
         "price": "27.99"
@@ -2482,7 +3500,7 @@
     "pk": 225,
     "fields": {
         "album": "Van Halen II",
-        "artist": "Van Halen",
+        "artist": 142,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/35/Van_Halen_-_Van_Halen_II.jpg",
         "date": "1979-03-01",
         "price": "25.99"
@@ -2493,7 +3511,7 @@
     "pk": 226,
     "fields": {
         "album": "MCMLXXXIV",
-        "artist": "Van Halen",
+        "artist": 142,
         "artwork": "https://m.media-amazon.com/images/I/71jXDYzPWlL._UF1000,1000_QL80_.jpg",
         "date": "1984-01-01",
         "price": "25.99"
@@ -2504,7 +3522,7 @@
     "pk": 227,
     "fields": {
         "album": "A Charlie Brown Christmas",
-        "artist": "Vince Gauraldi Trio",
+        "artist": 143,
         "artwork": "https://m.media-amazon.com/images/I/41M-tHr0PiL.jpg",
         "date": "1965-01-01",
         "price": "24.99"
@@ -2515,7 +3533,7 @@
     "pk": 228,
     "fields": {
         "album": "WAR",
-        "artist": "War",
+        "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/72/War_album.jpg",
         "date": "1971-01-01",
         "price": "24.99"
@@ -2526,7 +3544,7 @@
     "pk": 229,
     "fields": {
         "album": "The World Is A Ghetto",
-        "artist": "War",
+        "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/War_The_World_Is_a_Ghetto.jpg/220px-War_The_World_Is_a_Ghetto.jpg",
         "date": "1972-11-01",
         "price": "24.99"
@@ -2537,7 +3555,7 @@
     "pk": 230,
     "fields": {
         "album": "All Day Music",
-        "artist": "War",
+        "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7d/AllDayMusicWar.jpg",
         "date": "1973-01-01",
         "price": "24.99"
@@ -2548,7 +3566,7 @@
     "pk": 231,
     "fields": {
         "album": "Deliver the Word",
-        "artist": "War",
+        "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/d/d5/WarDeliverTheWord.jpg",
         "date": "1973-01-01",
         "price": "24.99"
@@ -2559,7 +3577,7 @@
     "pk": 232,
     "fields": {
         "album": "Why Can’t We Be Friends",
-        "artist": "War",
+        "artist": 144,
         "artwork": "https://m.media-amazon.com/images/I/71UtkauRwVL._UF1000,1000_QL80_.jpg",
         "date": "1975-01-01",
         "price": "24.99"
@@ -2570,7 +3588,7 @@
     "pk": 233,
     "fields": {
         "album": "Greatest Hits",
-        "artist": "War",
+        "artist": 144,
         "artwork": "https://store.rhino.com/dw/image/v2/BHCC_PRD/on/demandware.static/-/Sites-warner-master/default/dw6009be01/pdp-img/war_greatesthits20_1.jpg?sw=550&sh=550&sm=fit",
         "date": "1976-01-01",
         "price": null
@@ -2581,7 +3599,7 @@
     "pk": 234,
     "fields": {
         "album": "Zap I",
-        "artist": "Zapp & Roger",
+        "artist": 145,
         "artwork": "https://m.media-amazon.com/images/I/61UlmH-nGqL.jpg",
         "date": "1980-01-01",
         "price": null
@@ -2592,4197 +3610,10 @@
     "pk": 235,
     "fields": {
         "album": "Zap All The Greatest Hits",
-        "artist": "Zapp & Roger",
+        "artist": 145,
         "artwork": "https://i.ebayimg.com/images/g/9CcAAOSw~NxkAPAa/s-l1600.png",
         "date": "1993-01-01",
         "price": null
-    }
-},
-{
-    "model": "records.record",
-    "pk": 321,
-    "fields": {
-        "album": "When We All Fall Asleep, Where Do We Go?",
-        "artist": "Billie Eilish",
-        "artwork": "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
-        "date": "2019-01-01",
-        "price": null
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 1,
-    "fields": {
-        "action_time": "2023-05-23T14:19:24.387Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "1",
-        "object_repr": "6lack / Free 6lack",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 2,
-    "fields": {
-        "action_time": "2023-05-23T14:20:09.330Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "2",
-        "object_repr": "A Tribe Called Quest / The Low End Theory",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 3,
-    "fields": {
-        "action_time": "2023-05-23T14:20:50.652Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "321",
-        "object_repr": "Billie Eilish / When We All Fall Asleep, Where Do We Go?",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 4,
-    "fields": {
-        "action_time": "2023-05-23T14:21:29.873Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "235",
-        "object_repr": "Zapp & Roger / Zap All The Greatest Hits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 5,
-    "fields": {
-        "action_time": "2023-05-23T14:22:43.384Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "234",
-        "object_repr": "Zapp & Roger / Zap I",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 6,
-    "fields": {
-        "action_time": "2023-05-23T14:23:28.563Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "233",
-        "object_repr": "War / Greatest Hits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 7,
-    "fields": {
-        "action_time": "2023-05-23T14:23:51.239Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "232",
-        "object_repr": "War / Why Can’t We Be Friends",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 8,
-    "fields": {
-        "action_time": "2023-05-23T14:24:40.192Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "231",
-        "object_repr": "War / Deliver the Word",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 9,
-    "fields": {
-        "action_time": "2023-05-23T14:25:00.927Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "230",
-        "object_repr": "War / All Day Music",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 10,
-    "fields": {
-        "action_time": "2023-05-23T14:25:20.349Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "229",
-        "object_repr": "War / The World Is A Ghetto",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 11,
-    "fields": {
-        "action_time": "2023-05-23T14:25:41.307Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "228",
-        "object_repr": "War / WAR",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 12,
-    "fields": {
-        "action_time": "2023-05-23T14:26:21.069Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "227",
-        "object_repr": "Vince Gauraldi Trio / A Charlie Brown Christmas",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 13,
-    "fields": {
-        "action_time": "2023-05-23T14:27:27.492Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "226",
-        "object_repr": "Van Halen / MCMLXXXIV",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 14,
-    "fields": {
-        "action_time": "2023-05-23T14:27:46.303Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "225",
-        "object_repr": "Van Halen / Van Halen II",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 15,
-    "fields": {
-        "action_time": "2023-05-23T14:28:03.083Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "224",
-        "object_repr": "Van Halen / Van Halen",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 16,
-    "fields": {
-        "action_time": "2023-05-23T14:28:23.664Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "223",
-        "object_repr": "Tyler, the Creator / Call me if you get lost",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 17,
-    "fields": {
-        "action_time": "2023-05-23T14:29:20.028Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "222",
-        "object_repr": "Tyler, The Creator / IGOR.",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 18,
-    "fields": {
-        "action_time": "2023-05-23T14:29:45.401Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "221",
-        "object_repr": "Tyler, The Creator / Scum Fuck Flower Boy",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 19,
-    "fields": {
-        "action_time": "2023-05-23T14:30:30.920Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "219",
-        "object_repr": "Travis Scott / Astroworld",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 20,
-    "fields": {
-        "action_time": "2023-05-23T14:37:38.959Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "218",
-        "object_repr": "Train / Drops of Jupiter",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 21,
-    "fields": {
-        "action_time": "2023-05-23T14:37:54.960Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "217",
-        "object_repr": "Tool / Undertow",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 22,
-    "fields": {
-        "action_time": "2023-05-23T14:38:23.210Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "216",
-        "object_repr": "TOOL / Opiate",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 23,
-    "fields": {
-        "action_time": "2023-05-23T14:46:29.972Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "215",
-        "object_repr": "TheWeeknd / House of Balloons",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 24,
-    "fields": {
-        "action_time": "2023-05-23T14:46:56.920Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "214",
-        "object_repr": "The Mamas and the Papas / People Like Us",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 25,
-    "fields": {
-        "action_time": "2023-05-23T14:47:17.514Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "212",
-        "object_repr": "The Jackson 5 / ABC",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 26,
-    "fields": {
-        "action_time": "2023-05-23T14:47:37.881Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "211",
-        "object_repr": "The Jackson 5 / Diana Ross Presents: The Jackson 5",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 27,
-    "fields": {
-        "action_time": "2023-05-23T14:48:19.177Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "210",
-        "object_repr": "The Chilites / Give More Power to The People",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 28,
-    "fields": {
-        "action_time": "2023-05-23T15:07:51.534Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "209",
-        "object_repr": "The California Raisins / The California Raisins Sing The Hit Songs",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 29,
-    "fields": {
-        "action_time": "2023-05-23T15:08:36.955Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "208",
-        "object_repr": "The Beatles / Let It Be",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 30,
-    "fields": {
-        "action_time": "2023-05-23T15:09:06.826Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "207",
-        "object_repr": "The Beatles / Help!",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 31,
-    "fields": {
-        "action_time": "2023-05-23T15:11:15.864Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "206",
-        "object_repr": "The Beatles / A Hard Day’s Night",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 32,
-    "fields": {
-        "action_time": "2023-05-23T15:12:46.469Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "205",
-        "object_repr": "The Beatles / With The Beatles",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 33,
-    "fields": {
-        "action_time": "2023-05-23T15:13:16.068Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "204",
-        "object_repr": "The Beatles / Please Please Me",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 34,
-    "fields": {
-        "action_time": "2023-05-23T15:13:42.136Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "203",
-        "object_repr": "SZA / Ctrl",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 35,
-    "fields": {
-        "action_time": "2023-05-23T15:14:00.666Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "202",
-        "object_repr": "System of a Down / Toxicity",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 36,
-    "fields": {
-        "action_time": "2023-05-23T15:14:24.525Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "201",
-        "object_repr": "System of a Down / System of a Down",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 37,
-    "fields": {
-        "action_time": "2023-05-23T15:15:29.565Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "200",
-        "object_repr": "Syl Johnson / Is It Because I’m Black?",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 38,
-    "fields": {
-        "action_time": "2023-05-23T15:15:51.092Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "199",
-        "object_repr": "Sublime / Sublime Acoustic",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 39,
-    "fields": {
-        "action_time": "2023-05-23T15:16:10.470Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "198",
-        "object_repr": "Sublime / Sublime",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 40,
-    "fields": {
-        "action_time": "2023-05-23T15:16:34.424Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "197",
-        "object_repr": "Sublime / 40 oz. To Freedom",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 41,
-    "fields": {
-        "action_time": "2023-05-23T15:17:02.231Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "196",
-        "object_repr": "Stone Temple Pilots / Core",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 42,
-    "fields": {
-        "action_time": "2023-05-23T15:17:23.516Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "195",
-        "object_repr": "Shawn Mendes / Shawn Mendes",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 43,
-    "fields": {
-        "action_time": "2023-05-23T15:17:49.030Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "194",
-        "object_repr": "Selena / Ones",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 44,
-    "fields": {
-        "action_time": "2023-05-23T15:18:10.482Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "193",
-        "object_repr": "Santo & Johnny / Encore",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 45,
-    "fields": {
-        "action_time": "2023-05-23T15:18:29.002Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "192",
-        "object_repr": "Saba / Few Good Things",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 46,
-    "fields": {
-        "action_time": "2023-05-23T15:18:45.683Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "191",
-        "object_repr": "Saba / Care For Me",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 47,
-    "fields": {
-        "action_time": "2023-05-23T15:19:08.471Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "190",
-        "object_repr": "Rush / Moving Pictures",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 48,
-    "fields": {
-        "action_time": "2023-05-23T15:19:24.529Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "189",
-        "object_repr": "Ritchie Valens / Ritchie Valens",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 49,
-    "fields": {
-        "action_time": "2023-05-23T15:19:53.119Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "188",
-        "object_repr": "Rihanna / ANTI",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 50,
-    "fields": {
-        "action_time": "2023-05-23T15:20:18.291Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "187",
-        "object_repr": "Red Hot Chili Peppers / Blood, Sugar, Sex, Magik",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 51,
-    "fields": {
-        "action_time": "2023-05-23T15:21:02.347Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "186",
-        "object_repr": "Ray Charles / The Best of Ray Charles: The Atlantic Years",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 52,
-    "fields": {
-        "action_time": "2023-05-23T15:23:21.376Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "185",
-        "object_repr": "Ramones / Ramones",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 53,
-    "fields": {
-        "action_time": "2023-05-23T15:23:45.668Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "184",
-        "object_repr": "Rage Against the Machine / Battle of Los Angeles",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 54,
-    "fields": {
-        "action_time": "2023-05-23T15:24:47.492Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "183",
-        "object_repr": "Rage Against the Machine / Rage Against the Machine",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 55,
-    "fields": {
-        "action_time": "2023-05-23T15:25:18.230Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "182",
-        "object_repr": "Queen / Queen I",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 56,
-    "fields": {
-        "action_time": "2023-05-23T15:25:51.678Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "181",
-        "object_repr": "Prince and the Revolution / Live",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 57,
-    "fields": {
-        "action_time": "2023-05-23T15:27:09.350Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "180",
-        "object_repr": "Prince / Piano and a Microphone",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 58,
-    "fields": {
-        "action_time": "2023-05-23T15:27:40.799Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "179",
-        "object_repr": "Prince / Purple Rain",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 59,
-    "fields": {
-        "action_time": "2023-05-23T15:28:30.617Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "178",
-        "object_repr": "Prince / 1999",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 60,
-    "fields": {
-        "action_time": "2023-05-23T15:29:08.501Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "177",
-        "object_repr": "Prince / Dirty Mind",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 61,
-    "fields": {
-        "action_time": "2023-05-23T15:29:29.618Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "176",
-        "object_repr": "Prince / Prince",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 62,
-    "fields": {
-        "action_time": "2023-05-23T15:30:05.899Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "175",
-        "object_repr": "Prince / For You",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 63,
-    "fields": {
-        "action_time": "2023-05-23T15:30:32.714Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "174",
-        "object_repr": "Pink Floyd / With You Were Here",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 64,
-    "fields": {
-        "action_time": "2023-05-23T15:31:03.464Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "173",
-        "object_repr": "Pink Floyd / Meddle",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 65,
-    "fields": {
-        "action_time": "2023-05-23T15:31:22.356Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "172",
-        "object_repr": "Pink Floyd / A Saucerful of Secrets",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 66,
-    "fields": {
-        "action_time": "2023-05-23T15:31:43.492Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "171",
-        "object_repr": "Pink Floyd / The Piper at the Gates of Dawn",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 67,
-    "fields": {
-        "action_time": "2023-05-23T15:32:06.160Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "170",
-        "object_repr": "Phil Collins / Hello, I Must Be Going!",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 68,
-    "fields": {
-        "action_time": "2023-05-23T15:32:33.918Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "169",
-        "object_repr": "Pearl Jam / No Code",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 69,
-    "fields": {
-        "action_time": "2023-05-23T15:32:56.026Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "168",
-        "object_repr": "Pearl Jam / Vitalogy",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 70,
-    "fields": {
-        "action_time": "2023-05-23T15:33:21.031Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "167",
-        "object_repr": "Pearl Jam / Vs.",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 71,
-    "fields": {
-        "action_time": "2023-05-23T15:33:51.130Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "166",
-        "object_repr": "Pearl Jam / Ten / Ten Redux",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 72,
-    "fields": {
-        "action_time": "2023-05-23T15:38:53.445Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "165",
-        "object_repr": "Patsy Cline / Greatest Hits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 73,
-    "fields": {
-        "action_time": "2023-05-23T15:41:05.415Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "164",
-        "object_repr": "Patsy Cline / Showcase",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 74,
-    "fields": {
-        "action_time": "2023-05-23T15:41:28.299Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "163",
-        "object_repr": "Parliament / Clones of Dr. Funkenstein",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 75,
-    "fields": {
-        "action_time": "2023-05-23T15:41:53.680Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "161",
-        "object_repr": "Parliament / Mothership Connection",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 76,
-    "fields": {
-        "action_time": "2023-05-23T15:42:11.279Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "160",
-        "object_repr": "Parliament / Chocolate City",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 77,
-    "fields": {
-        "action_time": "2023-05-23T15:42:29.319Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "159",
-        "object_repr": "Panic! At The Disco / A Fever You Can’t Sweat Out",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 78,
-    "fields": {
-        "action_time": "2023-05-23T15:42:49.899Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "158",
-        "object_repr": "Otis Redding / The Best of Otis Redding",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 79,
-    "fields": {
-        "action_time": "2023-05-23T15:43:23.267Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "157",
-        "object_repr": "Oscar Peterson Trio / In Tune",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 80,
-    "fields": {
-        "action_time": "2023-05-23T15:44:09.748Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "156",
-        "object_repr": "Oscar Peterson / Motions & Emotions",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 81,
-    "fields": {
-        "action_time": "2023-05-23T15:45:05.672Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "155",
-        "object_repr": "Oddisee / The Good Fight",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 82,
-    "fields": {
-        "action_time": "2023-05-23T15:45:25.494Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "154",
-        "object_repr": "Oasis / (What’s The Story) Morning Glory?",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 83,
-    "fields": {
-        "action_time": "2023-05-23T15:46:01.178Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "153",
-        "object_repr": "Notorious B.I.G. / Life After Death",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 84,
-    "fields": {
-        "action_time": "2023-05-23T15:46:41.832Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "152",
-        "object_repr": "Notorious B.I.G. / ready to die",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 85,
-    "fields": {
-        "action_time": "2023-05-23T15:47:00.310Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "151",
-        "object_repr": "No Doubt / Tragic Kingdom",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 86,
-    "fields": {
-        "action_time": "2023-05-23T15:48:02.787Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "150",
-        "object_repr": "Nirvana / Paladium, Hollywood 1990",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 87,
-    "fields": {
-        "action_time": "2023-05-23T15:48:24.959Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "149",
-        "object_repr": "Nirvana / Nirvana",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 88,
-    "fields": {
-        "action_time": "2023-05-23T15:48:42.008Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "148",
-        "object_repr": "Nirvana / Incesticide",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 89,
-    "fields": {
-        "action_time": "2023-05-23T15:49:29.020Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "147",
-        "object_repr": "Nirvana / Nevermind",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 90,
-    "fields": {
-        "action_time": "2023-05-23T15:49:56.858Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "146",
-        "object_repr": "Nirvana / BLEACH",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 91,
-    "fields": {
-        "action_time": "2023-05-23T15:50:28.937Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "145",
-        "object_repr": "Nine Inch Nails / Pretty Hate Machine",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 92,
-    "fields": {
-        "action_time": "2023-05-23T15:50:49.067Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "144",
-        "object_repr": "Nerf Herder / American Cheese",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 93,
-    "fields": {
-        "action_time": "2023-05-23T15:51:11.664Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "143",
-        "object_repr": "Neil Young / Harvest",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 94,
-    "fields": {
-        "action_time": "2023-05-23T15:51:52.436Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "142",
-        "object_repr": "Nat King Cole / Ramblin’ Rose",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 95,
-    "fields": {
-        "action_time": "2023-05-23T15:52:23.812Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "141",
-        "object_repr": "Nat King Cole / The Christmas Song",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 96,
-    "fields": {
-        "action_time": "2023-05-23T15:52:44.011Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "140",
-        "object_repr": "Mister Rogers / It’s Such A Good Feeling",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 97,
-    "fields": {
-        "action_time": "2023-05-23T15:53:19.935Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "139",
-        "object_repr": "Misc. Compelation / Baby Driver",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 98,
-    "fields": {
-        "action_time": "2023-05-23T15:53:57.111Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "138",
-        "object_repr": "Miles Davis and Michael Legrand / DINGO",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 99,
-    "fields": {
-        "action_time": "2023-05-23T15:54:16.811Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "137",
-        "object_repr": "Miles Davis / Bitches Brew",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 100,
-    "fields": {
-        "action_time": "2023-05-23T15:54:38.813Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "136",
-        "object_repr": "Miles Davis / Someday My Prince Will Come",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 101,
-    "fields": {
-        "action_time": "2023-05-23T15:54:55.672Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "135",
-        "object_repr": "Metallica / Metallica",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 102,
-    "fields": {
-        "action_time": "2023-05-23T15:55:16.567Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "134",
-        "object_repr": "Metallica / The $5.98 EP - Garage Days RE-Revisited",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 103,
-    "fields": {
-        "action_time": "2023-05-23T15:55:32.281Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "133",
-        "object_repr": "Metallica / Master of Puppets",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 104,
-    "fields": {
-        "action_time": "2023-05-23T15:57:44.470Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "132",
-        "object_repr": "Metallica / Ride The Lightning",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 105,
-    "fields": {
-        "action_time": "2023-05-23T15:58:00.891Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "131",
-        "object_repr": "Metallica / Kill ‘Em All",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 106,
-    "fields": {
-        "action_time": "2023-05-23T15:58:46.443Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "130",
-        "object_repr": "Louis Armstrong / Archive Jazz Vol 26 - Louis Armstrong in New York",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 107,
-    "fields": {
-        "action_time": "2023-05-23T15:59:06.489Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "129",
-        "object_repr": "Louis Armstrong / V.S.O.P. Vol 3/4",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 108,
-    "fields": {
-        "action_time": "2023-05-23T15:59:25.313Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "128",
-        "object_repr": "Louis Armstrong / I Will Wait For You",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 109,
-    "fields": {
-        "action_time": "2023-05-23T15:59:58.292Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "127",
-        "object_repr": "Led Zeppelin / Houses of the Holy",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 110,
-    "fields": {
-        "action_time": "2023-05-23T16:00:20.504Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "126",
-        "object_repr": "Led Zeppelin / Led Zeppelin IV",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 111,
-    "fields": {
-        "action_time": "2023-05-23T16:00:38.678Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "125",
-        "object_repr": "Led Zeppelin / Led Zeppelin III",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 112,
-    "fields": {
-        "action_time": "2023-05-23T16:00:56.065Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "124",
-        "object_repr": "Led Zeppelin / Led Zeppelin II",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 113,
-    "fields": {
-        "action_time": "2023-05-23T16:01:10.065Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "123",
-        "object_repr": "Led Zeppelin / Led Zeppelin",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 114,
-    "fields": {
-        "action_time": "2023-05-23T16:01:30.464Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "122",
-        "object_repr": "Kota the Friend / Lyrics To Go Vol. II",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 115,
-    "fields": {
-        "action_time": "2023-05-23T16:01:53.239Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "121",
-        "object_repr": "Kota the Friend / EVERYTHING",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 116,
-    "fields": {
-        "action_time": "2023-05-23T16:02:11.197Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "120",
-        "object_repr": "Korn / Requiem",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 117,
-    "fields": {
-        "action_time": "2023-05-23T16:02:28.396Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "119",
-        "object_repr": "Khalid / American Teen",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 118,
-    "fields": {
-        "action_time": "2023-05-23T16:04:46.599Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "118",
-        "object_repr": "Kendrick Lamar / untitled unmastered.",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 119,
-    "fields": {
-        "action_time": "2023-05-23T16:05:06.338Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "117",
-        "object_repr": "Kendrick Lamar / good kid, m.A.A.d city",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 120,
-    "fields": {
-        "action_time": "2023-05-23T16:05:26.037Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "116",
-        "object_repr": "Kehlani / While We Wait",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 121,
-    "fields": {
-        "action_time": "2023-05-23T16:05:47.918Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "115",
-        "object_repr": "Kehlani / You Should Be Here",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 122,
-    "fields": {
-        "action_time": "2023-05-23T16:06:13.704Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "114",
-        "object_repr": "Jon batiste / Music Inspired by Disney’s Soul",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 123,
-    "fields": {
-        "action_time": "2023-05-23T16:06:35.867Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "113",
-        "object_repr": "Johnny Cash / American IV: The Man Comes Around",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 124,
-    "fields": {
-        "action_time": "2023-05-23T16:07:08.701Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "112",
-        "object_repr": "Johnny Cash / Folsom Prison",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 125,
-    "fields": {
-        "action_time": "2023-05-23T16:07:28.343Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "111",
-        "object_repr": "John Coltrane / Another Side of John Coltrane",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 126,
-    "fields": {
-        "action_time": "2023-05-23T16:08:01.389Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "110",
-        "object_repr": "John Coltrane / Giant Steps",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 127,
-    "fields": {
-        "action_time": "2023-05-23T16:08:36.254Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "109",
-        "object_repr": "John Coltrane / Blue Train",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 128,
-    "fields": {
-        "action_time": "2023-05-23T16:08:55.485Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "108",
-        "object_repr": "Jimi Hendrix / Blues",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 129,
-    "fields": {
-        "action_time": "2023-05-23T16:09:17.543Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "107",
-        "object_repr": "Jimi Hendrix / Welcome Home",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 130,
-    "fields": {
-        "action_time": "2023-05-23T16:09:38.791Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "106",
-        "object_repr": "Jimi Hendrix / Jimi Hendrix Experience Smash Hits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 131,
-    "fields": {
-        "action_time": "2023-05-23T16:10:03.155Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "105",
-        "object_repr": "Jimi Hendrix / Electric Lady Land",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 132,
-    "fields": {
-        "action_time": "2023-05-23T16:10:42.281Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "104",
-        "object_repr": "Jimi Hendrix / Axis: Bold As Love",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 133,
-    "fields": {
-        "action_time": "2023-05-23T16:11:09.761Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "103",
-        "object_repr": "Jimi Hendrix / Are You Experienced",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 134,
-    "fields": {
-        "action_time": "2023-05-23T16:11:32.853Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "102",
-        "object_repr": "Jethro Tull / Aqualung",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 135,
-    "fields": {
-        "action_time": "2023-05-23T16:11:56.776Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "101",
-        "object_repr": "Janis Joplin / Pearl",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 136,
-    "fields": {
-        "action_time": "2023-05-23T16:12:19.867Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "100",
-        "object_repr": "Jane’s Addiction / Nothing’s Shocking",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 137,
-    "fields": {
-        "action_time": "2023-05-23T16:12:44.618Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "99",
-        "object_repr": "James Brown / Collected",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 138,
-    "fields": {
-        "action_time": "2023-05-23T16:13:05.782Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "98",
-        "object_repr": "Jaden Smith / SYRE",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 139,
-    "fields": {
-        "action_time": "2023-05-23T16:13:42.310Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "97",
-        "object_repr": "Jack Johnson and Friends: / Sing-A-Longs and Lullabies for the Film Curious George",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 140,
-    "fields": {
-        "action_time": "2023-05-23T16:14:04.605Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "96",
-        "object_repr": "J. Cole / Revenge Of The Dreamers III",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 141,
-    "fields": {
-        "action_time": "2023-05-23T16:14:19.625Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "95",
-        "object_repr": "J. Cole / 2014 Forest Hills Drive",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 142,
-    "fields": {
-        "action_time": "2023-05-23T16:14:42.474Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "94",
-        "object_repr": "Isaac Hayes / Greatest Singles",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 143,
-    "fields": {
-        "action_time": "2023-05-23T16:15:09.112Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "93",
-        "object_repr": "Iron Butterfly / Metamorphosis",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 144,
-    "fields": {
-        "action_time": "2023-05-23T16:16:10.803Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "92",
-        "object_repr": "Incubus / Make Yourself",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 145,
-    "fields": {
-        "action_time": "2023-05-23T16:16:41.378Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "91",
-        "object_repr": "Herb Alpert’s Tijuana Brass / South of the Border",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 146,
-    "fields": {
-        "action_time": "2023-05-23T16:17:02.837Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "90",
-        "object_repr": "Harry Styles / Harry’s House",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 147,
-    "fields": {
-        "action_time": "2023-05-23T16:17:41.687Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "89",
-        "object_repr": "Harry Styles / Fine Line",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 148,
-    "fields": {
-        "action_time": "2023-05-23T16:18:00.312Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "88",
-        "object_repr": "Harry Nilsson / Son of Schmilsson",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 149,
-    "fields": {
-        "action_time": "2023-05-23T16:18:22.367Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "87",
-        "object_repr": "H.E.R. / H.E.R.",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 150,
-    "fields": {
-        "action_time": "2023-05-23T16:18:39.640Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "86",
-        "object_repr": "Guns n’ Roses / Appetite For Destruction",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 151,
-    "fields": {
-        "action_time": "2023-05-23T16:18:58.296Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "85",
-        "object_repr": "Green Day / dookie",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 152,
-    "fields": {
-        "action_time": "2023-05-23T16:19:24.823Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "83",
-        "object_repr": "Grateful Dead / Workingmans Dead",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 153,
-    "fields": {
-        "action_time": "2023-05-23T16:19:45.903Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "82",
-        "object_repr": "George Strait / Greatest Hits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 154,
-    "fields": {
-        "action_time": "2023-05-23T16:20:12.953Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "81",
-        "object_repr": "Fats Domino / All-Time Greatest Hits",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 155,
-    "fields": {
-        "action_time": "2023-05-23T16:20:44.169Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "80",
-        "object_repr": "Etta James / at last!",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 156,
-    "fields": {
-        "action_time": "2023-05-23T16:21:13.316Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "79",
-        "object_repr": "Elvis Presley / Elvis’ Christmas Album",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 157,
-    "fields": {
-        "action_time": "2023-05-23T16:21:45.446Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "78",
-        "object_repr": "Elvis Presley / The Classic Christmas Album",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 158,
-    "fields": {
-        "action_time": "2023-05-23T16:22:07.045Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "79",
-        "object_repr": "Elvis Presley / Elvis’ Christmas Album",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 159,
-    "fields": {
-        "action_time": "2023-05-23T16:22:27.319Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "77",
-        "object_repr": "Elton John / Victim of Love",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 160,
-    "fields": {
-        "action_time": "2023-05-23T16:22:47.284Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "76",
-        "object_repr": "Elliott Smith / An Introduction to… Elliott Smith",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 161,
-    "fields": {
-        "action_time": "2023-05-23T16:23:09.875Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "75",
-        "object_repr": "Elliot Smith / From a Basement on the Hill",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 162,
-    "fields": {
-        "action_time": "2023-05-23T16:23:46.192Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "74",
-        "object_repr": "Ella Mai / 3 LP Set  Time, Chance & Ready",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 163,
-    "fields": {
-        "action_time": "2023-05-23T16:24:06.778Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "73",
-        "object_repr": "Ella Fitzgerald & Louis Armstrong / Ella & Louis",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 164,
-    "fields": {
-        "action_time": "2023-05-23T16:25:06.043Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "72",
-        "object_repr": "Earth Wind and Fire / The Best of Earth Wind & Fire Vol. 1",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 165,
-    "fields": {
-        "action_time": "2023-05-23T16:25:30.851Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "71",
-        "object_repr": "Earth Gang / Mirror Land",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 166,
-    "fields": {
-        "action_time": "2023-05-23T16:25:55.117Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "70",
-        "object_repr": "Earl Sweatshirt / Doris",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 167,
-    "fields": {
-        "action_time": "2023-05-23T16:26:17.244Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "69",
-        "object_repr": "Drowning Pool / Sinners",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 168,
-    "fields": {
-        "action_time": "2023-05-23T16:26:33.418Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "68",
-        "object_repr": "Drake & Future / What A Time To Be Alive",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 169,
-    "fields": {
-        "action_time": "2023-05-23T16:26:48.672Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "67",
-        "object_repr": "Drake / Views",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 170,
-    "fields": {
-        "action_time": "2023-05-23T16:27:04.546Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "66",
-        "object_repr": "Drake / If You’re Reading This It’s Too Late",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 171,
-    "fields": {
-        "action_time": "2023-05-23T16:27:23.080Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "65",
-        "object_repr": "Drake / Nothing Was the Same",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 172,
-    "fields": {
-        "action_time": "2023-05-23T16:27:43.246Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "64",
-        "object_repr": "Drake / Take Care",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 173,
-    "fields": {
-        "action_time": "2023-05-23T16:28:05.778Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "63",
-        "object_repr": "Dr. Seuss / How The Grinch Stole Christmas",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 174,
-    "fields": {
-        "action_time": "2023-05-23T16:28:30.430Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "62",
-        "object_repr": "Dolly Parton / Here You Come Again",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 175,
-    "fields": {
-        "action_time": "2023-05-23T16:29:30.031Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "61",
-        "object_repr": "Dean Martin / A winter romance",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 176,
-    "fields": {
-        "action_time": "2023-05-23T16:29:54.232Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "60",
-        "object_repr": "David Bowie / Young Americans",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 177,
-    "fields": {
-        "action_time": "2023-05-23T16:30:10.584Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "59",
-        "object_repr": "David Bowie / David Bowie (Space Oddity)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 178,
-    "fields": {
-        "action_time": "2023-05-23T16:30:29.994Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "58",
-        "object_repr": "Daft Punk / Random Access Memories",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 179,
-    "fields": {
-        "action_time": "2023-05-23T16:30:54.557Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "57",
-        "object_repr": "Daft Punk / Homework",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 180,
-    "fields": {
-        "action_time": "2023-05-23T16:31:13.224Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "56",
-        "object_repr": "Curtis Mayfield / Super Fly",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 181,
-    "fields": {
-        "action_time": "2023-05-23T16:31:38.351Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "55",
-        "object_repr": "Curtis Mayfield / Roots",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 182,
-    "fields": {
-        "action_time": "2023-05-23T16:31:59.486Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "54",
-        "object_repr": "Curtis Mayfield / Curtis",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 183,
-    "fields": {
-        "action_time": "2023-05-23T16:32:15.601Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "53",
-        "object_repr": "Creed / Human Clay",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 184,
-    "fields": {
-        "action_time": "2023-05-23T16:32:35.840Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "52",
-        "object_repr": "Creed / My Own Prison",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 185,
-    "fields": {
-        "action_time": "2023-05-23T16:32:54.430Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "51",
-        "object_repr": "Count Basie / Pop Goes the Basie",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 186,
-    "fields": {
-        "action_time": "2023-05-23T16:33:19.134Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "50",
-        "object_repr": "Count Basie / Basie at Birdland",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 187,
-    "fields": {
-        "action_time": "2023-05-23T16:33:38.435Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "49",
-        "object_repr": "Comp. / A Gift to Pops - The Wonderful World of Louis Armstrong all stars",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 188,
-    "fields": {
-        "action_time": "2023-05-23T16:34:02.797Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "48",
-        "object_repr": "Chuck Berry / Live From Blueberry Hill",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 189,
-    "fields": {
-        "action_time": "2023-05-23T16:34:18.804Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "47",
-        "object_repr": "Childish Gambino / “Awaken, My Love!”",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 190,
-    "fields": {
-        "action_time": "2023-05-23T16:34:36.970Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "46",
-        "object_repr": "Childish Gambino / Because the Internet",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 191,
-    "fields": {
-        "action_time": "2023-05-23T16:35:06.867Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "45",
-        "object_repr": "Cheech & Chong / Los Cochinos",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 192,
-    "fields": {
-        "action_time": "2023-05-23T16:37:44.555Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "44",
-        "object_repr": "Chance the Rapper / Acid Rap",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 193,
-    "fields": {
-        "action_time": "2023-05-23T16:38:08.662Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "43",
-        "object_repr": "Chance the Rapper / 10 Day",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 194,
-    "fields": {
-        "action_time": "2023-05-23T16:38:28.799Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "42",
-        "object_repr": "Camila Cabello / Camila",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 195,
-    "fields": {
-        "action_time": "2023-05-23T16:38:44.975Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "41",
-        "object_repr": "Cage the Elephant / Cage the Elephant",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 196,
-    "fields": {
-        "action_time": "2023-05-23T16:39:04.222Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "40",
-        "object_repr": "Bryson Tiller / Trap Soul",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 197,
-    "fields": {
-        "action_time": "2023-05-23T16:39:20.762Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "39",
-        "object_repr": "Bruno Mars / Unorthodox Jukebox",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 198,
-    "fields": {
-        "action_time": "2023-05-23T16:39:44.290Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "38",
-        "object_repr": "Bob Marley & The Wailers / Exodus",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 199,
-    "fields": {
-        "action_time": "2023-05-23T16:40:05.515Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "37",
-        "object_repr": "Blink 182 / Buddha",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 200,
-    "fields": {
-        "action_time": "2023-05-23T16:40:25.543Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "36",
-        "object_repr": "Black Sabbath / Paranoid",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 201,
-    "fields": {
-        "action_time": "2023-05-23T16:40:41.296Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "35",
-        "object_repr": "Black Sabbath / Black Sabbath",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 202,
-    "fields": {
-        "action_time": "2023-05-23T16:40:59.710Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "34",
-        "object_repr": "Bing Crosby / Christmas Classics",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 203,
-    "fields": {
-        "action_time": "2023-05-23T16:41:22.351Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "33",
-        "object_repr": "Billie Holiday / Lady Sings the Blues",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 204,
-    "fields": {
-        "action_time": "2023-05-23T16:41:39.261Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "31",
-        "object_repr": "Billie Eilish / Don’t Smile at Me",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 205,
-    "fields": {
-        "action_time": "2023-05-23T16:42:00.054Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "30",
-        "object_repr": "Bill Withers / Greatest Hits - Just the Two of Us & Soul Shadows",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 206,
-    "fields": {
-        "action_time": "2023-05-23T16:42:15.639Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "29",
-        "object_repr": "Big Sean / Detroit 2",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 207,
-    "fields": {
-        "action_time": "2023-05-23T16:42:36.038Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "28",
-        "object_repr": "Big Brother & the Holding Company / Cheap Thrills",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 208,
-    "fields": {
-        "action_time": "2023-05-23T16:42:54.950Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "27",
-        "object_repr": "Betty Davis / Betty Davis",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 209,
-    "fields": {
-        "action_time": "2023-05-23T16:43:36.831Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "25",
-        "object_repr": "Benny Goodman / Lets Dance with Benny Goodman",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 210,
-    "fields": {
-        "action_time": "2023-05-23T16:44:01.024Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "24",
-        "object_repr": "Beethoven: Arturo Toscanini & NBC Symphony Orchestra / Nine Beethoven Symphonies",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 211,
-    "fields": {
-        "action_time": "2023-05-23T16:44:19.481Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "23",
-        "object_repr": "Beach Boys / Pet Sounds",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 212,
-    "fields": {
-        "action_time": "2023-05-23T16:44:38.246Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "22",
-        "object_repr": "Bare naked ladies / Stunt",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 213,
-    "fields": {
-        "action_time": "2023-05-23T16:45:01.377Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "21",
-        "object_repr": "B.B. King / The Best of B.B. King",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 214,
-    "fields": {
-        "action_time": "2023-05-23T16:45:25.000Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "19",
-        "object_repr": "Audio Slave / Audio Slave",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 215,
-    "fields": {
-        "action_time": "2023-05-23T16:45:38.677Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "18",
-        "object_repr": "Ari Lennox / Shea Butter Baby",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 216,
-    "fields": {
-        "action_time": "2023-05-23T16:45:54.665Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "17",
-        "object_repr": "Ari Lennox / PHO",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 217,
-    "fields": {
-        "action_time": "2023-05-23T16:46:47.811Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "16",
-        "object_repr": "Aretha Franklin / Aretha",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 218,
-    "fields": {
-        "action_time": "2023-05-23T16:47:09.388Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "15",
-        "object_repr": "Ann Peebles / I Can’t Stand the Rain",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 219,
-    "fields": {
-        "action_time": "2023-05-23T16:47:36.997Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "14",
-        "object_repr": "Ambré / Pulp (Directors Cut)",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 220,
-    "fields": {
-        "action_time": "2023-05-23T16:47:56.229Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "13",
-        "object_repr": "Alvin and the chipmunks / Christmas with the Chipmunks",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 221,
-    "fields": {
-        "action_time": "2023-05-23T16:48:13.912Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "12",
-        "object_repr": "Alice in Chains / Dirt",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 222,
-    "fields": {
-        "action_time": "2023-05-23T16:48:31.866Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "11",
-        "object_repr": "Alanis Morissette / jagged little pill",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 223,
-    "fields": {
-        "action_time": "2023-05-23T16:48:51.313Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "10",
-        "object_repr": "Al Price / Swinging on Broadway",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 224,
-    "fields": {
-        "action_time": "2023-05-23T16:49:11.284Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "9",
-        "object_repr": "Al Green / I’m Still In Love With You",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 225,
-    "fields": {
-        "action_time": "2023-05-23T16:49:58.407Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "8",
-        "object_repr": "Al Green / Lets Stay Together",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 226,
-    "fields": {
-        "action_time": "2023-05-23T16:50:19.433Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "7",
-        "object_repr": "Al Green / Gets Next To You",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 227,
-    "fields": {
-        "action_time": "2023-05-23T16:50:35.490Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "6",
-        "object_repr": "Aerosmith / Toys in the Attic",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 228,
-    "fields": {
-        "action_time": "2023-05-23T16:50:57.872Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "5",
-        "object_repr": "Aerosmith / The Road Starts Here",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 229,
-    "fields": {
-        "action_time": "2023-05-23T16:51:20.900Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "4",
-        "object_repr": "AC/DC / High Voltage",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 230,
-    "fields": {
-        "action_time": "2023-05-23T16:51:41.604Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "3",
-        "object_repr": "A Tribe Called Quest / Midnight Marauders",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 231,
-    "fields": {
-        "action_time": "2023-05-23T16:56:36.722Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "16",
-        "object_repr": "Aretha Franklin / Aretha",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 232,
-    "fields": {
-        "action_time": "2023-05-23T16:57:52.089Z",
-        "user": [
-            "Lewey"
-        ],
-        "content_type": [
-            "records",
-            "record"
-        ],
-        "object_id": "234",
-        "object_repr": "Zapp & Roger / Zap I",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Artwork\"]}}]"
     }
 }
 ]
