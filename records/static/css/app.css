@@ -191,3 +191,34 @@ form > p > input, form > p > select {
 .form-price {
     margin-top: -15px;
 }
+
+
+/* ARTIST RECORDS DETAIL VIEW */
+
+.artist-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    align-items: center;
+    align-content: justify;
+
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.record-card {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin: 15px;
+
+    background-color: rgba(0, 255, 255, 0.62);
+}

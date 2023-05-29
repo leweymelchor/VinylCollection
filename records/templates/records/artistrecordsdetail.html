@@ -3,19 +3,23 @@
 {% block content %}
   <body>
     <main>
-        <h1><b>{{ record.artist | default_if_none:"Unknown" }}</b></h1>
+      <h1><b>{{ record.artist | default_if_none:"Unknown" }}</b></h1>
+      <div class="artist-detail-grid">
         {% comment %} <p>{{ artist.get_context_data }}</p> {% endcomment %}
         {% for rec in records %}
-          {% if rec.artwork %}
-            <img src="{{ rec.artwork }}"
-              height="250"
-              width="250"
-              alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
-          {% endif %}
-          <h3>{{ rec.album | default_if_none:"Unknown" }}</h3>
-          <p>{{ rec.date | default_if_none:"Unknown" }}</p>
-          <p>{{ rec.price | default_if_none:"Unknown" }}</p>
+          <div class="record-card">
+            {% if rec.artwork %}
+              <img src="{{ rec.artwork }}"
+                height="250"
+                width="250"
+                alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+            {% endif %}
+            <h3>{{ rec.album | default_if_none:"Unknown" }}</h3>
+            <p>{{ rec.date | default_if_none:"Unknown" }}</p>
+            <p>{{ rec.price | default_if_none:"Unknown" }}</p>
+          </div>
         {% endfor %}
+      </div>
       {% comment %} <div>
         <a href="{% url 'record_edit' record.id %}">Edit</a>
         <a href="{% url 'record_delete' record.id %}">Delete</a>

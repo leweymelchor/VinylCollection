@@ -86,6 +86,14 @@ Day 7
 - Connected views via urls
 - Styled New Record Template
 - Cleared data from tables
+
+Day 8
+- Built ArtistRecordsDetailView utilizing foreign key and context data to access wanted information
+- Built artist records template utilizing context data
+- Shows all Records of related artist
+
+- CSS edits to style artist records template
+
 </details>
 
 ### Future Updates:
