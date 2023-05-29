@@ -6,9 +6,6 @@ from django.views.generic.detail import DetailView
 
 from records.models import Artist, Record
 
-# IMPORTS FOR FUNCTION VIEWS
-# from records.forms import RecordForm
-
 
 # CLASS BASED VIEWS
 class PageTitleViewMixin:
@@ -54,25 +51,16 @@ class RecordCreateView(PageTitleViewMixin, CreateView):
         return super().form_valid(form)
 
 
-class RecordDetailView(PageTitleViewMixin, DetailView):
+class ArtistRecordsDetailView(PageTitleViewMixin, DetailView):
     model = Record
-    template_name = "records/detail.html"
+    template_name = "records/artistrecordsdetail.html"
 
     def get_title(self):
         return str(self.object.artist) + " Vinyls"
 
+    def get_context_data(self, *args, **kwargs):
+        records = Record.objects.filter(artist=self.object.artist)
+        context = super(ArtistRecordsDetailView, self).get_context_data(*args, **kwargs)
 
-# def create_record(request):
-#     if request.method == "POST" and RecordForm:
-#         form = RecordForm(request.POST)
-#         if form.is_valid():
-#             record = form.save()
-#             return redirect("record_detail", pk=record.pk)
-#     elif RecordForm:
-#         form = RecordForm()
-#     else:
-#         form = None
-#     context = {
-#         "form": form,
-#     }
-#     return render(request, "records/add.html", context)
+        context['records'] = records
+        return context

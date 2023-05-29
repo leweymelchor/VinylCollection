@@ -6,7 +6,7 @@ class Artist(models.Model):
     artist = models.CharField(max_length=125)
 
     def __str__(self):
-        option = (self.artist[:20] + '-') if len(self.artist) > 20 else self.artist
+        option = self.artist #(self.artist[:20] + '-') if len(self.artist) > 20 else self.artist
         return option
 
 
