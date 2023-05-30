@@ -121,6 +121,9 @@ Day 9
 - Change all a tags to no styling and hover transition
 - Small html text alterations
 
+- Update page styling
+- Search Results ordered by artist / date
+
 </details>
 
 ### Future Updates:

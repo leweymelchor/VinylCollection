@@ -31,7 +31,7 @@ class SearchResultsView(PageTitleViewMixin, ListView):
     def get_queryset(self, *args, **kwargs):
         query = self.request.GET.get("q")
         return Record.objects.filter(
-        Q(album__icontains=query) | Q(artist__artist__icontains=query))
+        Q(album__icontains=query) | Q(artist__artist__icontains=query)).order_by('artist', 'date')
 
     def get_title(self):
         query = self.request.GET.get("q")

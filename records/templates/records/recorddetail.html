@@ -3,9 +3,9 @@
 {% block content %}
   <body>
     <main>
-      <h1><a href="{% url 'artist_records' record.pk %}"><b>{{ record.album | default_if_none:"Unknown" }}</b></a></h1>
+      <h1><a class="header" href="{% url 'artist_records' record.pk %}"><b>{{ record.album | default_if_none:"Unknown" }}</b></a></h1>
       <div class="artist-detail-grid">
-          <div class="record-card">
+          <div class="detail-record-card">
             {% if record.artwork %}
               <img src="{{ record.artwork }}"
                 height="250"
