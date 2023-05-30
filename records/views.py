@@ -63,7 +63,6 @@ class ArtistRecordsDetailView(PageTitleViewMixin, DetailView):
     def get_context_data(self, *args, **kwargs):
         records = Record.objects.filter(artist=self.object.artist)
         context = super(ArtistRecordsDetailView, self).get_context_data(*args, **kwargs)
-
         context['records'] = records
         return context
 
@@ -72,13 +71,9 @@ class SearchResultsView(ListView):
     model = Record
     template_name = "records/search_results.html"
 
+
     def get_queryset(self, *args, **kwargs):
         query = self.request.GET.get("q")
-        # artist_name = Record.objects.filter(artist=self.object.artist)
-        # context = super(ArtistRecordsDetailView, self).get_context_data(*args, **kwargs)
-        # context['artists'] = artist_name
         return Record.objects.filter(
-        Q(album__icontains=query)
+        Q(album__icontains=query) | Q(artist__artist__icontains=query)
         )
-
-#       | Q(artist__icontains=artist_name
