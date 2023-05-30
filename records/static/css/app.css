@@ -80,6 +80,26 @@ li {
     top: 8px;
 }
 
+li > form > input{
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    min-width: 163px;
+    margin-right: 3px;
+}
+
+li > form > button {
+    border-radius: 8px;
+    border: none;
+
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    background-color: rgba(0, 255, 255, 0.62);
+    color: white;
+}
+
 
 /* LIST PAGE CSS */
 .pagination {

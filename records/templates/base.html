@@ -33,9 +33,9 @@
                 <li>
                     <form action="{% url 'search_results' %}" method="get">
                         {% csrf_token %}
-                        <span class="material-symbols-outlined" id="search-icon">search</span>
+
                         <input name="q" type="text" placeholder="Search..."/>
-                        <button class="button" type="submit">Search</button>
+                        <button class="button" type="submit"><span class="material-symbols-outlined" id="search-icon">search</span></button>
                     </form>
                 </li>
             </ul>
