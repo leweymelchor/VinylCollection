@@ -9,7 +9,7 @@ from records.models import Artist, Record
 from django.db.models import Q
 
 
-# CLASS BASED VIEWS
+# CREATES TITLES FOR EACH TEMPLATE VIEW
 class PageTitleViewMixin:
     title = ""
 
@@ -22,17 +22,22 @@ class PageTitleViewMixin:
         return context
 
 
-class SearchResultsView(ListView):
+# SEARCH ARTIST / ALBUMS
+class SearchResultsView(PageTitleViewMixin, ListView):
     model = Record
     template_name = "records/search_results.html"
-
 
     def get_queryset(self, *args, **kwargs):
         query = self.request.GET.get("q")
         return Record.objects.filter(
         Q(album__icontains=query) | Q(artist__artist__icontains=query))
 
+    def get_title(self):
+        query = self.request.GET.get("q")
+        return "Search results for " + str(query)
 
+
+# ADD NEW ARTIST
 class ArtistCreateView(PageTitleViewMixin, CreateView):
     model = Artist
     template_name = "records/addartist.html"
@@ -45,13 +50,7 @@ class ArtistCreateView(PageTitleViewMixin, CreateView):
         return super().form_valid(form)
 
 
-class RecordListView(PageTitleViewMixin, ListView):
-    paginate_by = 10
-    model = Record
-    template_name = "records/list.html"
-    title = "Vinyl Catologue"
-
-
+# CREATES RECORDS
 class RecordCreateView(PageTitleViewMixin, CreateView):
     model = Record
     template_name = "records/add.html"
@@ -64,12 +63,18 @@ class RecordCreateView(PageTitleViewMixin, CreateView):
         return super().form_valid(form)
 
 
+# LISTS ALL RECORDS IN DB
+class RecordListView(PageTitleViewMixin, ListView):
+    paginate_by = 10
+    model = Record
+    template_name = "records/list.html"
+    title = "Vinyl Catologue"
+
+
+# LISTS ALL RECORDS BY SELECTED ARTIST
 class ArtistRecordsView(PageTitleViewMixin, DetailView):
     model = Record
     template_name = "records/artist_records.html"
-
-    def get_title(self):
-        return str(self.object.artist) + " Albums"
 
     def get_context_data(self, *args, **kwargs):
         records = Record.objects.filter(artist=self.object.artist)
@@ -77,7 +82,11 @@ class ArtistRecordsView(PageTitleViewMixin, DetailView):
         context['records'] = records
         return context
 
+    def get_title(self):
+        return str(self.object.artist) + "'s Albums"
 
+
+# SHOWS DETAILS OF SELECTED RECORD
 class RecordDetailView(PageTitleViewMixin, DetailView):
     model = Record
     template_name = "records/recorddetail.html"
@@ -86,6 +95,7 @@ class RecordDetailView(PageTitleViewMixin, DetailView):
         return str(self.object.album)
 
 
+# EDITS SELECTED RECORD
 class RecordUpdateView(PageTitleViewMixin, UpdateView):
     model = Record
     template_name = "records/edit.html"
@@ -96,13 +106,14 @@ class RecordUpdateView(PageTitleViewMixin, UpdateView):
         return reverse_lazy("record_detail", kwargs={"pk": record_id})
 
     def get_title(self):
-        return str(self.object.album) + " - " + str(self.object.artist)
+        return "EDIT - " + str(self.object.album) + " BY - " + str(self.object.artist)
 
 
+# DELETES SELECTED RECORD
 class RecordDeleteView(PageTitleViewMixin, DeleteView):
     model = Record
     template_name = "records/delete.html"
     success_url = reverse_lazy("records_list")
 
     def get_title(self):
-        return "Delete - " + self.object.album
+        return "DELETE - " + self.object.album
