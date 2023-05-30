@@ -8,7 +8,7 @@
         {% for record in record_list %}
             <div class="card">
               {% if record.artwork %}
-                <a href="{% url 'artist_records_detail' record.pk %}">
+                <a href="{% url 'record_detail' record.pk %}">
                     <img
                         src="{{ record.artwork }}"
                         height="200"
@@ -17,8 +17,8 @@
                 </a>
               {% endif %}
               <div>
-                <a href="{% url 'artist_records_detail' record.pk %}">{{ record.artist }}</a>
-                <p>{{ record.album }}</p>
+                <a href="{% url 'artist_records' record.pk %}">{{ record.artist }}</a>
+                <a href="{% url 'record_detail' record.pk %}"> <p>{{ record.album }}</p></a>
               </div>
             </div>
         {% endfor %}

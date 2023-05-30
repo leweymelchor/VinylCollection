@@ -9,12 +9,14 @@
         {% for rec in records %}
           <div class="record-card">
             {% if rec.artwork %}
-              <img src="{{ rec.artwork }}"
-                height="250"
-                width="250"
-                alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+              <a href="{% url 'record_detail' rec.pk %}">
+                <img src="{{ rec.artwork }}"
+                  height="250"
+                  width="250"
+                  alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+              </a>
             {% endif %}
-            <h3>{{ rec.album | default_if_none:"Unknown" }}</h3>
+            <a href="{% url 'record_detail' rec.pk %}"> <h3>{{ rec.album | default_if_none:"Unknown" }}</h3></a>
             <p>{{ rec.date | default_if_none:"Unknown" }}</p>
             <p>{{ rec.price | default_if_none:"Unknown" }}</p>
           </div>

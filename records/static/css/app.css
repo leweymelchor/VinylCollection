@@ -153,6 +153,7 @@ li {
     margin-top: 20px;
 }
 
+
 .form-button-a > a {
     font-family: Arial;
     font-size: 13.333px;
@@ -255,4 +256,108 @@ form > p > input, form > p > select {
     margin: 15px;
 
     background-color: rgba(0, 255, 255, 0.62);
+}
+
+
+/* Record Detail Page */
+
+.edit-delete-buttons {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -5px;
+    margin-bottom: 65px;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-delete-buttons > a {
+    background-color: rgba(0, 255, 255, 0.62);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 24px;
+
+    transition: all .3s ease-in-out;
+}
+
+.edit-delete-buttons > a:hover {
+    background-color: rgb(162, 255, 255);
+    transform: scale(1.2);
+}
+
+/* DELETE FORM */
+
+.delete-questions {
+    line-height: 85%;
+    margin-top: -50px;
+}
+
+.delete-container {
+    display: grid;
+    align-items: center;
+    align-content: justify;
+
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
+.delete-question {
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.delete-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.delete-form-button > button, .delete-form-button > a {
+    background-color: rgba(0, 255, 255, 0.62);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 100px;
+
+    transition: all .3s ease-in-out;
+}
+
+.delete-form-button > button:hover, .delete-form-button > a:hover {
+    background-color: rgb(162, 255, 255);
+    transform: scale(1.2);
+}
+
+.delte-form-button > button, .delete-form-button > a {
+    cursor: default;
 }

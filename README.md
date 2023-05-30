@@ -98,6 +98,14 @@ Day 8
 - Created Search results template
 - Added Search form to base template
 
+- Updated SearchView to search for Artists or Albums
+
+- Built Edit View
+- Created/Styled Edit Template
+- Added EditView to URLs
+- Built Delete View
+- Created/Styled Delete Template
+- Added DeleteView to URLs
 </details>
 
 ### Future Updates:
