@@ -106,6 +106,8 @@ Day 8
 - Built Delete View
 - Created/Styled Delete Template
 - Added DeleteView to URLs
+
+- Styled search bar
 </details>
 
 ### Future Updates:
