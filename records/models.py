@@ -3,10 +3,10 @@ from django.db import models
 # Create your models here.
 
 class Artist(models.Model):
-    artist = models.CharField(max_length=125)
+    artist = models.CharField(max_length=125, unique=True)
 
     def __str__(self):
-        option = self.artist #(self.artist[:20] + '-') if len(self.artist) > 20 else self.artist
+        option = (self.artist[:20] + '-') if len(self.artist) > 20 else self.artist
         return option
 
 

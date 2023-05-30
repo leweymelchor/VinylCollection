@@ -6,6 +6,8 @@ from django.views.generic.detail import DetailView
 
 from records.models import Artist, Record
 
+from django.db.models import Q
+
 
 # CLASS BASED VIEWS
 class PageTitleViewMixin:
@@ -64,3 +66,19 @@ class ArtistRecordsDetailView(PageTitleViewMixin, DetailView):
 
         context['records'] = records
         return context
+
+
+class SearchResultsView(ListView):
+    model = Record
+    template_name = "records/search_results.html"
+
+    def get_queryset(self, *args, **kwargs):
+        query = self.request.GET.get("q")
+        # artist_name = Record.objects.filter(artist=self.object.artist)
+        # context = super(ArtistRecordsDetailView, self).get_context_data(*args, **kwargs)
+        # context['artists'] = artist_name
+        return Record.objects.filter(
+        Q(album__icontains=query)
+        )
+
+#       | Q(artist__icontains=artist_name

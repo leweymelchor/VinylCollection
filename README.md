@@ -94,6 +94,10 @@ Day 8
 
 - CSS edits to style artist records template
 
+- Built Search list view works for albums only for now
+- Created Search results template
+- Added Search form to base template
+
 </details>
 
 ### Future Updates:

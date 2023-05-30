@@ -8,6 +8,8 @@
         <title>{% block title %} {{ title }} {% endblock title %}</title>
         {% comment %} CSS {% endcomment %}
         <link rel="stylesheet" href="{% static 'css/app.css' %}"/>
+        {% comment %} SEARCH ICON {% endcomment %}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     </head>
     <body>
     <header>
@@ -28,12 +30,22 @@
                     <p class="text-secondary">Admin</p>
                 </a>
                 </li>
+                <li>
+                    <form action="{% url 'search_results' %}" method="get">
+                        {% csrf_token %}
+                        <span class="material-symbols-outlined" id="search-icon">search</span>
+                        <input name="q" type="text" placeholder="Search..."/>
+                        <button class="button" type="submit">Search</button>
+                    </form>
+                </li>
             </ul>
         </nav>
-        <div>
-            <h1>Vinyl Collection</h1>
+        <div class="heading">
+            <h1 class="header" >Vinyl Collection</h1>
+            <div class="search-form">
+            </div>
         </div>
-        </header>
+    </header>
         {% block content %}
         {% endblock content %}
         <footer>

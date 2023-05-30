@@ -4,24 +4,24 @@
   <body>
     {% comment %} Main Card List Start {% endcomment %}
     <main>
-        <div class="container-list-albums">
-            {% for record in record_list %}
-                <div class="card">
-                    {% if record.artwork %}
-                    <a href="{% url 'artist_records_detail' record.pk %}">
-                        <img
-                            src="{{ record.artwork }}"
-                            height="200"
-                            width="200"
-                            alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
-                    </a>
-                    {% endif %}
-                    <div>
-                    <a href="{% url 'artist_records_detail' record.pk %}">{{ record.artist }}</a>
-                    <p>{{ record.album }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+      <div class="container-list-albums">
+        {% for record in record_list %}
+            <div class="card">
+              {% if record.artwork %}
+                <a href="{% url 'artist_records_detail' record.pk %}">
+                    <img
+                        src="{{ record.artwork }}"
+                        height="200"
+                        width="200"
+                        alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+                </a>
+              {% endif %}
+              <div>
+                <a href="{% url 'artist_records_detail' record.pk %}">{{ record.artist }}</a>
+                <p>{{ record.album }}</p>
+              </div>
+            </div>
+        {% endfor %}
         </div>
       <div class="pagination">
         <span class="step-links">
@@ -37,5 +37,5 @@
         </span>
       </div>
     </main>
-</body>
+  </body>
 {% endblock content %}
