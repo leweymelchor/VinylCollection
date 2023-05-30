@@ -108,6 +108,19 @@ Day 8
 - Added DeleteView to URLs
 
 - Styled search bar
+
+Day 9
+- Edit Page Titles
+
+- Added links to Search Results Page
+
+- Worked on Templates
+- Edit Records List View to order data by Artist/ Date
+- Edit Artist Records View to order by date
+- Add artist link to record detail page
+- Change all a tags to no styling and hover transition
+- Small html text alterations
+
 </details>
 
 ### Future Updates:

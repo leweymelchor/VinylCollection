@@ -3,7 +3,7 @@
 {% block content %}
   <body>
     <main>
-      <h1><b>{{ record.artist | default_if_none:"Unknown" }}</b></h1>
+      <h1><a href="{% url 'artist_records' record.pk %}"><b>{{ record.album | default_if_none:"Unknown" }}</b></a></h1>
       <div class="artist-detail-grid">
           <div class="record-card">
             {% if record.artwork %}

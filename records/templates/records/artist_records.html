@@ -3,7 +3,7 @@
 {% block content %}
   <body>
     <main>
-      <h1><b>{{ record.artist | default_if_none:"Unknown" }}</b></h1>
+      <h1><b>{{ record.artist | default_if_none:"Unknown" }}'s Records</b></h1>
       <div class="artist-detail-grid">
         {% comment %} <p>{{ artist.get_context_data }}</p> {% endcomment %}
         {% for rec in records %}

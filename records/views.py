@@ -24,6 +24,7 @@ class PageTitleViewMixin:
 
 # SEARCH ARTIST / ALBUMS
 class SearchResultsView(PageTitleViewMixin, ListView):
+    paginate_by = 15
     model = Record
     template_name = "records/search_results.html"
 
@@ -54,7 +55,7 @@ class ArtistCreateView(PageTitleViewMixin, CreateView):
 class RecordCreateView(PageTitleViewMixin, CreateView):
     model = Record
     template_name = "records/add.html"
-    fields = ["artist", "album", "artwork", "date", "price"]
+    fields = ["album", "artist", "artwork", "date", "price"]
     success_url = reverse_lazy("records_list")
     title = "New Record"
 
@@ -69,6 +70,13 @@ class RecordListView(PageTitleViewMixin, ListView):
     model = Record
     template_name = "records/list.html"
     title = "Vinyl Catologue"
+    ordering = ["artist", "date"]
+
+    # def get_ordering(self):
+    #     query = self.request.GET.get("q")
+    #     ordering = self.request.GET.get('ordering', query)
+    #     # validate ordering here
+    #     return ordering
 
 
 # LISTS ALL RECORDS BY SELECTED ARTIST
@@ -77,7 +85,7 @@ class ArtistRecordsView(PageTitleViewMixin, DetailView):
     template_name = "records/artist_records.html"
 
     def get_context_data(self, *args, **kwargs):
-        records = Record.objects.filter(artist=self.object.artist)
+        records = Record.objects.filter(artist=self.object.artist).order_by('date')
         context = super(ArtistRecordsView, self).get_context_data(*args, **kwargs)
         context['records'] = records
         return context

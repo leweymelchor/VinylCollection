@@ -6,8 +6,8 @@ try:
         class Meta:
             model = Record
             fields = [
-                "artist",
                 "album",
+                "artist",
                 "artwork",
                 "date",
                 "price"
