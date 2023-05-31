@@ -1,0 +1,1041 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$YcrNobZgE59Wz2re5xhoVU$GsV01IQsRk4+VMT1qwNyhFBw9w0ZYcLrhP3YkqpEagI=",
+        "last_login": "2023-05-29T22:22:42.710Z",
+        "is_superuser": true,
+        "username": "Lewey",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-05-27T22:15:15.057Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2srwxw4umzgwx8n88zead5yfkaqnk0dx",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFQGB4u3fsNhIFBqgaS0q6M_65NutDtPefcFwtxW2vYBi1hzuzMJDv9bhjTg9oO8j22W-ept3WZke8KP-jg157peTncv4MaR_3WmMgJY5QmUwiKVRq88iI64a0EsGhLNKgwF1IJrEwiFemEtpObwBti7w_X_Dda:1q3lGE:2LI9VOfrIqZazCS_1tVcqUSk-BwLFufbNVy7XNtT7YI",
+        "expire_date": "2023-06-12T22:22:42.711Z"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 1,
+    "fields": {
+        "artist": "6lack"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 2,
+    "fields": {
+        "artist": "A Tribe Called Quest"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 3,
+    "fields": {
+        "artist": "AC/DC"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 4,
+    "fields": {
+        "artist": "Aerosmith"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 5,
+    "fields": {
+        "artist": "Al Green"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 6,
+    "fields": {
+        "artist": "Al Price"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 7,
+    "fields": {
+        "artist": "Alanis Morissette"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 8,
+    "fields": {
+        "artist": "Alice in Chains"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 9,
+    "fields": {
+        "artist": "Alvin and the chipmunks"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 10,
+    "fields": {
+        "artist": "Ambré"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 11,
+    "fields": {
+        "artist": "Ann Peebles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 12,
+    "fields": {
+        "artist": "Aretha Franklin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 13,
+    "fields": {
+        "artist": "Ari Lennox"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 14,
+    "fields": {
+        "artist": "Audio Slave"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 15,
+    "fields": {
+        "artist": "Avenged Sevenfold"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 16,
+    "fields": {
+        "artist": "B.B. King"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 17,
+    "fields": {
+        "artist": "Bare naked ladies"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 18,
+    "fields": {
+        "artist": "Beach Boys"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 19,
+    "fields": {
+        "artist": "Beethoven: Arturo Toscanini & NBC Symphony Orchestra"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 20,
+    "fields": {
+        "artist": "Benny Goodman"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 21,
+    "fields": {
+        "artist": "Betty Davis"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 22,
+    "fields": {
+        "artist": "Big Brother & the Holding Company"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 23,
+    "fields": {
+        "artist": "Big Sean"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 24,
+    "fields": {
+        "artist": "Bill Withers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 25,
+    "fields": {
+        "artist": "Billie Eilish"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 26,
+    "fields": {
+        "artist": "Billie Holiday"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 27,
+    "fields": {
+        "artist": "Bing Crosby"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 28,
+    "fields": {
+        "artist": "Black Sabbath"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 29,
+    "fields": {
+        "artist": "Blink 182"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 30,
+    "fields": {
+        "artist": "Bob Marley & The Wailers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 31,
+    "fields": {
+        "artist": "Bruno Mars"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 32,
+    "fields": {
+        "artist": "Bryson Tiller"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 33,
+    "fields": {
+        "artist": "Cage the Elephant"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 34,
+    "fields": {
+        "artist": "Camila Cabello"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 35,
+    "fields": {
+        "artist": "Chance the Rapper"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 36,
+    "fields": {
+        "artist": "Cheech & Chong"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 37,
+    "fields": {
+        "artist": "Childish Gambino"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 38,
+    "fields": {
+        "artist": "Chuck Berry"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 39,
+    "fields": {
+        "artist": "Comp."
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 40,
+    "fields": {
+        "artist": "Count Basie"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 41,
+    "fields": {
+        "artist": "Creed"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 42,
+    "fields": {
+        "artist": "Curtis Mayfield"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 43,
+    "fields": {
+        "artist": "Daft Punk"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 44,
+    "fields": {
+        "artist": "David Bowie"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 45,
+    "fields": {
+        "artist": "Dean Martin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 46,
+    "fields": {
+        "artist": "Dolly Parton"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 47,
+    "fields": {
+        "artist": "Dr. Seuss"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 48,
+    "fields": {
+        "artist": "Drake"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 49,
+    "fields": {
+        "artist": "Drake & Future"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 50,
+    "fields": {
+        "artist": "Drowning Pool"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 51,
+    "fields": {
+        "artist": "Earl Sweatshirt"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 52,
+    "fields": {
+        "artist": "Earth Gang"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 53,
+    "fields": {
+        "artist": "Earth Wind and Fire"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 54,
+    "fields": {
+        "artist": "Ella Fitzgerald & Louis Armstrong"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 55,
+    "fields": {
+        "artist": "Ella Mai"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 56,
+    "fields": {
+        "artist": "Elliott Smith"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 57,
+    "fields": {
+        "artist": "Elton John"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 58,
+    "fields": {
+        "artist": "Elvis Presley"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 59,
+    "fields": {
+        "artist": "Etta James"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 60,
+    "fields": {
+        "artist": "Fats Domino"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 61,
+    "fields": {
+        "artist": "George Strait"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 62,
+    "fields": {
+        "artist": "Grateful Dead"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 63,
+    "fields": {
+        "artist": "Green Day"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 64,
+    "fields": {
+        "artist": "Guns n’ Roses"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 65,
+    "fields": {
+        "artist": "H.E.R."
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 66,
+    "fields": {
+        "artist": "Harry Nilsson"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 67,
+    "fields": {
+        "artist": "Harry Styles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 68,
+    "fields": {
+        "artist": "Herb Alpert’s Tijuana Brass"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 69,
+    "fields": {
+        "artist": "Incubus"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 70,
+    "fields": {
+        "artist": "Iron Butterfly"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 71,
+    "fields": {
+        "artist": "Isaac Hayes"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 72,
+    "fields": {
+        "artist": "J. Cole"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 73,
+    "fields": {
+        "artist": "Jack Johnson and Friends:"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 74,
+    "fields": {
+        "artist": "Jaden Smith"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 75,
+    "fields": {
+        "artist": "James Brown"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 76,
+    "fields": {
+        "artist": "Jane’s Addiction"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 77,
+    "fields": {
+        "artist": "Janis Joplin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 78,
+    "fields": {
+        "artist": "Jethro Tull"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 79,
+    "fields": {
+        "artist": "Jimi Hendrix"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 80,
+    "fields": {
+        "artist": "John Coltrane"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 81,
+    "fields": {
+        "artist": "Johnny Cash"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 82,
+    "fields": {
+        "artist": "Jon batiste"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 83,
+    "fields": {
+        "artist": "Kehlani"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 84,
+    "fields": {
+        "artist": "Kendrick Lamar"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 85,
+    "fields": {
+        "artist": "Khalid"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 86,
+    "fields": {
+        "artist": "Korn"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 87,
+    "fields": {
+        "artist": "Kota the Friend"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 88,
+    "fields": {
+        "artist": "Led Zeppelin"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 89,
+    "fields": {
+        "artist": "Louis Armstrong"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 90,
+    "fields": {
+        "artist": "Metallica"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 91,
+    "fields": {
+        "artist": "Miles Davis"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 92,
+    "fields": {
+        "artist": "Miles Davis and Michael Legrand"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 93,
+    "fields": {
+        "artist": "Misc. Compilation"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 94,
+    "fields": {
+        "artist": "Mister Rogers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 95,
+    "fields": {
+        "artist": "Nat King Cole"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 96,
+    "fields": {
+        "artist": "Neil Young"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 97,
+    "fields": {
+        "artist": "Nerf Herder"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 98,
+    "fields": {
+        "artist": "Nine Inch Nails"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 99,
+    "fields": {
+        "artist": "Nirvana"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 100,
+    "fields": {
+        "artist": "No Doubt"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 101,
+    "fields": {
+        "artist": "Notorious B.I.G."
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 102,
+    "fields": {
+        "artist": "Oasis"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 103,
+    "fields": {
+        "artist": "Oddisee"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 104,
+    "fields": {
+        "artist": "Oscar Peterson"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 105,
+    "fields": {
+        "artist": "Oscar Peterson Trio"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 106,
+    "fields": {
+        "artist": "Otis Redding"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 107,
+    "fields": {
+        "artist": "Panic! At The Disco"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 108,
+    "fields": {
+        "artist": "Parliament"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 109,
+    "fields": {
+        "artist": "Patsy Cline"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 110,
+    "fields": {
+        "artist": "Pearl Jam"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 111,
+    "fields": {
+        "artist": "Phil Collins"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 112,
+    "fields": {
+        "artist": "Pink Floyd"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 113,
+    "fields": {
+        "artist": "Prince"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 114,
+    "fields": {
+        "artist": "Prince and the Revolution"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 115,
+    "fields": {
+        "artist": "Queen"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 116,
+    "fields": {
+        "artist": "Rage Against the Machine"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 117,
+    "fields": {
+        "artist": "Ramones"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 118,
+    "fields": {
+        "artist": "Ray Charles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 119,
+    "fields": {
+        "artist": "Red Hot Chili Peppers"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 120,
+    "fields": {
+        "artist": "Rihanna"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 121,
+    "fields": {
+        "artist": "Ritchie Valens"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 122,
+    "fields": {
+        "artist": "Rush"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 123,
+    "fields": {
+        "artist": "Saba"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 124,
+    "fields": {
+        "artist": "Santo & Johnny"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 125,
+    "fields": {
+        "artist": "Selena"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 126,
+    "fields": {
+        "artist": "Shawn Mendes"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 127,
+    "fields": {
+        "artist": "Stone Temple Pilots"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 128,
+    "fields": {
+        "artist": "Sublime"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 129,
+    "fields": {
+        "artist": "Syl Johnson"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 130,
+    "fields": {
+        "artist": "System of a Down"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 131,
+    "fields": {
+        "artist": "SZA"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 132,
+    "fields": {
+        "artist": "The Beatles"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 133,
+    "fields": {
+        "artist": "The California Raisins"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 134,
+    "fields": {
+        "artist": "The Chilites"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 135,
+    "fields": {
+        "artist": "The Jackson 5"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 136,
+    "fields": {
+        "artist": "The Mamas and the Papas"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 137,
+    "fields": {
+        "artist": "TheWeeknd"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 138,
+    "fields": {
+        "artist": "TOOL"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 139,
+    "fields": {
+        "artist": "Train"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 140,
+    "fields": {
+        "artist": "Travis Scott"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 141,
+    "fields": {
+        "artist": "Tyler, The Creator"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 142,
+    "fields": {
+        "artist": "Van Halen"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 143,
+    "fields": {
+        "artist": "Vince Gauraldi Trio"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 144,
+    "fields": {
+        "artist": "War"
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 145,
+    "fields": {
+        "artist": "Zapp & Roger"
+    }
+}

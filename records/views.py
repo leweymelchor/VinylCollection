@@ -4,6 +4,10 @@ from django.views.generic.list import ListView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 
+from records.forms import SignUpForm, ProfileForm
+from django.contrib.auth.models import User
+from django.contrib.auth.mixins import LoginRequiredMixin
+
 from records.models import Artist, Record
 
 from django.db.models import Q
@@ -125,3 +129,20 @@ class RecordDeleteView(PageTitleViewMixin, DeleteView):
 
     def get_title(self):
         return "DELETE - " + self.object.album
+
+
+class SignUpView(PageTitleViewMixin, CreateView):
+    form_class = SignUpForm
+    success_url = reverse_lazy('login')
+    template_name = 'registration/signup.html'
+    title = "Sign-up"
+
+
+class ProfileView(PageTitleViewMixin, UpdateView):
+    model = User
+    form_class = ProfileForm
+    success_url = reverse_lazy('home')
+    template_name = 'registration/profile.html'
+
+    def get_title(self):
+        return "Update " + self.object.username + "'s Profile"

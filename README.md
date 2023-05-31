@@ -124,6 +124,12 @@ Day 9
 - Update page styling
 - Search Results ordered by artist / date
 
+- Built Signup and Profile View
+- Built Signup and Profile Form
+- Added owner field to Record model
+- Added login, logout, signup, and profile urls to Project URLs
+- Created and Styled signup, login, and profile templates
+
 </details>
 
 ### Future Updates:

@@ -257,7 +257,9 @@ li > form > button:hover {
     margin: 0px;
 }
 
-.artist-form, .record-form {
+.artist-form,
+.record-form,
+.profile-form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -301,7 +303,8 @@ li > form > button:hover {
     margin-top: 10%;
 }
 
-.form-button > button, .form-button-a > a {
+.form-button > button,
+.form-button-a > a {
     background-color: rgba(0, 0, 0, 0.6);
     border: none;
     border-radius: 8px;
@@ -315,7 +318,8 @@ li > form > button:hover {
     transition: all .3s ease-in-out;
 }
 
-.form-button > button:hover, .form-button-a > a:hover {
+.form-button > button:hover,
+.form-button-a > a:hover {
     background-color: rgb(90, 90, 90);
     transform: scale(1.2);
 }
@@ -344,7 +348,8 @@ select {
     overflow-x: hidden;
 }
 
-form > p > input, form > p > select {
+form > p > input,
+form > p > select {
     border-radius: 8px;
     border: none;
     padding: 5px;
@@ -460,7 +465,8 @@ form > p > input, form > p > select {
     transition: all .3s ease-in-out;
 }
 
-.edit-delete-buttons > a:hover {
+.edit-delete-buttons > a:hover,
+.login-form-buttons > a:hover {
     background-color: rgb(90, 90, 90);
     transform: scale(1.2);
 }
@@ -521,7 +527,8 @@ form > p > input, form > p > select {
     margin-bottom: 25px;
 }
 
-.delete-form-button > button, .delete-form-button > a {
+.delete-form-button > button,
+.delete-form-button > a {
     background-color: rgba(255, 255, 255, 0.6);
     border: none;
     border-radius: 8px;
@@ -540,12 +547,14 @@ form > p > input, form > p > select {
     transition: all .3s ease-in-out;
 }
 
-.delete-form-button > button:hover, .delete-form-button > a:hover {
+.delete-form-button > button:hover,
+.delete-form-button > a:hover {
     background-color: rgb(90, 90, 90);
     transform: scale(1.2);
 }
 
-.delte-form-button > button, .delete-form-button > a {
+.delte-form-button > button,
+.delete-form-button > a {
     cursor: default;
 }
 
@@ -563,4 +572,132 @@ form > p > input, form > p > select {
     font-size:40px;
     text-align:center;
     margin-bottom: 15px;
+}
+
+
+/* Login / Signup / Profile */
+
+.login-form {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color:rgb(0, 0, 0);
+}
+
+.login-form-buttons,
+.register-button {
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+.login-form-buttons > a {
+    background-color: rgb(90, 90, 90);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 70px;
+
+    transition: all .3s ease-in-out;
+}
+
+.login-form-buttons > button,
+.register-button > button {
+    background-color: rgb(90, 90, 90);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    margin-right: -10px;
+    max-width: 100px;
+
+    transition: all .3s ease-in-out;
+}
+
+.login-form-buttons > button:hover,
+.register-button > button:hover,
+.login-form-buttons > a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color:rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.signup-card {
+    width: 250px;
+    height: 575px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color: rgb(255, 255, 255);
+}
+
+.login-card {
+    width: 250px;
+    height: 200px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color: rgb(255, 255, 255);
 }
