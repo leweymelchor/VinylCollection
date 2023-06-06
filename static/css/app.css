@@ -1,0 +1,703 @@
+
+
+/* ALL TEMPLATES CSS */
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(https://images.pexels.com/photos/6621704/pexels-photo-6621704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    /* url("https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    background-size: cover;
+    background-blend-mode: saturation;
+    /* background-color: rgba(255, 255, 255, 0.318); */
+    color: aliceblue;
+
+    /* FONT 1 */
+    /* font-family: 'Anton', sans-serif;*/
+
+    /* FONT 2 */
+    font-family: 'Pangolin', cursive;
+
+    /* FONT 3 */
+    /* font-family: 'Righteous', cursive; */
+}
+
+main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+
+    position: relative;
+    bottom: 1.5rem;
+    width: 100%;
+    height: 2.5rem;
+
+    /* display: flex;
+    min-height: 2.5rem;
+    flex-direction: column; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -5px;
+    margin-bottom: -40px;
+    color:rgba(255, 255, 255, 0.6);
+}
+
+img {
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: all .3s ease-in-out;
+}
+
+a > img:hover {
+    transform: scale(1.1);
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    color: inherit;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.menu > a:hover {
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+}
+
+.header {
+    color: inherit;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.header:hover {
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 65px;
+    color: rgb(90, 90, 90);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    color: #000000;
+}
+
+a:hover {
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    right: 30px;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.header {
+    background: url(https://cdn.shopify.com/s/files/1/1619/4221/products/BH1038680DKateAbstractRetroBackdropGrayWallTexture.jpg?v=1652066917) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text;
+    font-family: 'Pangolin', cursive;
+    font-size:50px;
+    padding:0;
+    margin:0;
+    text-align:center;
+    /* -webkit-text-stroke: 1px #000000; */
+    max-width: 500px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: flex-end;
+
+    border-radius: 25px;
+
+    margin-bottom: 50px;
+
+    background-color: none;
+}
+
+#search-icon {
+    position: relative;
+    top: 8px;
+}
+
+li > form > input{
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    min-width: 163px;
+    margin-right: 3px;
+}
+
+li > form > button {
+    border-radius: 8px;
+    border: none;
+
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+
+    transition: all .3s ease-in-out;
+}
+
+li > form > button:hover {
+    color: white;
+    background-color: rgb(90, 90, 90);
+    transform: scale(1.2);
+}
+
+
+/* LIST PAGE CSS */
+.pagination {
+    text-align: center;
+
+    /* display: flex;
+    min-height: 2.5rem;
+    flex-direction: column; */
+
+    position: relative;
+    bottom: 1rem;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#page {
+    text-decoration: none;
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#page:hover {
+    transition-property: font-size;
+    transition-property: color;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+}
+
+.container-list-albums {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 300px 300px; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-items: center;
+    max-width: 1252px;
+    padding: 25px;
+    padding-top: 35px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+
+/* ADD RECORD FORM CSS  */
+
+.form-title {
+    margin: 0px;
+}
+
+.artist-form,
+.record-form,
+.profile-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: flex-start;
+
+    padding-top: 15px;
+    padding-bottom: 35px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    border-radius: 25px;
+
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form-button-a {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    margin-top: 20px;
+}
+
+
+.form-button-a > a {
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 23px;
+}
+
+.form-button {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 10%;
+}
+
+.form-button > button,
+.form-button-a > a {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+
+    transition: all .3s ease-in-out;
+}
+
+.form-button > button:hover,
+.form-button-a > a:hover {
+    background-color: rgb(90, 90, 90);
+    transform: scale(1.2);
+}
+
+
+form > p {
+    border-color: rgb(90, 90, 90);
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-bottom: 18px;
+    max-width: 175px;
+    text-align: center;
+
+    margin-bottom: 0px;
+}
+
+select > option {
+    text-overflow: hidden;
+}
+
+select {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+form > p > input,
+form > p > select {
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    min-width: 163px;
+}
+
+.form-album,
+.form-artwork,
+.form-date,
+.form-price {
+    margin-top: -15px;
+}
+
+
+/* ARTIST RECORDS DETAIL VIEW */
+
+.artist-title {
+    background: url(https://cdn.shopify.com/s/files/1/1619/4221/products/BH1038680DKateAbstractRetroBackdropGrayWallTexture.jpg?v=1652066917) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text;
+    font-family: 'Pangolin', cursive;
+    font-size:40px;
+    text-align:center;
+}
+
+.artist-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    align-items: center;
+    align-content: justify;
+
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.record-card {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin: 15px;
+    margin-top: 45px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    color:#000000;
+}
+
+
+/* Record Detail Page */
+
+.detail-record-card {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin: 50px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000000;
+}
+
+.edit-delete-buttons {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -5px;
+    margin-bottom: 65px;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-delete-buttons > a {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 24px;
+
+    transition: all .3s ease-in-out;
+}
+
+.edit-delete-buttons > a:hover,
+.login-form-buttons > a:hover {
+    background-color: rgb(90, 90, 90);
+    transform: scale(1.2);
+}
+
+/* DELETE FORM */
+
+.delete-record-card {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color:rgb(0, 0, 0);
+}
+
+.delete-questions {
+    line-height: 85%;
+    margin-top: -15px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #000000;
+    border-radius: 25px;
+}
+
+.delete-container {
+    display: grid;
+    align-items: center;
+    align-content: justify;
+
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
+.delete-question {
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.delete-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.delete-form-button > button,
+.delete-form-button > a {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 100px;
+
+    transition: all .3s ease-in-out;
+}
+
+.delete-form-button > button:hover,
+.delete-form-button > a:hover {
+    background-color: rgb(90, 90, 90);
+    transform: scale(1.2);
+}
+
+.delte-form-button > button,
+.delete-form-button > a {
+    cursor: default;
+}
+
+/* SEARCH RESULTS */
+
+.search-title {
+    background: url(https://cdn.shopify.com/s/files/1/1619/4221/products/BH1038680DKateAbstractRetroBackdropGrayWallTexture.jpg?v=1652066917) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text;
+    font-family: 'Pangolin', cursive;
+    font-size:40px;
+    text-align:center;
+    margin-bottom: 15px;
+}
+
+
+/* Login / Signup / Profile */
+
+.login-form {
+    width: 250px;
+    height: 375px;
+    text-align: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color:rgb(0, 0, 0);
+}
+
+.login-form-buttons,
+.register-button {
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+.login-form-buttons > a {
+    background-color: rgb(90, 90, 90);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    max-width: 70px;
+
+    transition: all .3s ease-in-out;
+}
+
+.login-form-buttons > button,
+.register-button > button {
+    background-color: rgb(90, 90, 90);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 13.333px;
+
+    margin-right: -10px;
+    max-width: 100px;
+
+    transition: all .3s ease-in-out;
+}
+
+.login-form-buttons > button:hover,
+.register-button > button:hover,
+.login-form-buttons > a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color:rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.signup-card {
+    width: 250px;
+    height: 575px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color: rgb(255, 255, 255);
+}
+
+.login-card {
+    width: 250px;
+    height: 200px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color: rgb(255, 255, 255);
+}
