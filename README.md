@@ -130,6 +130,9 @@ Day 9
 - Added login, logout, signup, and profile urls to Project URLs
 - Created and Styled signup, login, and profile templates
 
+Day 10
+- Updated Artist Model to display artists in order by name, and not id
+
 </details>
 
 ### Future Updates:
