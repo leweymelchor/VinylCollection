@@ -133,6 +133,7 @@ Day 9
 </details>
 
 ### Future Updates:
+- Make records only visible to owner
 
 ## Created By:
 

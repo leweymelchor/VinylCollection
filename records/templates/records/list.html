@@ -4,10 +4,6 @@
   <body>
     {% comment %} Main Card List Start {% endcomment %}
     <main>
-      {% comment %} <form class="sort-buttons-container" method="get" action={% url 'records_list' %}>
-        {% csrf_token %}
-        <button type="submit" value="album">album:a-z</button>
-      </form> {% endcomment %}
       <div class="container-list-albums">
         {% for record in record_list %}
             <div class="card">

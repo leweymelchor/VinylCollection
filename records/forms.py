@@ -46,7 +46,6 @@ try:
                 "price"
             ]
 
-
     class ArtistForm(forms.ModelForm):
         class Meta:
             model = Artist

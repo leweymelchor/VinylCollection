@@ -12,6 +12,9 @@ class Artist(models.Model):
         option = (self.artist[:20] + '-') if len(self.artist) > 20 else self.artist
         return option
 
+    class Meta:
+        ordering = ["artist"]
+
 
 class Record(models.Model):
     album = models.CharField(max_length=125)

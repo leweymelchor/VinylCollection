@@ -27,7 +27,7 @@ class PageTitleViewMixin:
 
 
 # SEARCH ARTIST / ALBUMS
-class SearchResultsView(PageTitleViewMixin, ListView):
+class SearchResultsView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     paginate_by = 15
     model = Record
     template_name = "records/search_results.html"
@@ -43,7 +43,7 @@ class SearchResultsView(PageTitleViewMixin, ListView):
 
 
 # ADD NEW ARTIST
-class ArtistCreateView(PageTitleViewMixin, CreateView):
+class ArtistCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     model = Artist
     template_name = "records/addartist.html"
     fields = ["artist"]
@@ -56,7 +56,7 @@ class ArtistCreateView(PageTitleViewMixin, CreateView):
 
 
 # CREATES RECORDS
-class RecordCreateView(PageTitleViewMixin, CreateView):
+class RecordCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     model = Record
     template_name = "records/add.html"
     fields = ["album", "artist", "artwork", "date", "price"]
@@ -69,22 +69,27 @@ class RecordCreateView(PageTitleViewMixin, CreateView):
 
 
 # LISTS ALL RECORDS IN DB
-class RecordListView(PageTitleViewMixin, ListView):
+class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     paginate_by = 10
     model = Record
     template_name = "records/list.html"
     title = "Vinyl Catologue"
     ordering = ["artist", "date"]
 
-    # def get_ordering(self):
-    #     query = self.request.GET.get("q")
-    #     ordering = self.request.GET.get('ordering', query)
-    #     # validate ordering here
-    #     return ordering
+    # def get_queryset(self):
+    #     """
+    #     Optionally restricts the returned purchases to a given user,
+    #     by filtering against a `username` query parameter in the URL.
+    #     """
+    #     queryset = Record.objects.all()
+    #     username = self.request.query_params.get('username')
+    #     if username is not None:
+    #         queryset = queryset.filter(owner__username=username)
+    #     return queryset
 
 
 # LISTS ALL RECORDS BY SELECTED ARTIST
-class ArtistRecordsView(PageTitleViewMixin, DetailView):
+class ArtistRecordsView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
     model = Record
     template_name = "records/artist_records.html"
 
@@ -99,7 +104,7 @@ class ArtistRecordsView(PageTitleViewMixin, DetailView):
 
 
 # SHOWS DETAILS OF SELECTED RECORD
-class RecordDetailView(PageTitleViewMixin, DetailView):
+class RecordDetailView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
     model = Record
     template_name = "records/recorddetail.html"
 
@@ -108,7 +113,7 @@ class RecordDetailView(PageTitleViewMixin, DetailView):
 
 
 # EDITS SELECTED RECORD
-class RecordUpdateView(PageTitleViewMixin, UpdateView):
+class RecordUpdateView(LoginRequiredMixin, PageTitleViewMixin, UpdateView):
     model = Record
     template_name = "records/edit.html"
     fields = ["artist", "album", "artwork", "date", "price"]
@@ -122,7 +127,7 @@ class RecordUpdateView(PageTitleViewMixin, UpdateView):
 
 
 # DELETES SELECTED RECORD
-class RecordDeleteView(PageTitleViewMixin, DeleteView):
+class RecordDeleteView(LoginRequiredMixin, PageTitleViewMixin, DeleteView):
     model = Record
     template_name = "records/delete.html"
     success_url = reverse_lazy("records_list")
@@ -138,7 +143,7 @@ class SignUpView(PageTitleViewMixin, CreateView):
     title = "Sign-up"
 
 
-class ProfileView(PageTitleViewMixin, UpdateView):
+class ProfileView(LoginRequiredMixin, PageTitleViewMixin, UpdateView):
     model = User
     form_class = ProfileForm
     success_url = reverse_lazy('home')
