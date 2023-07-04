@@ -1,3 +1,4 @@
+# from django.core.paginator import _SupportsPagination
 from django.shortcuts import redirect, render
 from django.urls import reverse_lazy
 from django.views.generic.list import ListView
@@ -51,7 +52,7 @@ class ArtistCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     title = "New Artist"
 
     def form_valid(self, form):
-        form.instance.author = self.request.user
+        form.instance.owner = self.request.user
         return super().form_valid(form)
 
 
@@ -64,7 +65,7 @@ class RecordCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     title = "New Record"
 
     def form_valid(self, form):
-        form.instance.author = self.request.user
+        form.instance.owner = self.request.user
         return super().form_valid(form)
 
 
@@ -75,17 +76,6 @@ class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     template_name = "records/list.html"
     title = "Vinyl Catologue"
     ordering = ["artist", "date"]
-
-    # def get_queryset(self):
-    #     """
-    #     Optionally restricts the returned purchases to a given user,
-    #     by filtering against a `username` query parameter in the URL.
-    #     """
-    #     queryset = Record.objects.all()
-    #     username = self.request.query_params.get('username')
-    #     if username is not None:
-    #         queryset = queryset.filter(owner__username=username)
-    #     return queryset
 
 
 # LISTS ALL RECORDS BY SELECTED ARTIST

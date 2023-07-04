@@ -43,14 +43,14 @@ try:
                 "artist",
                 "artwork",
                 "date",
-                "price"
+                "price",
             ]
 
     class ArtistForm(forms.ModelForm):
         class Meta:
             model = Artist
             fields = [
-                "artist"
+                "artist",
             ]
 
 except Exception:

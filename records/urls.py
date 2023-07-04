@@ -1,7 +1,6 @@
 from django.urls import path
 
 from records.views import (
-    # create_record,
     RecordListView,
     RecordCreateView,
     RecordDetailView,
