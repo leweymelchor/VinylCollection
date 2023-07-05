@@ -78,14 +78,11 @@ class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     model = Record
     template_name = "records/list.html"
     title = "Vinyl Catologue"
+    context_object_name = "records"
 
-    def get_context_data(self, *args, **kwargs):
+    def get_queryset(self):
         owner = self.request.user.id
-        records = Paginator(Record.objects.filter(owner=owner).order_by('artist', 'date'), self.paginate_by)
-        context = super(RecordListView, self).get_context_data(*args, **kwargs)
-        context['records'] = records.page(context['page_obj'].number)
-
-        return context
+        return Record.objects.filter(owner=owner).order_by('artist', 'date')
 
 
 

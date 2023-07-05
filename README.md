@@ -133,6 +133,7 @@ Day 9
 Day 10
 - Updated Artist Model to display artists in order by name, and not id
 - Updated List View to display only records for logged in user
+- Fixed Pagination numbers (now accurately displays the users total pages of records) using get_queryset_data
 
 </details>
 
