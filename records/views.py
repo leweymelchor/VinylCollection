@@ -1,4 +1,3 @@
-# from django.core.paginator import _SupportsPagination
 from typing import Any
 from django.db.models.query import QuerySet
 from django.shortcuts import redirect, render
@@ -72,12 +71,12 @@ class RecordCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
         return super().form_valid(form)
 
 
-# LISTS ALL RECORDS IN DB  *Needs Work to display only users records*
+# LISTS ALL RECORDS IN USERS DB
 class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     paginate_by = 10
     model = Record
     template_name = "records/list.html"
-    title = "Vinyl Catologue"
+    title = "Vinyl Reserve"
     context_object_name = "records"
 
     def get_queryset(self):
@@ -93,7 +92,8 @@ class ArtistRecordsView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
     template_name = "records/artist_records.html"
 
     def get_context_data(self, *args, **kwargs):
-        records = Record.objects.filter(artist=self.object.artist).order_by('date')
+        owner = self.request.user.id
+        records = Record.objects.filter(owner=owner, artist=self.object.artist).order_by('date')
         context = super(ArtistRecordsView, self).get_context_data(*args, **kwargs)
         context['records'] = records
         return context
