@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>{% block title %} {{ title }} {% endblock title %}</title>
+        {% comment %} CSS {% endcomment %}
+        <link rel="stylesheet" href="{% static 'css/app.css' %}"/>
+        {% comment %} SEARCH ICON {% endcomment %}
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        {% comment %} FONT IMPORT 1{% endcomment %}
+        {% comment %} <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> {% endcomment %}
+        {% comment %} FONT IMPORT 2 {% endcomment %}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        {% comment %} FONT IMPORT 3 {% endcomment %}
+        {% comment %} <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> {% endcomment %}
+    </head>
+    <body>
+    <header>
+        <nav>
+            <ul class="container-menu">
+                <li>
+                <a class="menu" href="{% url 'home' %}">
+                    <h3 class="text-secondary">Records</h3>
+                </a>
+                </li>
+                <li>
+                <a class="menu" href="{% url 'record_add' %}">
+                    <h3 class="text-secondary">Add a Record</h3>
+                </a>
+                </li>
+                {% if not user.is_authenticated %}
+                  <li>
+                    <a class="menu"
+                    href="{% url 'login' %}">
+                      <h3 class="text-secondary">Login</h3>
+                    </a>
+                  </li>
+                  {% endif %}
+                  {% if user.is_authenticated %}
+                  <li>
+                    <a class="menu"
+                    href="{% url 'profile' user.id %}">
+                      <h3 class="text-secondary">Profile</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="menu"
+                    href="{% url 'logout' %}">
+                      <h3 class="text-secondary">Logout</h3>
+                    </a>
+                  </li>
+                  {% endif %}
+                  {% if user.is_staff %}
+                  <li>
+                    <a class="menu"
+                       href="{% url 'admin:index' %}">
+                      <h3 class="text-secondary">Admin</h3>
+                    </a>
+                  </li>
+                  {% endif %}
+                  <li>
+                    <form action="{% url 'search_results' %}" method="get">
+                        {% csrf_token %}
+
+                        <input name="q" type="text" placeholder="Search..."/>
+                        <button class="button" type="submit"><span class="material-symbols-outlined" id="search-icon">search</span></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <div class="heading">
+            <a href="{% url 'home' %}"><h1 class="header" >Vinyl Reserve</h1></a>
+            <div class="search-form">
+            </div>
+        </div>
+    </header>
+        {% block content %}
+        {% endblock content %}
+        <footer>
+            <div>Copyright 2023 by David "Lewey" Melchor</div>
+            <div>The Finest Records In The Bin</div>
+        </footer>
+    </body>
+</html>
