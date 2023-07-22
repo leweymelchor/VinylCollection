@@ -14,7 +14,7 @@
             {% endif %}
             <h3>{{ record.album | default_if_none:"Unknown" }}</h3>
             <p>{{ record.date | default_if_none:"Unknown" }}</p>
-            <p>{{ record.price | default_if_none:"Unknown" }}</p>
+            <p>$ {{ record.price | default_if_none:"Unknown" }}</p>
           </div>
       </div>
       <div class="edit-delete-buttons">

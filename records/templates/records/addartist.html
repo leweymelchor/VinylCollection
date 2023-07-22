@@ -3,10 +3,10 @@
 {% block content %}
   <body>
     <main>
-        <h3 class="form-title">Add Artist</h3>
+        <h3 class="form-title">	&lowast; Add Artist</h3>
         <form class="artist-form" method="post">
             {% csrf_token %}
-            {{ form.as_p }}
+            <p><label>Artist:</label>{{ form.artist }}</p>
             <div class="form-button">
             <button type="submit">Add</button>
             </div>

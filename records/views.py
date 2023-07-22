@@ -7,7 +7,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 from django.core.paginator import Paginator
 
-from records.forms import SignUpForm, ProfileForm
+from records.forms import SignUpForm, ProfileForm#, LoginForm
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
 
@@ -38,7 +38,7 @@ class SearchResultsView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     def get_queryset(self, *args, **kwargs):
         query = self.request.GET.get("q")
         return Record.objects.filter(
-        Q(album__icontains=query) | Q(artist__artist__icontains=query)).order_by('artist', 'date')
+        Q(album__icontains=query) | Q(artist__artist__icontains=query) | Q(date__icontains=query)).order_by('artist', 'date')
 
     def get_title(self):
         query = self.request.GET.get("q")
@@ -82,8 +82,6 @@ class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     def get_queryset(self):
         owner = self.request.user.id
         return Record.objects.filter(owner=owner).order_by('artist', 'date')
-
-
 
 
 # LISTS ALL RECORDS BY SELECTED ARTIST
@@ -150,3 +148,10 @@ class ProfileView(LoginRequiredMixin, PageTitleViewMixin, UpdateView):
 
     def get_title(self):
         return "Update " + self.object.username + "'s Profile"
+
+
+# class LoginView(PageTitleViewMixin):
+#     form_class = LoginForm
+#     success_url = reverse_lazy('home')
+#     template_name = 'registration/login.html'
+#     title = "Vinyl Reserve Log-in"
