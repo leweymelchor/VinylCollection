@@ -15,6 +15,9 @@ from records.models import Artist, Record
 
 from django.db.models import Q
 
+from django.shortcuts import get_object_or_404
+from django.db.models import Sum
+
 
 # CREATES TITLES FOR EACH TEMPLATE VIEW
 class PageTitleViewMixin:
@@ -81,7 +84,28 @@ class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
 
     def get_queryset(self):
         owner = self.request.user.id
-        return Record.objects.filter(owner=owner).order_by('artist', 'date')
+
+        records = Record.objects.filter(owner=owner).order_by('artist', 'date')
+
+        total = records.aggregate(total=Sum('price'))['total']
+
+        if total is None:
+            total = 0
+
+        # Add the total_price to the view's context data
+        self.total = total
+        return records
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        def format_with_commas(number):
+            parts = f"{number:,.2f}".split(".")
+            return ".".join(parts)
+
+        number = self.total
+        formatted_number = format_with_commas(number)
+        context['total'] = formatted_number
+        return context
 
 
 # LISTS ALL RECORDS BY SELECTED ARTIST
