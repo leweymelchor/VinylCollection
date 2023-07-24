@@ -672,11 +672,31 @@ form > p > select {
 
     margin-top: 15px;
     margin-bottom: 25px;
+    /* margin-left: auto;
+    margin-right: auto; */
 
     background-color: rgba(255, 255, 255, 0.6);
 
     color: rgb(255, 255, 255);
 }
+
+/* .signup-form {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-inline-start: 20%;
+} */
+
+/* .password-drop-down {
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: rgb(0, 0, 0);
+} */
 
 .login-card {
     width: 250px;

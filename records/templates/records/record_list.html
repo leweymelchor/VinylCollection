@@ -4,7 +4,6 @@
   <body>
     {% comment %} Main Card List Start {% endcomment %}
     <main>
-      <h3>Value: $ {{ total }}</h3>
       <div class="container-list-albums">
         {% for record in records %}
         {% if user == record.owner %}
@@ -39,6 +38,7 @@
           {% endif %}
         </span>
       </div>
+      <h3>Est. Value: $ {{ total }}</h3>
     </main>
   </body>
 {% endblock content %}

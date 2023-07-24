@@ -51,7 +51,7 @@ class SearchResultsView(LoginRequiredMixin, PageTitleViewMixin, ListView):
 # ADD NEW ARTIST
 class ArtistCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     model = Artist
-    template_name = "records/addartist.html"
+    template_name = "records/artist_add.html"
     fields = ["artist"]
     success_url = reverse_lazy("record_add")
     title = "New Artist"
@@ -64,7 +64,7 @@ class ArtistCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
 # CREATES RECORDS
 class RecordCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     model = Record
-    template_name = "records/add.html"
+    template_name = "records/record_add.html"
     fields = ["album", "artist", "artwork", "date", "price"]
     success_url = reverse_lazy("records_list")
     title = "New Record"
@@ -78,7 +78,7 @@ class RecordCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
 class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
     paginate_by = 10
     model = Record
-    template_name = "records/list.html"
+    template_name = "records/record_list.html"
     title = "Vinyl Reserve"
     context_object_name = "records"
 
@@ -127,7 +127,7 @@ class ArtistRecordsView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
 # SHOWS DETAILS OF SELECTED RECORD
 class RecordDetailView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
     model = Record
-    template_name = "records/recorddetail.html"
+    template_name = "records/record_detail.html"
 
     def get_title(self):
         return str(self.object.album)
@@ -136,7 +136,7 @@ class RecordDetailView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
 # EDITS SELECTED RECORD
 class RecordUpdateView(LoginRequiredMixin, PageTitleViewMixin, UpdateView):
     model = Record
-    template_name = "records/edit.html"
+    template_name = "records/record_edit.html"
     fields = ["artist", "album", "artwork", "date", "price"]
 
     def get_success_url(self):
@@ -150,7 +150,7 @@ class RecordUpdateView(LoginRequiredMixin, PageTitleViewMixin, UpdateView):
 # DELETES SELECTED RECORD
 class RecordDeleteView(LoginRequiredMixin, PageTitleViewMixin, DeleteView):
     model = Record
-    template_name = "records/delete.html"
+    template_name = "records/record_delete.html"
     success_url = reverse_lazy("records_list")
 
     def get_title(self):
