@@ -4,9 +4,9 @@
 {% block content %}
   <body>
     <main>
-        <h2>Log In</h2>
+        <h2 class="login-title">Log In</h2>
         <div class="login-card">
-          <form method="post">
+          <form class="login-form2" method="post">
             {% csrf_token %}
             <p><label>Username:</label>{{ form.username }}{{ form.username.attrs }}</p>
             <p><label>Password:</label>{{ form.password }}{{ form.password.attrs }}</p>

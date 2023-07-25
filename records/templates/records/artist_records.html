@@ -10,15 +10,13 @@
           <div class="record-card">
             {% if rec.artwork %}
               <a href="{% url 'record_detail' rec.pk %}">
-                <img src="{{ rec.artwork }}"
-                  height="250"
-                  width="250"
+                <img class="album-art" src="{{ rec.artwork }}"
                   alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
               </a>
             {% endif %}
-            <a href="{% url 'record_detail' rec.pk %}"> <h3>{{ rec.album | default_if_none:"Unknown" }}</h3></a>
-            <p>{{ rec.date | default_if_none:"Unknown" }}</p>
-            <p>$ {{ rec.price | default_if_none:"Unknown" }}</p>
+            <a class="text-link" href="{% url 'record_detail' rec.pk %}"> <h3>{{ rec.album | default_if_none:"Unknown" }}</h3></a>
+            <p class="text-date">{{ rec.date | default_if_none:"Unknown" }}</p>
+            <p class="text-price">$ {{ rec.price | default_if_none:"Unknown" }}</p>
           </div>
         {% endfor %}
       </div>
