@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <body>
+    <main>
+      <h1 class="album-title"><a href="{% url 'artist_records' record.pk %}"><b>{{ record.album | default_if_none:"Unknown" }}</b></a></h1>
+      <div class="artist-detail-grid">
+          <div class="detail-record-card">
+            {% if record.artwork %}
+              <img
+                class="album-art"
+                src="{{ record.artwork }}"
+                alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+            {% endif %}
+            <h3 class="album-title-detail">{{ record.artist | default_if_none:"Unknown" }}</h3>
+            <h3 class="album-title-detail">{{ record.album | default_if_none:"Unknown" }}</h3>
+            <p class="text-date">{{ record.date | default_if_none:"Unknown" }}</p>
+            <p class="text-price">$ {{ record.price | default_if_none:"Unknown" }}</p>
+          </div>
+      </div>
+      <div class="edit-delete-buttons">
+        <a class="edit" href="{% url 'record_edit' record.id %}">Edit</a>
+        <a class="delete" href="{% url 'record_delete' record.id %}">Delete</a>
+      </div>
+    </main>
+  </body>
+{% endblock content %}

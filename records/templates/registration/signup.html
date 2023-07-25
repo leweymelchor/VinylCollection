@@ -3,18 +3,26 @@
 {% block content %}
   <body>
     <main>
-        <h2>Sign-up</h2>
+        <h2 class="signup-title">Sign-up</h2>
         <div class="signup-card">
-          <form method="post">
+          <form class="signup-form" method="post">
             {% csrf_token %}
-            <p><label>Username:</label>{{ form.username }}</p>
-            <p><label>First name:</label>{{ form.first_name }}</p>
-            <p><label>Last name:</label>{{ form.last_name }}</p>
-            <p><label>E-mail:</label>{{ form.email }}</p>
-            <p><label>Password:</label>{{ form.password1 }}</p>
-            <p><label>Password confirmation:</label>{{ form.password2 }}</p>
+            <p><label>	&lowast; Username:</label>{{ form.username }}{{form.username.attrs }}</p>
+            <p><label>First name:</label>{{ form.first_name }}{{form.first_name.attrs }}</p>
+            <p><label>Last name:</label>{{ form.last_name }}{{form.last_name.attrs }}</p>
+            <p><label>E-mail:</label>{{ form.email }}{{form.email.attrs }}</p>
+            <p><label>	&lowast; Password:</label>{{ form.password1 }}{{form.password1.attrs }}</p>
+            {% comment %}
+            <ul class="password-drop-down">
+              <li>Your password can't be too similar to your other personal information.</li>
+              <li>Your password must contain at least 8 characters.</li>
+              <li>Your password can't be a commonly used password.</li>
+              <li>Your password can't be entirely numeric.</li>
+            </ul>
+            {% endcomment %}
+            <p><label>	&lowast; Password confirmation:</label>{{ form.password2 }}{{form.password2.attrs }}</p>
             <div class="register-button">
-              <button class="register" type="submit">Register</button>
+              <button class="register" type="submit">Sign-up</button>
             </div>
         </form>
       </div>

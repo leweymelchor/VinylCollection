@@ -6,25 +6,24 @@
     <main>
       <div class="container-list-albums">
         {% for record in records %}
-        {% if user == record.owner %}
+          {% if user == record.owner %}
             <div class="card">
               {% if record.artwork %}
                 <a href="{% url 'record_detail' record.pk %}">
                     <img
+                        class="album-art"
                         src="{{ record.artwork }}"
-                        height="200"
-                        width="200"
                         alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
                 </a>
               {% endif %}
-              <div>
-                <a href="{% url 'artist_records' record.pk %}">{{ record.artist }}</a>
-                <a href="{% url 'record_detail' record.pk %}"> <p>{{ record.album }}</p></a>
+              <div class="text-container">
+                <a class="text-link" href="{% url 'artist_records' record.pk %}">{{ record.artist }}</a>
+                <a class="text-link" href="{% url 'record_detail' record.pk %}"> <p>{{ record.album }}</p></a>
               </div>
             </div>
-            {% endif %}
+          {% endif %}
         {% endfor %}
-        </div>
+      </div>
       <div class="pagination">
         <span class="step-links">
           {% if page_obj.has_previous %}

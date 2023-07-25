@@ -11,14 +11,14 @@
             <div class="artist-detail-grid">
                 <div class="delete-record-card">
                   {% if record.artwork %}
-                    <img src="{{ record.artwork }}"
-                      height="250"
-                      width="250"
-                      alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
+                    <img
+                        class="album-art"
+                        src="{{ record.artwork }}"
+                        alt="album artwork for {{ record.album }} by {{ record.artist }}"/>
                   {% endif %}
-                  <h3>{{ record.album | default_if_none:"Unknown" }}</h3>
-                  <p>{{ record.date | default_if_none:"Unknown" }}</p>
-                  <p>{{ record.price | default_if_none:"Unknown" }}</p>
+                  <h3 class="album-title-detail">{{ record.album | default_if_none:"Unknown" }}</h3>
+                  <p class="text-date">{{ record.date | default_if_none:"Unknown" }}</p>
+                  <p class="text-price">{{ record.price | default_if_none:"Unknown" }}</p>
                 </div>
             </div>
             <div class="delete-container">
