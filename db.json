@@ -2,8 +2,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$320000$w1rxqjf3u5qN4zWX6XOoMK$lagxIlqEiglXjl3Cr4Ew8evL3TqSRuTDcah4/eYL3e4=",
-        "last_login": "2023-07-05T00:18:14.358Z",
+        "password": "pbkdf2_sha256$320000$HBW3cqwrnZ7MwvvTJVsE8W$D7D73eWBo1NCnSDbTNIReGLjJe2G72WpcHd7GcBwYro=",
+        "last_login": "2023-07-25T23:37:02.761Z",
         "is_superuser": true,
         "username": "Lewey",
         "first_name": "",
@@ -19,8 +19,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$320000$kRFACUZLznper37h0H0K2A$iDlFCeHqRLRi4hjSgxykRl5ZJdjxig4Whe8ppya0Oso=",
-        "last_login": "2023-07-05T00:15:52.563Z",
+        "password": "pbkdf2_sha256$600000$EDebj1meAi0f0MoI5n0EkS$HLuJXtRSiTrkLw/sXFY57XgzueXGr1OI5wjvdoWyavc=",
+        "last_login": "2023-07-22T22:57:15.297Z",
         "is_superuser": false,
         "username": "Briana",
         "first_name": "Briana",
@@ -34,11 +34,44 @@
     }
 },
 {
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$iTuqJEhRE8NSXCq562D5NE$JQgveK301goO4GVFcwRtCDY6mcKNI0h7+EkITU6MY48=",
+        "last_login": "2023-07-25T23:18:21.426Z",
+        "is_superuser": false,
+        "username": "demo",
+        "first_name": "demo",
+        "last_name": "demo",
+        "email": "demo@demo.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-23T00:58:37.445Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
     "model": "sessions.session",
     "pk": "15o637gbx5v7kbn4qf2e95pj3wz51pkt",
     "fields": {
         "session_data": ".eJxVjMsOwiAQRf-FtSFQGB4u3fsNhIFBqgaS0q6M_65NutDtPefcFwtxW2vYBi1hzuzMJDv9bhjTg9oO8j22W-ept3WZke8KP-jg157peTncv4MaR_3WmMgJY5QmUwiKVRq88iI64a0EsGhLNKgwF1IJrEwiFemEtpObwBti7w_X_Dda:1qBi4F:ZGbI3Mwoltk-86xzabVPoVS1E5Np1ajlAjYvpqk3U4w",
         "expire_date": "2023-07-04T20:35:11.875Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4fibwc9kjlkabeyv4cufp09z95703zxi",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAUBf-la9PQa2mpS_d8A7kvLGpKQmFl_HclYaHbMzPnZQbc1jxsVZdhEnMxzpx-N0J-aNmB3LHcZstzWZeJ7K7Yg1bbz6LP6-H-HWSs-VsTR6DG8RjH1kMQpNAmJ51AIvAdauhSAuIG5NxGjIoQHatnwTQmH8z7A-8zODw:1qORaQ:q0TMQPoitza7ubvG1E1lMvkMPKW2f6R-_YX3EuaQBgw",
+        "expire_date": "2023-08-08T23:37:02.762Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9x0xmj1ipnrygw54d2x3m7wfoui4g9ky",
+    "fields": {
+        "session_data": ".eJxVjEEOgjAQRe_StWmYTqGDS_ecoZm2U0FNSSisjHcXEha6_e-9_1aet3X0W5XFT0ldFarL7xY4PqUcID243Gcd57IuU9CHok9a9TAned1O9-9g5DrudQMOO-a-DdhYdAacTZgzGCBH1HUIEqM1YrmXTNLuAlBuTaTUA4WoPl-v_zbu:1qORIL:szHaj8Hp_q-SZRCwKImjIPrvgwZr4x8-bft_uwQmvCU",
+        "expire_date": "2023-08-08T23:18:21.427Z"
     }
 },
 {
@@ -1516,6 +1549,7 @@
         "album": "Free 6lack",
         "artist": 1,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/6/6c/FREE6LACKalbum.jpg",
+        "attachment": "",
         "date": "2016-11-01",
         "price": null,
         "owner": [
@@ -1530,6 +1564,7 @@
         "album": "The Low End Theory",
         "artist": 2,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/ATribeCalledQuestTheLowEndtheory.jpg/220px-ATribeCalledQuestTheLowEndtheory.jpg",
+        "attachment": "",
         "date": "1991-09-01",
         "price": "33.99",
         "owner": [
@@ -1544,6 +1579,7 @@
         "album": "Midnight Marauders",
         "artist": 2,
         "artwork": "https://m.media-amazon.com/images/I/61PyCnl6GfL._SX300_SY300_QL70_FMwebp_.jpg",
+        "attachment": "",
         "date": "1993-11-01",
         "price": "19.99",
         "owner": [
@@ -1558,6 +1594,7 @@
         "album": "High Voltage",
         "artist": 3,
         "artwork": "https://m.media-amazon.com/images/I/61rfs6u0R3L._SX522_.jpg",
+        "attachment": "",
         "date": "1976-04-01",
         "price": null,
         "owner": [
@@ -1572,6 +1609,7 @@
         "album": "The Road Starts Here",
         "artist": 4,
         "artwork": "https://m.media-amazon.com/images/I/81bwWlqztrL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1971-01-01",
         "price": "21.99",
         "owner": [
@@ -1586,6 +1624,7 @@
         "album": "Toys in the Attic",
         "artist": 4,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/37/Aerosmith_-_Toys_in_the_Attic.jpg",
+        "attachment": "",
         "date": "1975-04-01",
         "price": "24.99",
         "owner": [
@@ -1600,6 +1639,7 @@
         "album": "Gets Next To You",
         "artist": 5,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273fec6bb271749b854c35e5f5c",
+        "attachment": "",
         "date": "1971-03-01",
         "price": null,
         "owner": [
@@ -1614,6 +1654,7 @@
         "album": "Lets Stay Together",
         "artist": 5,
         "artwork": "https://i.discogs.com/24ZtmnFXiAZJVkSzPgJA6BQ0q9T45RRUsEDhR_jrlZo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzI5/ODYtMTQzODA5Mjk1/OS03MjMxLmpwZWc.jpeg",
+        "attachment": "",
         "date": "1972-01-01",
         "price": null,
         "owner": [
@@ -1628,6 +1669,7 @@
         "album": "I’m Still In Love With You",
         "artist": 5,
         "artwork": "https://cdn.shopify.com/s/files/1/0658/8461/products/AlGreen_ImStillInLoveWithYou_3000_081b4607-44ec-4ec0-9d8a-509e28027da2_3000x.jpg?v=1669240813",
+        "attachment": "",
         "date": "1972-10-01",
         "price": null,
         "owner": [
@@ -1642,6 +1684,7 @@
         "album": "Swinging on Broadway",
         "artist": 6,
         "artwork": "https://m.media-amazon.com/images/I/81pXJPzmqOL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1960-01-01",
         "price": "2.29",
         "owner": [
@@ -1656,6 +1699,7 @@
         "album": "jagged little pill",
         "artist": 7,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg",
+        "attachment": "",
         "date": "1995-06-01",
         "price": "25.99",
         "owner": [
@@ -1670,6 +1714,7 @@
         "album": "Dirt",
         "artist": 8,
         "artwork": "https://m.media-amazon.com/images/I/81g0YcT68pL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1992-09-01",
         "price": "34.99",
         "owner": [
@@ -1684,6 +1729,7 @@
         "album": "Christmas with the Chipmunks",
         "artist": 9,
         "artwork": "https://m.media-amazon.com/images/I/81nXkL10MML._SX522_.jpg",
+        "attachment": "",
         "date": "1962-12-01",
         "price": "20.68",
         "owner": [
@@ -1698,6 +1744,7 @@
         "album": "Pulp (Directors Cut)",
         "artist": 10,
         "artwork": "https://cdn.shoplightspeed.com/shops/636018/files/34209686/1500x4000x3/ambre-pulp-directors-cut-2lp.jpg",
+        "attachment": "",
         "date": "2019-11-01",
         "price": null,
         "owner": [
@@ -1712,6 +1759,7 @@
         "album": "I Can’t Stand the Rain",
         "artist": 11,
         "artwork": "https://www.mbmusic.it/wp-content/uploads/2020/03/I-Cant-Stand-the-Rain-Ann-Peebles.jpg",
+        "attachment": "",
         "date": "1974-01-01",
         "price": null,
         "owner": [
@@ -1726,6 +1774,7 @@
         "album": "Aretha",
         "artist": 12,
         "artwork": "https://m.media-amazon.com/images/I/91yNeMEcwWL._SL1425_.jpg",
+        "attachment": "",
         "date": "2021-01-01",
         "price": null,
         "owner": [
@@ -1740,6 +1789,7 @@
         "album": "PHO",
         "artist": 13,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f6/Ari_Lennox_Pho.JPG",
+        "attachment": "",
         "date": "2016-01-01",
         "price": null,
         "owner": [
@@ -1754,6 +1804,7 @@
         "album": "Shea Butter Baby",
         "artist": 13,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0c/Ari_SBB.jpg",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -1768,6 +1819,7 @@
         "album": "Audio Slave",
         "artist": 14,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273a7292b6863258e889b78d787",
+        "attachment": "",
         "date": "2002-11-01",
         "price": "31.99",
         "owner": [
@@ -1782,6 +1834,7 @@
         "album": "City of Evil",
         "artist": 15,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7b/City_of_Evil_album_cover.jpg",
+        "attachment": "",
         "date": "2005-06-01",
         "price": "35.99",
         "owner": [
@@ -1796,6 +1849,7 @@
         "album": "The Best of B.B. King",
         "artist": 16,
         "artwork": "https://m.media-amazon.com/images/I/717jdPLexwL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": "1.00",
         "owner": [
@@ -1810,6 +1864,7 @@
         "album": "Stunt",
         "artist": 17,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/47/Barenaked_Ladies_-_Stunt.jpg",
+        "attachment": "",
         "date": "1998-07-01",
         "price": "34.99",
         "owner": [
@@ -1824,6 +1879,7 @@
         "album": "Pet Sounds",
         "artist": 18,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bb/PetSoundsCover.jpg",
+        "attachment": "",
         "date": "1966-01-01",
         "price": null,
         "owner": [
@@ -1838,6 +1894,7 @@
         "album": "Nine Beethoven Symphonies",
         "artist": 19,
         "artwork": "https://i.discogs.com/gRD0py-P6LhTwOPt1Ofw-5wu4NdECCENp8DWrwgxDhQ/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzEw/MzgtMTYwNzYyNTU5/NS0yNTU1LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1958-01-01",
         "price": "3.29",
         "owner": [
@@ -1852,6 +1909,7 @@
         "album": "Lets Dance with Benny Goodman",
         "artist": 20,
         "artwork": "https://i.discogs.com/JzNOEUqWBEcL1L2Qprl3aIW4BWxbGw8TX41rV2cGGak/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MzY2/MDItMTQ3MTY0MzEz/NC01NzM3LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1947-01-01",
         "price": "5.00",
         "owner": [
@@ -1866,6 +1924,7 @@
         "album": "This is Benny Goodman",
         "artist": 20,
         "artwork": "https://i.discogs.com/3MOtOEBUPN6IAGhSvbw8qiiF3MwWvrMoCX3Ru_NRqO8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3Njk5/MDAtMTQyNjI2MjIy/Mi0yNTkyLmpwZWc.jpeg",
+        "attachment": "",
         "date": "1971-01-01",
         "price": "4.00",
         "owner": [
@@ -1880,6 +1939,7 @@
         "album": "Betty Davis",
         "artist": 21,
         "artwork": "https://light-in-the-attic.s3.amazonaws.com/uploads/release_image/162/image/large_550_bettydavis-bettydavis-cover.jpg",
+        "attachment": "",
         "date": "1973-01-01",
         "price": null,
         "owner": [
@@ -1894,6 +1954,7 @@
         "album": "Cheap Thrills",
         "artist": 22,
         "artwork": "https://m.media-amazon.com/images/I/913wQUYhz+L._SX522_.jpg",
+        "attachment": "",
         "date": "1968-08-01",
         "price": "59.99",
         "owner": [
@@ -1908,6 +1969,7 @@
         "album": "Detroit 2",
         "artist": 23,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/a3/Big_Sean_-_Detroit_2.gif",
+        "attachment": "",
         "date": "2020-01-01",
         "price": null,
         "owner": [
@@ -1922,6 +1984,7 @@
         "album": "Greatest Hits - Just the Two of Us & Soul Shadows",
         "artist": 24,
         "artwork": "https://cdn.shopify.com/s/files/1/0570/3919/2106/products/3891647-2662760.jpg?v=1652204690",
+        "attachment": "",
         "date": "1981-01-01",
         "price": null,
         "owner": [
@@ -1936,6 +1999,7 @@
         "album": "Don’t Smile at Me",
         "artist": 25,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2f/Billie_Eilish_-_Don%27t_Smile_at_Me.png",
+        "attachment": "",
         "date": "2017-01-01",
         "price": null,
         "owner": [
@@ -1950,6 +2014,7 @@
         "album": "When We All Fall Asleep, Where Do We Go?",
         "artist": 25,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -1964,6 +2029,7 @@
         "album": "Lady Sings the Blues",
         "artist": 26,
         "artwork": "https://billieholiday.com/wp-content/uploads/2013/08/ladysingstheblues-1.jpg",
+        "attachment": "",
         "date": "1956-01-01",
         "price": "43.00",
         "owner": [
@@ -1978,6 +2044,7 @@
         "album": "Christmas Classics",
         "artist": 27,
         "artwork": "https://m.media-amazon.com/images/I/41BkKv30NkL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1949-01-01",
         "price": "24.99",
         "owner": [
@@ -1992,6 +2059,7 @@
         "album": "Black Sabbath",
         "artist": 28,
         "artwork": "https://m.media-amazon.com/images/I/81K4W71c38L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1970-06-01",
         "price": "29.99",
         "owner": [
@@ -2006,6 +2074,7 @@
         "album": "Paranoid",
         "artist": 28,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273d5fccf9ce08b6a1e7d12a222",
+        "attachment": "",
         "date": "1971-01-01",
         "price": null,
         "owner": [
@@ -2020,6 +2089,7 @@
         "album": "Buddha",
         "artist": 29,
         "artwork": "https://m.media-amazon.com/images/I/71I4DBP69IL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": "31.99",
         "owner": [
@@ -2034,6 +2104,7 @@
         "album": "Exodus",
         "artist": 30,
         "artwork": "https://i.discogs.com/7euFMytBkAZGvAdKZv93lq2ilW6mzmuKckOYN6FSQ80/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNTY4/OS0xNTQzNTc4Mzcz/LTM5ODAuanBlZw.jpeg",
+        "attachment": "",
         "date": "1977-06-01",
         "price": "29.99",
         "owner": [
@@ -2048,6 +2119,7 @@
         "album": "Unorthodox Jukebox",
         "artist": 31,
         "artwork": "https://i.discogs.com/FX3NljY5t-uH30aNydtzCSnUh7VFRxcB3jqSYMFzYzo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU3ODUw/MzEtMTQwMjU4ODg5/NC0xODc4LmpwZWc.jpeg",
+        "attachment": "",
         "date": "2012-12-01",
         "price": "24.99",
         "owner": [
@@ -2062,6 +2134,7 @@
         "album": "Trap Soul",
         "artist": 32,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4e/Trapsoulalbum.jpeg",
+        "attachment": "",
         "date": "2015-09-01",
         "price": null,
         "owner": [
@@ -2076,6 +2149,7 @@
         "album": "Cage the Elephant",
         "artist": 33,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/95/Cage_the_elephant_album.jpg",
+        "attachment": "",
         "date": "2008-06-01",
         "price": null,
         "owner": [
@@ -2090,6 +2164,7 @@
         "album": "Camila",
         "artist": 34,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/97/Camila_%28Official_Album_Cover%29_by_Camila_Cabello.png",
+        "attachment": "",
         "date": "2018-01-01",
         "price": null,
         "owner": [
@@ -2104,6 +2179,7 @@
         "album": "10 Day",
         "artist": 35,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/11/Chance10Day.jpeg",
+        "attachment": "",
         "date": "2012-01-01",
         "price": "89.99",
         "owner": [
@@ -2118,6 +2194,7 @@
         "album": "Acid Rap",
         "artist": 35,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273d95ab48a8a9de3c4a2cbfe80",
+        "attachment": "",
         "date": "2013-01-01",
         "price": "42.24",
         "owner": [
@@ -2132,6 +2209,7 @@
         "album": "Los Cochinos",
         "artist": 36,
         "artwork": "https://m.media-amazon.com/images/I/41KPEHWWR4L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1973-01-01",
         "price": "1.00",
         "owner": [
@@ -2146,6 +2224,7 @@
         "album": "Because the Internet",
         "artist": 37,
         "artwork": "https://target.scene7.com/is/image/Target/GUEST_592e2ef9-8208-4660-8dce-6cb86b2e5316?wid=325&hei=325&qlt=80&fmt=pjpeg",
+        "attachment": "",
         "date": "2013-01-01",
         "price": "29.99",
         "owner": [
@@ -2160,6 +2239,7 @@
         "album": "“Awaken, My Love!”",
         "artist": 37,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/10/Childish_Gambino_-_Awaken%2C_My_Love%21.png",
+        "attachment": "",
         "date": "2016-01-01",
         "price": null,
         "owner": [
@@ -2174,6 +2254,7 @@
         "album": "Live From Blueberry Hill",
         "artist": 38,
         "artwork": "https://m.media-amazon.com/images/I/71s0kVezj-L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2021-01-01",
         "price": null,
         "owner": [
@@ -2188,6 +2269,7 @@
         "album": "A Gift to Pops - The Wonderful World of Louis Armstrong all stars",
         "artist": 39,
         "artwork": "https://cdn.louisianamusicfactory.com/media/wp-content/uploads/2021/10/15124443/a-gift-to-pops.jpg",
+        "attachment": "",
         "date": "2021-01-01",
         "price": null,
         "owner": [
@@ -2202,6 +2284,7 @@
         "album": "Basie at Birdland",
         "artist": 40,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Basie_at_Birdland.jpeg/220px-Basie_at_Birdland.jpeg",
+        "attachment": "",
         "date": "1961-07-01",
         "price": "2.29",
         "owner": [
@@ -2216,6 +2299,7 @@
         "album": "Pop Goes the Basie",
         "artist": 40,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/59/Pop_Goes_the_Basie.jpg",
+        "attachment": "",
         "date": "1965-01-01",
         "price": "2.29",
         "owner": [
@@ -2230,6 +2314,7 @@
         "album": "My Own Prison",
         "artist": 41,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9e/Creed_My_Own_Prison.jpg",
+        "attachment": "",
         "date": "1997-06-01",
         "price": "24.99",
         "owner": [
@@ -2244,6 +2329,7 @@
         "album": "Human Clay",
         "artist": 41,
         "artwork": "https://m.media-amazon.com/images/I/71nXtTZpY6L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1999-01-01",
         "price": null,
         "owner": [
@@ -2258,6 +2344,7 @@
         "album": "Curtis",
         "artist": 42,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Curtismayfield-1970lp.jpg/220px-Curtismayfield-1970lp.jpg",
+        "attachment": "",
         "date": "1970-01-01",
         "price": "31.99",
         "owner": [
@@ -2272,6 +2359,7 @@
         "album": "Roots",
         "artist": 42,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4c/Curtis_Mayfield_-_Roots_album_cover.jpg",
+        "attachment": "",
         "date": "1971-01-01",
         "price": null,
         "owner": [
@@ -2286,6 +2374,7 @@
         "album": "Super Fly",
         "artist": 42,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/26/CurtisMayfieldSuperfly.jpg",
+        "attachment": "",
         "date": "1972-01-01",
         "price": null,
         "owner": [
@@ -2300,6 +2389,7 @@
         "album": "Homework",
         "artist": 43,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Daftpunk-homework.jpg",
+        "attachment": "",
         "date": "1997-01-01",
         "price": null,
         "owner": [
@@ -2314,6 +2404,7 @@
         "album": "Random Access Memories",
         "artist": 43,
         "artwork": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+        "attachment": "",
         "date": "2013-01-01",
         "price": null,
         "owner": [
@@ -2328,6 +2419,7 @@
         "album": "David Bowie (Space Oddity)",
         "artist": 44,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b9/DavidBowiePhilips.jpg",
+        "attachment": "",
         "date": "1969-11-01",
         "price": "24.99",
         "owner": [
@@ -2342,6 +2434,7 @@
         "album": "Young Americans",
         "artist": 44,
         "artwork": "https://m.media-amazon.com/images/I/71E8AwdAlTL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1975-01-01",
         "price": null,
         "owner": [
@@ -2356,6 +2449,7 @@
         "album": "A winter romance",
         "artist": 45,
         "artwork": "https://m.media-amazon.com/images/I/61F2CZUZ3CL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1959-11-01",
         "price": "29.99",
         "owner": [
@@ -2370,6 +2464,7 @@
         "album": "Here You Come Again",
         "artist": 46,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/47/Hereyoucomeagain.jpg",
+        "attachment": "",
         "date": "1977-01-01",
         "price": "1.00",
         "owner": [
@@ -2384,6 +2479,7 @@
         "album": "How The Grinch Stole Christmas",
         "artist": 47,
         "artwork": "https://i.scdn.co/image/ab67616d0000b2733c7c2f36269debe54658e0f2",
+        "attachment": "",
         "date": "1966-12-01",
         "price": "32.99",
         "owner": [
@@ -2398,6 +2494,7 @@
         "album": "Take Care",
         "artist": 48,
         "artwork": "https://m.media-amazon.com/images/I/51VrAqTZoPL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2011-01-01",
         "price": null,
         "owner": [
@@ -2412,6 +2509,7 @@
         "album": "Nothing Was the Same",
         "artist": 48,
         "artwork": "https://m.media-amazon.com/images/I/41aLMoRW0HL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2013-01-01",
         "price": null,
         "owner": [
@@ -2426,6 +2524,7 @@
         "album": "If You’re Reading This It’s Too Late",
         "artist": 48,
         "artwork": "https://i.scdn.co/image/ab67616d0000b2732090f4f6cc406e6d3c306733",
+        "attachment": "",
         "date": "2016-01-01",
         "price": "28.24",
         "owner": [
@@ -2440,6 +2539,7 @@
         "album": "Views",
         "artist": 48,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/af/Drake_-_Views_cover.jpg",
+        "attachment": "",
         "date": "2016-01-01",
         "price": "39.99",
         "owner": [
@@ -2454,6 +2554,7 @@
         "album": "What A Time To Be Alive",
         "artist": 48,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/94/Drake_and_Future_-_What_a_Time_to_Be_Alive_cover.jpg",
+        "attachment": "",
         "date": "2015-01-01",
         "price": null,
         "owner": [
@@ -2468,6 +2569,7 @@
         "album": "Sinners",
         "artist": 50,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4f/DrowningpoolsinnerAP.JPG",
+        "attachment": "",
         "date": "2001-01-01",
         "price": null,
         "owner": [
@@ -2482,6 +2584,7 @@
         "album": "Doris",
         "artist": 51,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/40/Earl_Sweatshirt_Doris.jpg",
+        "attachment": "",
         "date": "2013-01-01",
         "price": null,
         "owner": [
@@ -2496,6 +2599,7 @@
         "album": "Mirror Land",
         "artist": 52,
         "artwork": "https://media.pitchfork.com/photos/5d76619f53e80c0008f437cc/1:1/w_600/earthgang_mirrorland.jpeg",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -2510,6 +2614,7 @@
         "album": "The Best of Earth Wind & Fire Vol. 1",
         "artist": 53,
         "artwork": "https://m.media-amazon.com/images/I/71csVS21jkL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1978-01-01",
         "price": null,
         "owner": [
@@ -2524,6 +2629,7 @@
         "album": "Ella & Louis",
         "artist": 54,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0d/Ellaandlouis.jpg",
+        "attachment": "",
         "date": "1956-01-01",
         "price": "14.99",
         "owner": [
@@ -2538,6 +2644,7 @@
         "album": "3 LP Set Time, Chance & Ready",
         "artist": 55,
         "artwork": "https://cdn.shopify.com/s/files/1/1377/6983/products/R-22988654-1651182375-7620_1296x.jpg?v=1651344580",
+        "attachment": "",
         "date": "2017-02-01",
         "price": "39.99",
         "owner": [
@@ -2552,6 +2659,7 @@
         "album": "From a Basement on the Hill",
         "artist": 56,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/8/8c/Elliott_smith_from_a_basement_on_the_hill_cover.jpg",
+        "attachment": "",
         "date": "2004-01-01",
         "price": "30.99",
         "owner": [
@@ -2566,6 +2674,7 @@
         "album": "An Introduction to… Elliott Smith",
         "artist": 56,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/52/Es_anintroduction.jpg",
+        "attachment": "",
         "date": "2010-01-01",
         "price": null,
         "owner": [
@@ -2580,6 +2689,7 @@
         "album": "Victim of Love",
         "artist": 57,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/a9/Album_Victim_of_Love.jpg",
+        "attachment": "",
         "date": "1979-01-01",
         "price": "1.00",
         "owner": [
@@ -2594,6 +2704,7 @@
         "album": "The Classic Christmas Album",
         "artist": 58,
         "artwork": "https://m.media-amazon.com/images/I/71yAA0w2NEL._SX522_.jpg",
+        "attachment": "",
         "date": "1957-01-01",
         "price": null,
         "owner": [
@@ -2608,6 +2719,7 @@
         "album": "Elvis’ Christmas Album",
         "artist": 58,
         "artwork": "https://i.discogs.com/RMw3AEXBhdgZk1v07_1G-i8ugLeYIRZoqJ6l8Thcj40/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjE5/MzctMTYxMDMwMjMy/NS04OTQ0LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1957-01-01",
         "price": null,
         "owner": [
@@ -2622,6 +2734,7 @@
         "album": "at last!",
         "artist": 59,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/fd/At_Last_-_Etta_James.jpg",
+        "attachment": "",
         "date": "1960-01-01",
         "price": null,
         "owner": [
@@ -2636,6 +2749,7 @@
         "album": "All-Time Greatest Hits",
         "artist": 60,
         "artwork": "https://m.media-amazon.com/images/I/81BScvnc9CL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2022-01-01",
         "price": "23.99",
         "owner": [
@@ -2650,6 +2764,7 @@
         "album": "Greatest Hits",
         "artist": 61,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/52/Georgehits.jpg",
+        "attachment": "",
         "date": "1985-03-01",
         "price": "24.77",
         "owner": [
@@ -2664,6 +2779,7 @@
         "album": "Workingmans Dead",
         "artist": 62,
         "artwork": "https://m.media-amazon.com/images/I/81wWTSyo5IL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1970-06-01",
         "price": "22.99",
         "owner": [
@@ -2678,6 +2794,7 @@
         "album": "The Best of the Grateful Dead",
         "artist": 62,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7d/The-Best-of-the-Grateful-Dead.jpg",
+        "attachment": "",
         "date": "2015-03-01",
         "price": "34.99",
         "owner": [
@@ -2692,6 +2809,7 @@
         "album": "dookie",
         "artist": 63,
         "artwork": "https://m.media-amazon.com/images/I/614-PTaP5KL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": "23.99",
         "owner": [
@@ -2706,6 +2824,7 @@
         "album": "Appetite For Destruction",
         "artist": 64,
         "artwork": "https://m.media-amazon.com/images/I/71H9ZR6EGFL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1987-01-01",
         "price": "29.99",
         "owner": [
@@ -2720,6 +2839,7 @@
         "album": "H.E.R.",
         "artist": 65,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4f/H.E.R._%282017%29_album_cover.jpg",
+        "attachment": "",
         "date": "2017-01-01",
         "price": null,
         "owner": [
@@ -2734,6 +2854,7 @@
         "album": "Son of Schmilsson",
         "artist": 66,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/27/Harry_Nilsson_Son_of_Schmilsson.jpg",
+        "attachment": "",
         "date": "1972-01-01",
         "price": "1.00",
         "owner": [
@@ -2748,6 +2869,7 @@
         "album": "Fine Line",
         "artist": 67,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b1/Harry_Styles_-_Fine_Line.png",
+        "attachment": "",
         "date": "2019-12-01",
         "price": "28.77",
         "owner": [
@@ -2762,6 +2884,7 @@
         "album": "Harry’s House",
         "artist": 67,
         "artwork": "https://cdn.shopify.com/s/files/1/0551/1056/6043/products/lzkkrlqnrwrihls7gfck.jpg?v=1683397234&width=599",
+        "attachment": "",
         "date": "2022-05-01",
         "price": "33.77",
         "owner": [
@@ -2776,6 +2899,7 @@
         "album": "South of the Border",
         "artist": 68,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/aa/SouthOfTheBordercover.jpg",
+        "attachment": "",
         "date": "1964-10-01",
         "price": "2.29",
         "owner": [
@@ -2790,6 +2914,7 @@
         "album": "Make Yourself",
         "artist": 69,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/ba/Incubus_make_yourself.jpg",
+        "attachment": "",
         "date": "1999-01-01",
         "price": "26.99",
         "owner": [
@@ -2804,6 +2929,7 @@
         "album": "Metamorphosis",
         "artist": 70,
         "artwork": "https://www.progarchives.com/progressive_rock_discography_covers/2428/cover_2824171632017_r.jpg",
+        "attachment": "",
         "date": "1970-01-01",
         "price": "1.00",
         "owner": [
@@ -2818,6 +2944,7 @@
         "album": "Greatest Singles",
         "artist": 71,
         "artwork": "https://cdn11.bigcommerce.com/s-rdecee92oy/images/stencil/1280x1280/products/16346/5891612/fanlp88515-large__50680.1676617823.jpg?c=2",
+        "attachment": "",
         "date": "1991-01-01",
         "price": null,
         "owner": [
@@ -2832,6 +2959,7 @@
         "album": "2014 Forest Hills Drive",
         "artist": 72,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2a/2014ForestHillsDrive.jpg",
+        "attachment": "",
         "date": "2014-01-01",
         "price": null,
         "owner": [
@@ -2846,6 +2974,7 @@
         "album": "Revenge Of The Dreamers III",
         "artist": 72,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/02/Dreamville_-_Revenge_of_the_Dreamers_III.png",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -2860,6 +2989,7 @@
         "album": "Sing-A-Longs and Lullabies for the Film Curious George",
         "artist": 73,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/fd/Sing-A-Longs_and_Lullabies_for_the_Film_Curious_George_%282006_Jack_Johnson_album%29.jpg",
+        "attachment": "",
         "date": "2006-01-01",
         "price": null,
         "owner": [
@@ -2874,6 +3004,7 @@
         "album": "SYRE",
         "artist": 74,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f8/SyreJadenSmith.jpg",
+        "attachment": "",
         "date": "2017-01-01",
         "price": "32.71",
         "owner": [
@@ -2888,6 +3019,7 @@
         "album": "Collected",
         "artist": 75,
         "artwork": "https://www.musiconvinyl.com/fotos/5165_foto1_product_xl.jpg?0d9234bd19675e9aef9fa72ca3e30d88",
+        "attachment": "",
         "date": "2020-01-01",
         "price": null,
         "owner": [
@@ -2902,6 +3034,7 @@
         "album": "Nothing’s Shocking",
         "artist": 76,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Nothing%27s_Shocking_%28Jane%27s_Addiction_album_-_cover_art%29.jpg/220px-Nothing%27s_Shocking_%28Jane%27s_Addiction_album_-_cover_art%29.jpg",
+        "attachment": "",
         "date": "1988-01-01",
         "price": null,
         "owner": [
@@ -2916,6 +3049,7 @@
         "album": "Pearl",
         "artist": 77,
         "artwork": "https://img.songfacts.com/calendar/7925.jpg",
+        "attachment": "",
         "date": "1970-10-01",
         "price": "22.99",
         "owner": [
@@ -2930,6 +3064,7 @@
         "album": "Aqualung",
         "artist": 78,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/19/JethroTullAqualungalbumcover.jpg",
+        "attachment": "",
         "date": "1971-03-01",
         "price": "21.99",
         "owner": [
@@ -2944,6 +3079,7 @@
         "album": "Are You Experienced",
         "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/61ybI8BGViL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1967-01-01",
         "price": "13.87",
         "owner": [
@@ -2958,6 +3094,7 @@
         "album": "Axis: Bold As Love",
         "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/81f20JroW9L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1967-01-01",
         "price": "15.86",
         "owner": [
@@ -2972,6 +3109,7 @@
         "album": "Electric Lady Land",
         "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/51VWpTObMvL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1968-01-01",
         "price": "19.99",
         "owner": [
@@ -2986,6 +3124,7 @@
         "album": "Jimi Hendrix Experience Smash Hits",
         "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/51WeIBq+EWL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1969-01-01",
         "price": null,
         "owner": [
@@ -3000,6 +3139,7 @@
         "album": "Welcome Home",
         "artist": 79,
         "artwork": "https://m.media-amazon.com/images/I/51Hw+O3WdgL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1981-01-01",
         "price": null,
         "owner": [
@@ -3014,6 +3154,7 @@
         "album": "Blues",
         "artist": 79,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/e7/Blues.JPG",
+        "attachment": "",
         "date": "1994-01-01",
         "price": null,
         "owner": [
@@ -3028,6 +3169,7 @@
         "album": "Blue Train",
         "artist": 80,
         "artwork": "https://classicalbumsundays.com/wp-content/uploads/2012/01/cover-700x700.jpg",
+        "attachment": "",
         "date": "1958-01-01",
         "price": null,
         "owner": [
@@ -3042,6 +3184,7 @@
         "album": "Giant Steps",
         "artist": 80,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Coltrane_Giant_Steps.jpg/220px-Coltrane_Giant_Steps.jpg",
+        "attachment": "",
         "date": "2020-01-01",
         "price": null,
         "owner": [
@@ -3056,6 +3199,7 @@
         "album": "Another Side of John Coltrane",
         "artist": 80,
         "artwork": "https://m.media-amazon.com/images/I/A1MI1xKooML._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2021-01-01",
         "price": null,
         "owner": [
@@ -3070,6 +3214,7 @@
         "album": "Folsom Prison",
         "artist": 81,
         "artwork": "https://img.songfacts.com/calendar/17597.jpg",
+        "attachment": "",
         "date": "1968-01-01",
         "price": null,
         "owner": [
@@ -3084,6 +3229,7 @@
         "album": "American IV: The Man Comes Around",
         "artist": 81,
         "artwork": "https://m.media-amazon.com/images/I/41rK7BMW3lL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2002-11-01",
         "price": "42.99",
         "owner": [
@@ -3098,6 +3244,7 @@
         "album": "Music Inspired by Disney’s Soul",
         "artist": 82,
         "artwork": "https://cdn.louisianamusicfactory.com/media/wp-content/uploads/2021/01/30164549/JON-BATISTE-SOUL.jpg",
+        "attachment": "",
         "date": "2021-01-01",
         "price": null,
         "owner": [
@@ -3112,6 +3259,7 @@
         "album": "You Should Be Here",
         "artist": 83,
         "artwork": "https://media.pitchfork.com/photos/5929ae1e5e6ef95969321bd2/1:1/w_600/5e882289.jpg",
+        "attachment": "",
         "date": "2015-01-01",
         "price": null,
         "owner": [
@@ -3126,6 +3274,7 @@
         "album": "While We Wait",
         "artist": 83,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/3a/Kehlani_-_While_We_Wait.png",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -3140,6 +3289,7 @@
         "album": "good kid, m.A.A.d city",
         "artist": 84,
         "artwork": "https://m.media-amazon.com/images/I/A1r-m2odnnL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2012-01-01",
         "price": null,
         "owner": [
@@ -3154,6 +3304,7 @@
         "album": "untitled unmastered.",
         "artist": 84,
         "artwork": "https://media.pitchfork.com/photos/5929b49e9d034d5c69bf4ec7/1:1/w_600/1bcdfd6b.jpg",
+        "attachment": "",
         "date": "2016-01-01",
         "price": "31.99",
         "owner": [
@@ -3168,6 +3319,7 @@
         "album": "American Teen",
         "artist": 85,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7d/Khalid_-_American_Teen.png",
+        "attachment": "",
         "date": "2017-01-01",
         "price": null,
         "owner": [
@@ -3182,6 +3334,7 @@
         "album": "Requiem",
         "artist": 86,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/43/Korn_-_Requiem.png",
+        "attachment": "",
         "date": "2022-01-01",
         "price": "21.99",
         "owner": [
@@ -3196,6 +3349,7 @@
         "album": "EVERYTHING",
         "artist": 87,
         "artwork": "https://i.scdn.co/image/ab67616d0000b27327298ef27ce2c39f8177d1af",
+        "attachment": "",
         "date": "2020-05-01",
         "price": null,
         "owner": [
@@ -3210,6 +3364,7 @@
         "album": "Lyrics To Go Vol. II",
         "artist": 87,
         "artwork": "https://images.genius.com/bc48758c5412288b9e047d2deb6733e7.999x999x1.png",
+        "attachment": "",
         "date": "2021-01-01",
         "price": null,
         "owner": [
@@ -3224,6 +3379,7 @@
         "album": "Led Zeppelin",
         "artist": 88,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/ef/Led_Zeppelin_-_Led_Zeppelin_%281969%29_front_cover.png",
+        "attachment": "",
         "date": "1969-01-01",
         "price": null,
         "owner": [
@@ -3238,6 +3394,7 @@
         "album": "Led Zeppelin II",
         "artist": 88,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/20/Led_Zeppelin_-_Led_Zeppelin_II.jpg",
+        "attachment": "",
         "date": "1969-01-01",
         "price": null,
         "owner": [
@@ -3252,6 +3409,7 @@
         "album": "Led Zeppelin III",
         "artist": 88,
         "artwork": "https://m.media-amazon.com/images/I/81elx3TCpqL._SX522_.jpg",
+        "attachment": "",
         "date": "1970-01-01",
         "price": null,
         "owner": [
@@ -3266,6 +3424,7 @@
         "album": "Led Zeppelin IV",
         "artist": 88,
         "artwork": "https://m.media-amazon.com/images/I/51h-cJeHf0L.jpg",
+        "attachment": "",
         "date": "1971-01-01",
         "price": null,
         "owner": [
@@ -3280,6 +3439,7 @@
         "album": "Houses of the Holy",
         "artist": 88,
         "artwork": "https://m.media-amazon.com/images/I/8149D4kJ8oL._SX522_.jpg",
+        "attachment": "",
         "date": "1973-01-01",
         "price": null,
         "owner": [
@@ -3294,6 +3454,7 @@
         "album": "I Will Wait For You",
         "artist": 89,
         "artwork": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/15/bf/0e/15bf0e4c-f2cc-a46a-e14b-72e51539c256/23UMGIM17449.rgb.jpg/1200x1200bf-60.jpg",
+        "attachment": "",
         "date": "1968-01-01",
         "price": "5.98",
         "owner": [
@@ -3308,6 +3469,7 @@
         "album": "V.S.O.P. Vol 3/4",
         "artist": 89,
         "artwork": "https://i.discogs.com/3S45TXRZ6hs0X1ntRJbrNQZpIMJxLWX_xckS0rsHXfw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0OTU1/ODAtMTU4OTEyMDQ0/MC02ODQ3LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1974-01-01",
         "price": "10.00",
         "owner": [
@@ -3322,6 +3484,7 @@
         "album": "Archive Jazz Vol 26 - Louis Armstrong in New York",
         "artist": 89,
         "artwork": "https://i.discogs.com/cxp8h5f0MftVMIWPkVjFxRY8k0l2hv4g8gMyYxEPfMw/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MzQ1/MzItMTYyOTQ4MzY0/NC03MDk3LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1964-01-01",
         "price": "5.00",
         "owner": [
@@ -3336,6 +3499,7 @@
         "album": "Kill ‘Em All",
         "artist": 90,
         "artwork": "https://m.media-amazon.com/images/I/512YhL-QdIL._UF350,350_QL50_.jpg",
+        "attachment": "",
         "date": "1983-01-01",
         "price": null,
         "owner": [
@@ -3350,6 +3514,7 @@
         "album": "Ride The Lightning",
         "artist": 90,
         "artwork": "https://m.media-amazon.com/images/I/41S71EWF1ZL._UF350,350_QL50_.jpg",
+        "attachment": "",
         "date": "1984-01-01",
         "price": null,
         "owner": [
@@ -3364,6 +3529,7 @@
         "album": "Master of Puppets",
         "artist": 90,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b2/Metallica_-_Master_of_Puppets_cover.jpg",
+        "attachment": "",
         "date": "1986-01-01",
         "price": null,
         "owner": [
@@ -3378,6 +3544,7 @@
         "album": "The $5.98 EP - Garage Days RE-Revisited",
         "artist": 90,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7b/Metallica_-_The_%245.98_E.P.-Garage_Days_Re-Revisited_cover.jpg",
+        "attachment": "",
         "date": "1987-01-01",
         "price": null,
         "owner": [
@@ -3392,6 +3559,7 @@
         "album": "Metallica",
         "artist": 90,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2c/Metallica_-_Metallica_cover.jpg",
+        "attachment": "",
         "date": "1991-08-01",
         "price": "24.99",
         "owner": [
@@ -3406,6 +3574,7 @@
         "album": "Someday My Prince Will Come",
         "artist": 91,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg/220px-MilesDavis_SomedayMyPrinceWillCome.jpg",
+        "attachment": "",
         "date": "1961-01-01",
         "price": null,
         "owner": [
@@ -3420,6 +3589,7 @@
         "album": "Bitches Brew",
         "artist": 91,
         "artwork": "https://m.media-amazon.com/images/I/91bA8lgsSbS._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1970-01-01",
         "price": null,
         "owner": [
@@ -3434,6 +3604,7 @@
         "album": "DINGO",
         "artist": 92,
         "artwork": "https://m.media-amazon.com/images/I/513LYrbfcyL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1991-01-01",
         "price": null,
         "owner": [
@@ -3448,6 +3619,7 @@
         "album": "Baby Driver",
         "artist": 93,
         "artwork": "https://m.media-amazon.com/images/I/510p8g9eFtL.jpg",
+        "attachment": "",
         "date": "2017-01-01",
         "price": null,
         "owner": [
@@ -3462,6 +3634,7 @@
         "album": "It’s Such A Good Feeling",
         "artist": 94,
         "artwork": "https://m.media-amazon.com/images/I/71x-Qv+f0yL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -3476,6 +3649,7 @@
         "album": "The Christmas Song",
         "artist": 95,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273cb474d056615c2c9b49bb4e6",
+        "attachment": "",
         "date": "1960-07-01",
         "price": "24.99",
         "owner": [
@@ -3490,6 +3664,7 @@
         "album": "Ramblin’ Rose",
         "artist": 95,
         "artwork": "https://i.discogs.com/mxzSukzCagMcF2AzSdsEFgGA7lLxhLP2mNahUfSxY6w/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MzA5/MDYtMTUyNzg3MDE2/My05MTM1LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1962-01-01",
         "price": "1.00",
         "owner": [
@@ -3504,6 +3679,7 @@
         "album": "Harvest",
         "artist": 96,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9b/NeilYoungHarvestalbumcover.jpg",
+        "attachment": "",
         "date": "1972-02-01",
         "price": "25.99",
         "owner": [
@@ -3518,6 +3694,7 @@
         "album": "American Cheese",
         "artist": 97,
         "artwork": "https://f4.bcbits.com/img/a1484388501_10.jpg",
+        "attachment": "",
         "date": "2002-01-01",
         "price": "21.99",
         "owner": [
@@ -3532,6 +3709,7 @@
         "album": "Pretty Hate Machine",
         "artist": 98,
         "artwork": "https://m.media-amazon.com/images/I/61mXXvvFz5L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1989-01-01",
         "price": "21.99",
         "owner": [
@@ -3546,6 +3724,7 @@
         "album": "BLEACH",
         "artist": 99,
         "artwork": "https://m.media-amazon.com/images/I/71ThvtmT-FL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1989-01-01",
         "price": "24.99",
         "owner": [
@@ -3560,6 +3739,7 @@
         "album": "Nevermind",
         "artist": 99,
         "artwork": "https://m.media-amazon.com/images/I/91G5ndi8yFL._AC_SX679_.jpg",
+        "attachment": "",
         "date": "1991-01-01",
         "price": "37.54",
         "owner": [
@@ -3574,6 +3754,7 @@
         "album": "Incesticide",
         "artist": 99,
         "artwork": "https://m.media-amazon.com/images/I/81N6OZTI7zL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1992-01-01",
         "price": "39.99",
         "owner": [
@@ -3588,6 +3769,7 @@
         "album": "Nirvana",
         "artist": 99,
         "artwork": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Nirvana_album_cover.svg/1200px-Nirvana_album_cover.svg.png",
+        "attachment": "",
         "date": "2002-01-01",
         "price": "29.99",
         "owner": [
@@ -3602,6 +3784,7 @@
         "album": "Paladium, Hollywood 1990",
         "artist": 99,
         "artwork": "https://i.discogs.com/6V51Pcba0WZJ-oDUR46oQzgO-0ZguDZ9TlStv5R0I6k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTk5/MDM3LTE2MDYyMjk0/ODMtODk5Ny5qcGVn.jpeg",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -3616,6 +3799,7 @@
         "album": "Tragic Kingdom",
         "artist": 100,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9d/No_Doubt_-_Tragic_Kingdom.png",
+        "attachment": "",
         "date": "1995-10-01",
         "price": "29.99",
         "owner": [
@@ -3630,6 +3814,7 @@
         "album": "ready to die",
         "artist": 101,
         "artwork": "https://m.media-amazon.com/images/I/31nNlEFb7PL.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": "47.99",
         "owner": [
@@ -3644,6 +3829,7 @@
         "album": "Life After Death",
         "artist": 101,
         "artwork": "https://m.media-amazon.com/images/I/A12Zf24D5AL._SX522_.jpg",
+        "attachment": "",
         "date": "1997-01-01",
         "price": null,
         "owner": [
@@ -3658,6 +3844,7 @@
         "album": "(What’s The Story) Morning Glory?",
         "artist": 102,
         "artwork": "https://m.media-amazon.com/images/I/91s+CxEDriL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1995-01-01",
         "price": "30.99",
         "owner": [
@@ -3672,6 +3859,7 @@
         "album": "The Good Fight",
         "artist": 103,
         "artwork": "https://f4.bcbits.com/img/a0695595692_10.jpg",
+        "attachment": "",
         "date": "2015-01-01",
         "price": null,
         "owner": [
@@ -3686,6 +3874,7 @@
         "album": "Motions & Emotions",
         "artist": 104,
         "artwork": "https://m.media-amazon.com/images/I/810CJ4rIwjL._SX522_.jpg",
+        "attachment": "",
         "date": "2014-01-01",
         "price": null,
         "owner": [
@@ -3700,6 +3889,7 @@
         "album": "In Tune",
         "artist": 105,
         "artwork": "https://m.media-amazon.com/images/I/71A-TbGshZL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2014-01-01",
         "price": null,
         "owner": [
@@ -3714,6 +3904,7 @@
         "album": "The Best of Otis Redding",
         "artist": 106,
         "artwork": "https://prodimage.images-bn.com/pimages/0603497847037_p0_v2_s1200x630.jpg",
+        "attachment": "",
         "date": "2020-01-01",
         "price": null,
         "owner": [
@@ -3728,6 +3919,7 @@
         "album": "A Fever You Can’t Sweat Out",
         "artist": 107,
         "artwork": "https://m.media-amazon.com/images/I/91vKScuJ4tL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "2005-09-01",
         "price": "21.99",
         "owner": [
@@ -3742,6 +3934,7 @@
         "album": "Chocolate City",
         "artist": 108,
         "artwork": "https://www.udiscovermusic.com/wp-content/uploads/2019/06/Parliament-Chocolate-City-album-cover-820-brightness-low.jpg",
+        "attachment": "",
         "date": "1975-01-01",
         "price": null,
         "owner": [
@@ -3756,6 +3949,7 @@
         "album": "Mothership Connection",
         "artist": 108,
         "artwork": "https://m.media-amazon.com/images/I/51MeVltr8pL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1975-01-01",
         "price": "10.00",
         "owner": [
@@ -3770,6 +3964,7 @@
         "album": "Mothership Connection",
         "artist": 108,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/ParliamentMothershipConnection.jpg/220px-ParliamentMothershipConnection.jpg",
+        "attachment": "",
         "date": "1975-01-01",
         "price": "28.99",
         "owner": [
@@ -3784,6 +3979,7 @@
         "album": "Clones of Dr. Funkenstein",
         "artist": 108,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Parliament-The_Clones_of_Dr._Funkenstein_%28album_cover%29.jpg/220px-Parliament-The_Clones_of_Dr._Funkenstein_%28album_cover%29.jpg",
+        "attachment": "",
         "date": "1976-01-01",
         "price": null,
         "owner": [
@@ -3798,6 +3994,7 @@
         "album": "Showcase",
         "artist": 109,
         "artwork": "https://m.media-amazon.com/images/I/81vfdZQCwuL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1961-01-01",
         "price": null,
         "owner": [
@@ -3812,6 +4009,7 @@
         "album": "Greatest Hits",
         "artist": 109,
         "artwork": "https://m.media-amazon.com/images/I/91EHEDj5PRL._SX522_.jpg",
+        "attachment": "",
         "date": "1967-01-01",
         "price": null,
         "owner": [
@@ -3826,6 +4024,7 @@
         "album": "Ten / Ten Redux",
         "artist": 110,
         "artwork": "https://m.media-amazon.com/images/I/71Isxh1g17L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1991-01-01",
         "price": "34.99",
         "owner": [
@@ -3840,6 +4039,7 @@
         "album": "Vs.",
         "artist": 110,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f9/PearlJam-Vs.jpg",
+        "attachment": "",
         "date": "1993-01-01",
         "price": null,
         "owner": [
@@ -3854,6 +4054,7 @@
         "album": "Vitalogy",
         "artist": 110,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/30/PearlJamVitalogy.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": null,
         "owner": [
@@ -3868,6 +4069,7 @@
         "album": "No Code",
         "artist": 110,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f3/PearlJam-NoCode.jpg",
+        "attachment": "",
         "date": "1996-01-01",
         "price": "34.99",
         "owner": [
@@ -3882,6 +4084,7 @@
         "album": "Hello, I Must Be Going!",
         "artist": 111,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/59/Hello_i_must_be_going.jpg",
+        "attachment": "",
         "date": "1982-01-01",
         "price": "1.00",
         "owner": [
@@ -3896,6 +4099,7 @@
         "album": "The Piper at the Gates of Dawn",
         "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/3c/PinkFloyd-album-piperatthegatesofdawn_300.jpg",
+        "attachment": "",
         "date": "1967-01-01",
         "price": null,
         "owner": [
@@ -3910,6 +4114,7 @@
         "album": "A Saucerful of Secrets",
         "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Saucerful_of_secrets2.jpg/220px-Saucerful_of_secrets2.jpg",
+        "attachment": "",
         "date": "1968-01-01",
         "price": null,
         "owner": [
@@ -3924,6 +4129,7 @@
         "album": "Meddle",
         "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/MeddleCover.jpeg/220px-MeddleCover.jpeg",
+        "attachment": "",
         "date": "1971-10-01",
         "price": "27.99",
         "owner": [
@@ -3938,6 +4144,7 @@
         "album": "With You Were Here",
         "artist": 112,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png",
+        "attachment": "",
         "date": "1975-01-01",
         "price": null,
         "owner": [
@@ -3952,6 +4159,7 @@
         "album": "For You",
         "artist": 113,
         "artwork": "https://goldiesparade.co.uk/wp-content/uploads/prince-for-you.jpg",
+        "attachment": "",
         "date": "1978-04-01",
         "price": null,
         "owner": [
@@ -3966,6 +4174,7 @@
         "album": "Prince",
         "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/21/Prince_-_Prince.jpg",
+        "attachment": "",
         "date": "1979-10-01",
         "price": null,
         "owner": [
@@ -3980,6 +4189,7 @@
         "album": "Dirty Mind",
         "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2e/Prince_-_Dirty_Mind.jpg",
+        "attachment": "",
         "date": "1980-10-01",
         "price": null,
         "owner": [
@@ -3994,6 +4204,7 @@
         "album": "1999",
         "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Prince_-1999.jpg",
+        "attachment": "",
         "date": "1982-10-01",
         "price": null,
         "owner": [
@@ -4008,6 +4219,7 @@
         "album": "Purple Rain",
         "artist": 113,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Princepurplerain.jpg",
+        "attachment": "",
         "date": "1984-06-01",
         "price": null,
         "owner": [
@@ -4022,6 +4234,7 @@
         "album": "Piano and a Microphone",
         "artist": 113,
         "artwork": "https://media.pitchfork.com/photos/5b9c0d6893953040b9469183/1:1/w_600/Prince_Piano%20and%20a%20Microphone.jpg",
+        "attachment": "",
         "date": "2018-09-01",
         "price": null,
         "owner": [
@@ -4036,6 +4249,7 @@
         "album": "Live",
         "artist": 113,
         "artwork": "https://media.pitchfork.com/photos/62447e280a5af8767f09c93c/1:1/w_450%2Cc_limit/Prince-and-the-Revolution-Live.jpeg",
+        "attachment": "",
         "date": "1985-03-01",
         "price": "55.99",
         "owner": [
@@ -4050,6 +4264,7 @@
         "album": "Queen I",
         "artist": 115,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Queen_Queen.png/220px-Queen_Queen.png",
+        "attachment": "",
         "date": "1973-07-01",
         "price": "29.99",
         "owner": [
@@ -4064,6 +4279,7 @@
         "album": "Rage Against the Machine",
         "artist": 116,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/1a/RageAgainsttheMachineRageAgainsttheMachine.jpg",
+        "attachment": "",
         "date": "1992-01-01",
         "price": null,
         "owner": [
@@ -4078,6 +4294,7 @@
         "album": "Battle of Los Angeles",
         "artist": 116,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/51/RAtM-BattleofLosAngeles.jpeg",
+        "attachment": "",
         "date": "1999-01-01",
         "price": null,
         "owner": [
@@ -4092,6 +4309,7 @@
         "album": "Ramones",
         "artist": 117,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Ramones_-_Ramones_cover.jpg/220px-Ramones_-_Ramones_cover.jpg",
+        "attachment": "",
         "date": "1976-01-01",
         "price": "21.99",
         "owner": [
@@ -4106,6 +4324,7 @@
         "album": "The Best of Ray Charles: The Atlantic Years",
         "artist": 118,
         "artwork": "https://m.media-amazon.com/images/I/71YlTrhC0XL._SX522_.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": "31.99",
         "owner": [
@@ -4120,6 +4339,7 @@
         "album": "Blood, Sugar, Sex, Magik",
         "artist": 119,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/5e/RHCP-BSSM.jpg",
+        "attachment": "",
         "date": "1991-01-01",
         "price": "35.99",
         "owner": [
@@ -4134,6 +4354,7 @@
         "album": "ANTI",
         "artist": 120,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/32/Rihanna_-_Anti.png",
+        "attachment": "",
         "date": "2016-01-01",
         "price": null,
         "owner": [
@@ -4148,6 +4369,7 @@
         "album": "Ritchie Valens",
         "artist": 121,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0c/Ritchie_Valens_1959.jpg",
+        "attachment": "",
         "date": "1959-01-01",
         "price": null,
         "owner": [
@@ -4162,6 +4384,7 @@
         "album": "Moving Pictures",
         "artist": 122,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4a/Moving_Pictures.jpg",
+        "attachment": "",
         "date": "1981-02-01",
         "price": "31.99",
         "owner": [
@@ -4176,6 +4399,7 @@
         "album": "Care For Me",
         "artist": 123,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/d/da/This_is_the_cover_art_for_CARE_FOR_ME_by_Saba._The_cover_art_copyright_is_believed_to_belong_to_the_label%2C_Saba_PIVOT%2C_or_the_graphic_artist%28s%29.jpg",
+        "attachment": "",
         "date": "2018-01-01",
         "price": "65.00",
         "owner": [
@@ -4190,6 +4414,7 @@
         "album": "Few Good Things",
         "artist": 123,
         "artwork": "https://media.pitchfork.com/photos/61faf9857abffafea7cf05e3/1:1/w_600/Saba-Few-Good-Things.jpg",
+        "attachment": "",
         "date": "2022-01-01",
         "price": "45.00",
         "owner": [
@@ -4204,6 +4429,7 @@
         "album": "Encore",
         "artist": 124,
         "artwork": "https://m.media-amazon.com/images/I/A1zJma7th3L._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1960-01-01",
         "price": "17.47",
         "owner": [
@@ -4218,6 +4444,7 @@
         "album": "Ones",
         "artist": 125,
         "artwork": "https://target.scene7.com/is/image/Target/GUEST_d10bc0fa-ebf8-43be-bb50-bd31a5e94cf9?wid=325&hei=325&qlt=80&fmt=pjpeg",
+        "attachment": "",
         "date": "2020-01-01",
         "price": null,
         "owner": [
@@ -4232,6 +4459,7 @@
         "album": "Shawn Mendes",
         "artist": 126,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/16/Shawn_Mendes_-_Shawn_Mendes_%28Official_Album_Cover%29.png",
+        "attachment": "",
         "date": "2018-01-01",
         "price": null,
         "owner": [
@@ -4246,6 +4474,7 @@
         "album": "Core",
         "artist": 127,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/1/19/Stonetemplepilotscore.jpeg",
+        "attachment": "",
         "date": "1992-01-01",
         "price": "21.99",
         "owner": [
@@ -4260,6 +4489,7 @@
         "album": "40 oz. To Freedom",
         "artist": 128,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/57/Sublime40OztoFreedomalbumcover.jpg",
+        "attachment": "",
         "date": "1992-06-01",
         "price": "35.99",
         "owner": [
@@ -4274,6 +4504,7 @@
         "album": "Sublime",
         "artist": 128,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/94/Sublime_Self-Titled.jpg",
+        "attachment": "",
         "date": "1996-01-01",
         "price": null,
         "owner": [
@@ -4288,6 +4519,7 @@
         "album": "Sublime Acoustic",
         "artist": 128,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Sublime_Acoustic_Vinyl.jpg/220px-Sublime_Acoustic_Vinyl.jpg",
+        "attachment": "",
         "date": "1998-01-01",
         "price": null,
         "owner": [
@@ -4302,6 +4534,7 @@
         "album": "Is It Because I’m Black?",
         "artist": 129,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273191edb0b7c9a27d5bf6795a9",
+        "attachment": "",
         "date": "1970-01-01",
         "price": null,
         "owner": [
@@ -4316,6 +4549,7 @@
         "album": "System of a Down",
         "artist": 130,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bc/System_of_a_down.jpg",
+        "attachment": "",
         "date": "1998-01-01",
         "price": null,
         "owner": [
@@ -4330,6 +4564,7 @@
         "album": "Toxicity",
         "artist": 130,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
+        "attachment": "",
         "date": "2001-01-01",
         "price": null,
         "owner": [
@@ -4344,6 +4579,7 @@
         "album": "Ctrl",
         "artist": 131,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png",
+        "attachment": "",
         "date": "2017-01-01",
         "price": "25.07",
         "owner": [
@@ -4358,6 +4594,7 @@
         "album": "Please Please Me",
         "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/c/c0/PleasePleaseMe_audio_cover.jpg",
+        "attachment": "",
         "date": "1963-03-01",
         "price": "32.99",
         "owner": [
@@ -4372,6 +4609,7 @@
         "album": "With The Beatles",
         "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0a/Withthebeatlescover.jpg",
+        "attachment": "",
         "date": "1963-11-22",
         "price": null,
         "owner": [
@@ -4386,6 +4624,7 @@
         "album": "A Hard Day’s Night",
         "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/e6/HardDayUK.jpg",
+        "attachment": "",
         "date": "1964-07-01",
         "price": "32.99",
         "owner": [
@@ -4400,6 +4639,7 @@
         "album": "Help!",
         "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/e/e7/Help%21_%28The_Beatles_album_-_cover_art%29.jpg",
+        "attachment": "",
         "date": "1965-08-01",
         "price": null,
         "owner": [
@@ -4414,6 +4654,7 @@
         "album": "Let It Be",
         "artist": 132,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/25/LetItBe.jpg",
+        "attachment": "",
         "date": "1970-05-01",
         "price": null,
         "owner": [
@@ -4428,6 +4669,7 @@
         "album": "The California Raisins Sing The Hit Songs",
         "artist": 133,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273ceaa7729d58f5e88126f7f83",
+        "attachment": "",
         "date": "1987-01-01",
         "price": "10.00",
         "owner": [
@@ -4442,6 +4684,7 @@
         "album": "Give More Power to The People",
         "artist": 134,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/4/4b/Givemorepowertothepeoplealbum.jpg",
+        "attachment": "",
         "date": "1971-07-01",
         "price": "26.99",
         "owner": [
@@ -4456,6 +4699,7 @@
         "album": "Diana Ross Presents: The Jackson 5",
         "artist": 135,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9c/Ross-presents-jackson-5-350.jpg",
+        "attachment": "",
         "date": "1969-01-01",
         "price": null,
         "owner": [
@@ -4470,6 +4714,7 @@
         "album": "ABC",
         "artist": 135,
         "artwork": "https://m.media-amazon.com/images/I/71cBrakTspL._SX522_.jpg",
+        "attachment": "",
         "date": "1970-01-01",
         "price": null,
         "owner": [
@@ -4484,6 +4729,7 @@
         "album": "The Mamas and the Papas",
         "artist": 136,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/91/MamasPapas.jpg",
+        "attachment": "",
         "date": "1966-01-01",
         "price": "1.00",
         "owner": [
@@ -4498,6 +4744,7 @@
         "album": "People Like Us",
         "artist": 136,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/b/b1/People_Like_Us_Album.jpeg",
+        "attachment": "",
         "date": "1971-01-01",
         "price": "1.00",
         "owner": [
@@ -4512,6 +4759,7 @@
         "album": "House of Balloons",
         "artist": 137,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/The_Weeknd_-_House_of_Balloons.png/220px-The_Weeknd_-_House_of_Balloons.png",
+        "attachment": "",
         "date": "2011-01-01",
         "price": null,
         "owner": [
@@ -4526,6 +4774,7 @@
         "album": "Opiate",
         "artist": 138,
         "artwork": "https://i.discogs.com/mq8gTOnzyZ0svr0nBSiYUoCpkID2WZbhXZNL4Ym13ZM/rs:fit/g:sm/q:90/h:598/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2NTAx/NS0xMTQ1MTM2Nzc3/LmpwZWc.jpeg",
+        "attachment": "",
         "date": "1992-01-01",
         "price": null,
         "owner": [
@@ -4540,6 +4789,7 @@
         "album": "Undertow",
         "artist": 138,
         "artwork": "https://i.scdn.co/image/ab67616d0000b27382298636c94b8167c4793db2",
+        "attachment": "",
         "date": "1993-01-01",
         "price": "29.99",
         "owner": [
@@ -4554,6 +4804,7 @@
         "album": "Drops of Jupiter",
         "artist": 139,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/9/9d/Train_Drops_of_Jupiter.jpg",
+        "attachment": "",
         "date": "2001-01-01",
         "price": null,
         "owner": [
@@ -4568,6 +4819,7 @@
         "album": "Astroworld",
         "artist": 140,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0b/Astroworld_by_Travis_Scott.jpg",
+        "attachment": "",
         "date": "2018-01-01",
         "price": "27.99",
         "owner": [
@@ -4582,6 +4834,7 @@
         "album": "Goblin",
         "artist": 141,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7a/Goblincover.jpg",
+        "attachment": "",
         "date": "2011-05-01",
         "price": "37.99",
         "owner": [
@@ -4596,6 +4849,7 @@
         "album": "Scum Fuck Flower Boy",
         "artist": 141,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/c/c3/Tyler%2C_the_Creator_-_Flower_Boy.png",
+        "attachment": "",
         "date": "2017-01-01",
         "price": "22.70",
         "owner": [
@@ -4610,6 +4864,7 @@
         "album": "IGOR.",
         "artist": 141,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/5/51/Igor_-_Tyler%2C_the_Creator.jpg",
+        "attachment": "",
         "date": "2019-01-01",
         "price": null,
         "owner": [
@@ -4624,6 +4879,7 @@
         "album": "Call me if you get lost",
         "artist": 141,
         "artwork": "https://s3.amazonaws.com/media.thecrimson.com/photos/2023/04/12/214423_1362969.png",
+        "attachment": "",
         "date": "2022-01-01",
         "price": "27.99",
         "owner": [
@@ -4638,6 +4894,7 @@
         "album": "Van Halen",
         "artist": 142,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0d/Van_Halen_album.jpg",
+        "attachment": "",
         "date": "1978-01-01",
         "price": "27.99",
         "owner": [
@@ -4652,6 +4909,7 @@
         "album": "Van Halen II",
         "artist": 142,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/3/35/Van_Halen_-_Van_Halen_II.jpg",
+        "attachment": "",
         "date": "1979-03-01",
         "price": "25.99",
         "owner": [
@@ -4666,6 +4924,7 @@
         "album": "MCMLXXXIV",
         "artist": 142,
         "artwork": "https://m.media-amazon.com/images/I/71jXDYzPWlL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1984-01-01",
         "price": "25.99",
         "owner": [
@@ -4680,6 +4939,7 @@
         "album": "A Charlie Brown Christmas",
         "artist": 143,
         "artwork": "https://m.media-amazon.com/images/I/41M-tHr0PiL.jpg",
+        "attachment": "",
         "date": "1965-01-01",
         "price": "24.99",
         "owner": [
@@ -4694,6 +4954,7 @@
         "album": "WAR",
         "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/72/War_album.jpg",
+        "attachment": "",
         "date": "1971-01-01",
         "price": "24.99",
         "owner": [
@@ -4708,6 +4969,7 @@
         "album": "The World Is A Ghetto",
         "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/War_The_World_Is_a_Ghetto.jpg/220px-War_The_World_Is_a_Ghetto.jpg",
+        "attachment": "",
         "date": "1972-11-01",
         "price": "24.99",
         "owner": [
@@ -4722,6 +4984,7 @@
         "album": "All Day Music",
         "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/7/7d/AllDayMusicWar.jpg",
+        "attachment": "",
         "date": "1973-01-01",
         "price": "24.99",
         "owner": [
@@ -4736,6 +4999,7 @@
         "album": "Deliver the Word",
         "artist": 144,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/d/d5/WarDeliverTheWord.jpg",
+        "attachment": "",
         "date": "1973-01-01",
         "price": "24.99",
         "owner": [
@@ -4750,6 +5014,7 @@
         "album": "Why Can’t We Be Friends",
         "artist": 144,
         "artwork": "https://m.media-amazon.com/images/I/71UtkauRwVL._UF1000,1000_QL80_.jpg",
+        "attachment": "",
         "date": "1975-01-01",
         "price": "24.99",
         "owner": [
@@ -4764,6 +5029,7 @@
         "album": "Greatest Hits",
         "artist": 144,
         "artwork": "https://store.rhino.com/dw/image/v2/BHCC_PRD/on/demandware.static/-/Sites-warner-master/default/dw6009be01/pdp-img/war_greatesthits20_1.jpg?sw=550&sh=550&sm=fit",
+        "attachment": "",
         "date": "1976-01-01",
         "price": null,
         "owner": [
@@ -4778,6 +5044,7 @@
         "album": "Zap I",
         "artist": 145,
         "artwork": "https://m.media-amazon.com/images/I/61UlmH-nGqL.jpg",
+        "attachment": "",
         "date": "1980-01-01",
         "price": null,
         "owner": [
@@ -4792,6 +5059,7 @@
         "album": "Zap All The Greatest Hits",
         "artist": 145,
         "artwork": "https://i.ebayimg.com/images/g/9CcAAOSw~NxkAPAa/s-l1600.png",
+        "attachment": "",
         "date": "1993-01-01",
         "price": null,
         "owner": [
@@ -4806,6 +5074,7 @@
         "album": "FOTO",
         "artist": 87,
         "artwork": "https://images.genius.com/382f676adcb5e931a52cde0115b7eb82.1000x1000x1.jpg",
+        "attachment": "",
         "date": "2019-05-15",
         "price": "36.99",
         "owner": [
@@ -4820,6 +5089,7 @@
         "album": "Purple",
         "artist": 127,
         "artwork": "https://i.scdn.co/image/ab67616d0000b273a6e07487251d331f8a68b553",
+        "attachment": "",
         "date": "1994-06-07",
         "price": "26.99",
         "owner": [
@@ -4834,6 +5104,7 @@
         "album": "Evil Empire",
         "artist": 116,
         "artwork": "https://i.scdn.co/image/ab67616d00001e025fdf773ce04c37de7f897963",
+        "attachment": "",
         "date": "1996-05-16",
         "price": "29.99",
         "owner": [
@@ -4848,6 +5119,7 @@
         "album": "Greatest Hits Volume 1",
         "artist": 146,
         "artwork": "https://m.media-amazon.com/images/I/51VhZk3e4rL.jpg",
+        "attachment": "",
         "date": "1994-01-01",
         "price": "25.99",
         "owner": [
@@ -4862,10 +5134,176 @@
         "album": "24K Magic",
         "artist": 31,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2b/Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png",
+        "attachment": "",
         "date": "2016-11-18",
         "price": "34.99",
         "owner": [
             "Briana"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 243,
+    "fields": {
+        "album": "Take Care",
+        "artist": 48,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/a/ae/Drake_-_Take_Care_cover.jpg",
+        "attachment": "",
+        "date": "2011-11-15",
+        "price": "45.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 244,
+    "fields": {
+        "album": "Views",
+        "artist": 48,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/a/af/Drake_-_Views_cover.jpg",
+        "attachment": "",
+        "date": "2016-04-29",
+        "price": "34.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 245,
+    "fields": {
+        "album": "Are You Experienced",
+        "artist": 79,
+        "artwork": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Are_You_Experienced_-_US_cover-edit.jpg/440px-Are_You_Experienced_-_US_cover-edit.jpg",
+        "attachment": "",
+        "date": "1967-05-12",
+        "price": "15.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 246,
+    "fields": {
+        "album": "Axis: Bold As Love",
+        "artist": 79,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/8/85/Axiscover.jpg",
+        "attachment": "",
+        "date": "1967-12-01",
+        "price": "14.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 247,
+    "fields": {
+        "album": "Electric Ladyland",
+        "artist": 79,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f2/Jimi_Hendrix_-_Electric_Ladyland.jpg",
+        "attachment": "",
+        "date": "1968-10-16",
+        "price": "26.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 248,
+    "fields": {
+        "album": "Someday My Prince Will Come",
+        "artist": 91,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg",
+        "attachment": "",
+        "date": "1961-12-11",
+        "price": "25.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 249,
+    "fields": {
+        "album": "Queen",
+        "artist": 115,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/0/03/Queen_Queen.png",
+        "attachment": "",
+        "date": "1973-07-13",
+        "price": "23.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 250,
+    "fields": {
+        "album": "Queen II",
+        "artist": 115,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/4/43/Queen_II_%28album_cover%29.jpg",
+        "attachment": "",
+        "date": "1974-03-08",
+        "price": "23.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 251,
+    "fields": {
+        "album": "Z",
+        "artist": 131,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f4/SZA_-_Z.png",
+        "attachment": "",
+        "date": "2014-04-08",
+        "price": "50.00",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 252,
+    "fields": {
+        "album": "Ctrl",
+        "artist": 131,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png",
+        "attachment": "",
+        "date": "2017-06-09",
+        "price": "24.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 253,
+    "fields": {
+        "album": "SOS",
+        "artist": 131,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png",
+        "attachment": "",
+        "date": "2022-12-09",
+        "price": "34.99",
+        "owner": [
+            "demo"
         ]
     }
 },
@@ -5065,6 +5503,24 @@
         "object_repr": "Bruno Mars",
         "action_flag": 3,
         "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-07-23T01:08:54.845Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Briana",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
     }
 }
 ]
