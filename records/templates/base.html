@@ -28,20 +28,25 @@
         <nav>
             <ul class="container-menu">
                 <li>
+                  <a class="menu" href="{% url 'home' %}">
+                    <img class="spinning-record" src="{% static 'vr-record.png' %}">
+                  </a>
+                </li>
+                <li >
                 <a class="menu" href="{% url 'home' %}">
-                    <h3 class="text-secondary">Records</h3>
+                    <h3 class="hover-underline-animation">Vinyl Reserve</h3>
                 </a>
                 </li>
                 <li>
                 <a class="menu" href="{% url 'record_add' %}">
-                    <h3 class="text-secondary">Add a Record</h3>
+                    <h3 class="hover-underline-animation">Add Record</h3>
                 </a>
                 </li>
                 {% if not user.is_authenticated %}
                   <li>
                     <a class="menu"
                     href="{% url 'login' %}">
-                      <h3 class="text-secondary">Login</h3>
+                      <h3 class="hover-underline-animation">Login</h3>
                     </a>
                   </li>
                   {% endif %}
@@ -49,13 +54,13 @@
                   <li>
                     <a class="menu"
                     href="{% url 'profile' user.id %}">
-                      <h3 class="text-secondary">Profile</h3>
+                      <h3 class="hover-underline-animation">Profile</h3>
                     </a>
                   </li>
                   <li>
                     <a class="menu"
                     href="{% url 'logout' %}">
-                      <h3 class="text-secondary">Logout</h3>
+                      <h3 class="hover-underline-animation">Logout</h3>
                     </a>
                   </li>
                   {% endif %}
@@ -63,7 +68,7 @@
                   <li>
                     <a class="menu"
                        href="{% url 'admin:index' %}">
-                      <h3 class="text-secondary">Admin</h3>
+                      <h3 class="hover-underline-animation">Admin</h3>
                     </a>
                   </li>
                   {% endif %}
@@ -77,11 +82,11 @@
                 </li>
             </ul>
         </nav>
-        <div class="heading">
+        {% comment %} <div class="heading">
             <a href="{% url 'home' %}"><h1 class="header" >Vinyl Reserve</h1></a>
             <div class="search-form">
             </div>
-        </div>
+        </div> {% endcomment %}
     </header>
         {% block content %}
         {% endblock content %}
