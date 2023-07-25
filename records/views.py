@@ -108,35 +108,6 @@ class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
         return context
 
 
-# Total for base.html
-class RecordTotalView(LoginRequiredMixin, PageTitleViewMixin, ListView):
-    model = Record
-    template_name = "base.html"
-    title = "Vinyl Reserve"
-
-    def get_queryset(self):
-        owner = self.request.user.id
-        records = Record.objects.filter(owner=owner).order_by('artist', 'date')
-        total = records.aggregate(total=Sum('price'))['total']
-
-        if total is None:
-            total = 0
-
-        self.total = total
-        return records
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        def format_with_commas(number):
-            parts = f"{number:,.2f}".split(".")
-            return ".".join(parts)
-
-        number = self.total
-        formatted_number = format_with_commas(number)
-        context['total'] = formatted_number
-        return context
-
-
 # LISTS ALL RECORDS BY SELECTED ARTIST
 class ArtistRecordsView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
     model = Record
