@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <body>
+    <main>
+        <h3 class="form-title">Add Your Record</h3>
+        <form class="record-form" method="POST">
+          {% csrf_token %}
+          <p class="form-artist">
+            <label for="id_artist">	&lowast; Artist:</label>
+            {{ form.artist }}
+            <div class="form-button-a">
+              <a href="{% url 'artist_add' %}">Add</a></p>
+            </div>
+          <p class="form-album"><label for="id_album">	&lowast; Album:</label>{{ form.album }}</p>
+          <p class="form-artwork"><label for="id_artwork">Artwork:</label>{{ form.artwork }}</p>
+          <p class="form-date"><label for="id_date">Date:</label>{{ form.date }}</p>
+          <p class="form-price"><label for="id_price">Price:</label>{{ form.price }}</p>
+          <div class="form-button">
+            <button type="submit">Add</button>
+          </div>
+        </form>
+    </main>
+  </body>
+{% endblock content %}

@@ -7,7 +7,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 from django.core.paginator import Paginator
 
-from records.forms import SignUpForm, ProfileForm#, LoginForm
+from records.forms import SignUpForm, ProfileForm, RecordForm #, LoginForm
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
 
@@ -17,6 +17,7 @@ from django.db.models import Q
 
 from django.shortcuts import get_object_or_404
 from django.db.models import Sum
+
 
 
 # CREATES TITLES FOR EACH TEMPLATE VIEW
@@ -64,14 +65,27 @@ class ArtistCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
 # CREATES RECORDS
 class RecordCreateView(LoginRequiredMixin, PageTitleViewMixin, CreateView):
     model = Record
+    form_class = RecordForm
     template_name = "records/record_add.html"
-    fields = ["album", "artist", "artwork", "date", "price"]
+    # fields = ["album", "artist", "artwork", "date", "price"]
     success_url = reverse_lazy("records_list")
     title = "New Record"
 
+    def get_form_kwargs(self):
+        """ Passes the request object to the form class.
+         This is necessary to only display artist that belong to a given user"""
+
+        kwargs = super(RecordCreateView, self).get_form_kwargs()
+        kwargs['request'] = self.request
+        return kwargs
+
     def form_valid(self, form):
-        form.instance.owner = self.request.user
+        form.save()
         return super().form_valid(form)
+
+    # def form_valid(self, form):
+    #     form.instance.owner = self.request.user
+    #     return super().form_valid(form.instance.owner)
 
 
 # LISTS ALL RECORDS IN USERS DB

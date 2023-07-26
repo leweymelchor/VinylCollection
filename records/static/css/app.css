@@ -141,8 +141,8 @@ a > img:hover {
 
 /* spinning record logo */
 .spinning-record {
-    margin-top: 12px;
-    height: 40px;
+    margin-top: 17px;
+    height: 30px;
 
     -webkit-animation:fa-spin 2s infinite linear;
     animation: fa-spin 2s infinite linear;
@@ -603,10 +603,9 @@ form > p > select {
 
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
 
-    margin: 25px;
+
+    /* margin: 25px; */
 
     background-color: rgba(255, 255, 255, 0.6);
     color: #000000;
@@ -1076,7 +1075,7 @@ form > p > select {
         position: absolute;
         top: -7px;
         right: 15px;
-        font-size: 2rem;
+        font-size: .5rem;
     }
 
     .logo-hide {
@@ -1201,7 +1200,7 @@ form > p > select {
 
     .detail-record-card {
         width: 19rem;
-        height: 24rem;
+        height: 25rem;
     }
 }
 
@@ -1260,7 +1259,7 @@ form > p > select {
 
     .detail-record-card {
         width: 17rem;
-        height: 22rem;
+        height: 23rem;
     }
 
     .artist-form {

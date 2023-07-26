@@ -2,6 +2,9 @@ from django import forms
 
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
+from .models import Artist, Record
+
+from django.forms.widgets import NumberInput
 
 # Sign Up Form
 class SignUpForm(UserCreationForm):
@@ -52,27 +55,53 @@ class ProfileForm(forms.ModelForm):
 #             'password',
 #             ]
 
-try:
-    from records.models import Artist, Record
 
-    class RecordForm(forms.ModelForm):
-        class Meta:
-            model = Record
-            fields = [
-                "album",
-                "artist",
-                "artwork",
-                "date",
-                "price",
-            ]
+class RecordForm(forms.ModelForm):
+    album = forms.CharField(initial='Album Title Here', max_length=100, required=True)
+    artwork = forms.CharField(initial='URL link to album art', max_length=300)
+    artist = forms.ModelChoiceField(
+        queryset = Artist.objects.all(),
+        initial = 0
+        )
+    date = forms.DateField(widget=NumberInput(attrs={'type': 'date'}))
+    price = forms.DecimalField(initial=20.00)
 
-    class ArtistForm(forms.ModelForm):
+    class Meta:
+        model = Record
+        fields = (
+            "album",
+            "artwork",
+            "artist",
+            "date",
+            "price",
+        )
 
-        class Meta:
-            model = Artist
-            fields = [
-                "artist",
-            ]
+        widgets = {
+            'album': forms.TextInput(attrs={'class': 'form-artist'}),
+            'artwork': forms.TextInput(attrs={'class': 'form-artist'}),
+            'artist': forms.TextInput(attrs={'class': 'form-artist'}),
+            'date': forms.TextInput(attrs={'class': 'form-artist'}),
+            'price': forms.TextInput(attrs={'class': 'form-artist'}),
+        }
 
-except Exception:
-    pass
+    def __init__(self, *args, **kwargs):
+        self.request = kwargs.pop('request', None)
+        super(RecordForm, self).__init__(*args, **kwargs)
+        self.fields['artist'].queryset = Artist.objects.filter(owner_id=self.request.user)
+
+    def save(self, commit=True):
+        instance = super(RecordForm, self).save(commit=False)
+        if self.request:
+            instance.owner = self.request.user
+        if commit:
+            instance.save()
+        return instance
+
+
+class ArtistForm(forms.ModelForm):
+
+    class Meta:
+        model = Artist
+        fields = [
+            "artist",
+        ]

@@ -9,10 +9,6 @@ class Artist(models.Model):
     artist = models.CharField(max_length=125, unique=False)
     owner = models.ForeignKey(USER_MODEL, related_name="artist_owner", on_delete=models.CASCADE, default=1, null=True)
 
-    # def __str__(self):
-    #     option = (self.artist[:20] + '-') if len(self.artist) > 20 else self.artist
-    #     return option
-
     def __str__(self):
         return str(self.artist)
 
