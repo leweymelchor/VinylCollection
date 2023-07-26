@@ -1062,7 +1062,7 @@ form > p > select {
         box-shadow: 5px 0px 10px 0px #aaa;
 
         position: fixed;
-        z-index: 999;
+        /* z-index: 999; */
     }
 
     .navbar .menu-items li {
