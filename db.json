@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$320000$HBW3cqwrnZ7MwvvTJVsE8W$D7D73eWBo1NCnSDbTNIReGLjJe2G72WpcHd7GcBwYro=",
-        "last_login": "2023-07-25T23:37:02.761Z",
+        "last_login": "2023-07-27T02:21:42.430Z",
         "is_superuser": true,
         "username": "Lewey",
         "first_name": "",
@@ -36,8 +36,8 @@
 {
     "model": "auth.user",
     "fields": {
-        "password": "pbkdf2_sha256$600000$iTuqJEhRE8NSXCq562D5NE$JQgveK301goO4GVFcwRtCDY6mcKNI0h7+EkITU6MY48=",
-        "last_login": "2023-07-25T23:18:21.426Z",
+        "password": "pbkdf2_sha256$320000$C5zwABRxdDeMsdGmVoQLdG$gsdreOZwpzzvy/0GL88UZqe0Rh4Ls8xoUtyYEd8KhAU=",
+        "last_login": "2023-07-27T02:30:50.100Z",
         "is_superuser": false,
         "username": "demo",
         "first_name": "demo",
@@ -60,10 +60,10 @@
 },
 {
     "model": "sessions.session",
-    "pk": "4fibwc9kjlkabeyv4cufp09z95703zxi",
+    "pk": "29mp0gg51nnbsxl2mc9k0cv4kx024in2",
     "fields": {
-        "session_data": ".eJxVjMsOgjAUBf-la9PQa2mpS_d8A7kvLGpKQmFl_HclYaHbMzPnZQbc1jxsVZdhEnMxzpx-N0J-aNmB3LHcZstzWZeJ7K7Yg1bbz6LP6-H-HWSs-VsTR6DG8RjH1kMQpNAmJ51AIvAdauhSAuIG5NxGjIoQHatnwTQmH8z7A-8zODw:1qORaQ:q0TMQPoitza7ubvG1E1lMvkMPKW2f6R-_YX3EuaQBgw",
-        "expire_date": "2023-08-08T23:37:02.762Z"
+        "session_data": ".eJxVjEEOwiAQAP_C2RBxgYJH730DWdhFqgaS0p6MfzckPeh1ZjJvEXDfStg7r2EhcRUgTr8sYnpyHYIeWO9Npla3dYlyJPKwXc6N-HU72r9BwV7G1kTP7MBME4ElrXMCq7y2kc4GkC5RY86WsndWAWblWCVC56PxhtmIzxfmtzhP:1qOoa6:21GJ2_TsrBcP6FHJFKAHp-aaEy_qh5Y4WE-8O-pCk2w",
+        "expire_date": "2023-08-10T00:10:14.762Z"
     }
 },
 {
@@ -72,6 +72,14 @@
     "fields": {
         "session_data": ".eJxVjEEOgjAQRe_StWmYTqGDS_ecoZm2U0FNSSisjHcXEha6_e-9_1aet3X0W5XFT0ldFarL7xY4PqUcID243Gcd57IuU9CHok9a9TAned1O9-9g5DrudQMOO-a-DdhYdAacTZgzGCBH1HUIEqM1YrmXTNLuAlBuTaTUA4WoPl-v_zbu:1qORIL:szHaj8Hp_q-SZRCwKImjIPrvgwZr4x8-bft_uwQmvCU",
         "expire_date": "2023-08-08T23:18:21.427Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "iugd331zzal9tyz3vpknun3rttxzdo2p",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RBxgYJH730DWdhFqgaS0p6MfzckPeh1ZjJvEXDfStg7r2EhcRUgTr8sYnpyHYIeWO9Npla3dYlyJPKwXc6N-HU72r9BwV7G1kTP7MBME4ElrXMCq7y2kc4GkC5RY86WsndWAWblWCVC56PxhtmIzxfmtzhP:1qOqmA:riH9L5f51DGqi4VQl19RSXrXQECwpX2zzTCN9FOFcEE",
+        "expire_date": "2023-08-10T02:30:50.101Z"
     }
 },
 {
@@ -1543,6 +1551,66 @@
     }
 },
 {
+    "model": "records.artist",
+    "pk": 147,
+    "fields": {
+        "artist": "Drake",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 148,
+    "fields": {
+        "artist": "Gorillaz",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 149,
+    "fields": {
+        "artist": "Jimi Hendrix",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 150,
+    "fields": {
+        "artist": "Miles Davis",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 151,
+    "fields": {
+        "artist": "Queen",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.artist",
+    "pk": 152,
+    "fields": {
+        "artist": "SZA",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
     "model": "records.record",
     "pk": 1,
     "fields": {
@@ -1938,7 +2006,7 @@
     "fields": {
         "album": "Betty Davis",
         "artist": 21,
-        "artwork": "https://light-in-the-attic.s3.amazonaws.com/uploads/release_image/162/image/large_550_bettydavis-bettydavis-cover.jpg",
+        "artwork": "https://i.scdn.co/image/ab67616d0000b273ae5a36b32a0ee7283424af80",
         "attachment": "",
         "date": "1973-01-01",
         "price": null,
@@ -5144,44 +5212,14 @@
 },
 {
     "model": "records.record",
-    "pk": 243,
-    "fields": {
-        "album": "Take Care",
-        "artist": 48,
-        "artwork": "https://upload.wikimedia.org/wikipedia/en/a/ae/Drake_-_Take_Care_cover.jpg",
-        "attachment": "",
-        "date": "2011-11-15",
-        "price": "45.99",
-        "owner": [
-            "demo"
-        ]
-    }
-},
-{
-    "model": "records.record",
     "pk": 244,
     "fields": {
         "album": "Views",
-        "artist": 48,
+        "artist": 147,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/a/af/Drake_-_Views_cover.jpg",
         "attachment": "",
         "date": "2016-04-29",
         "price": "34.99",
-        "owner": [
-            "demo"
-        ]
-    }
-},
-{
-    "model": "records.record",
-    "pk": 245,
-    "fields": {
-        "album": "Are You Experienced",
-        "artist": 79,
-        "artwork": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Are_You_Experienced_-_US_cover-edit.jpg/440px-Are_You_Experienced_-_US_cover-edit.jpg",
-        "attachment": "",
-        "date": "1967-05-12",
-        "price": "15.99",
         "owner": [
             "demo"
         ]
@@ -5219,36 +5257,6 @@
 },
 {
     "model": "records.record",
-    "pk": 248,
-    "fields": {
-        "album": "Someday My Prince Will Come",
-        "artist": 91,
-        "artwork": "https://upload.wikimedia.org/wikipedia/en/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg",
-        "attachment": "",
-        "date": "1961-12-11",
-        "price": "25.99",
-        "owner": [
-            "demo"
-        ]
-    }
-},
-{
-    "model": "records.record",
-    "pk": 249,
-    "fields": {
-        "album": "Queen",
-        "artist": 115,
-        "artwork": "https://upload.wikimedia.org/wikipedia/en/0/03/Queen_Queen.png",
-        "attachment": "",
-        "date": "1973-07-13",
-        "price": "23.99",
-        "owner": [
-            "demo"
-        ]
-    }
-},
-{
-    "model": "records.record",
     "pk": 250,
     "fields": {
         "album": "Queen II",
@@ -5257,21 +5265,6 @@
         "attachment": "",
         "date": "1974-03-08",
         "price": "23.99",
-        "owner": [
-            "demo"
-        ]
-    }
-},
-{
-    "model": "records.record",
-    "pk": 251,
-    "fields": {
-        "album": "Z",
-        "artist": 131,
-        "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f4/SZA_-_Z.png",
-        "attachment": "",
-        "date": "2014-04-08",
-        "price": "50.00",
         "owner": [
             "demo"
         ]
@@ -5302,6 +5295,96 @@
         "attachment": "",
         "date": "2022-12-09",
         "price": "34.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 261,
+    "fields": {
+        "album": "Take Care",
+        "artist": 147,
+        "artwork": "https://i.scdn.co/image/ab67616d0000b273d565fee75c6b691f0e9cf262",
+        "attachment": "",
+        "date": "2011-11-15",
+        "price": "45.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 262,
+    "fields": {
+        "album": "Demon Days",
+        "artist": 148,
+        "artwork": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+        "attachment": "",
+        "date": "2005-05-11",
+        "price": "27.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 263,
+    "fields": {
+        "album": "Are You Experienced",
+        "artist": 149,
+        "artwork": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Are_You_Experienced_-_US_cover-edit.jpg/440px-Are_You_Experienced_-_US_cover-edit.jpg",
+        "attachment": "",
+        "date": "1967-05-12",
+        "price": "15.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 264,
+    "fields": {
+        "album": "Someday My Prince Will Come",
+        "artist": 150,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/9/93/MilesDavis_SomedayMyPrinceWillCome.jpg",
+        "attachment": "",
+        "date": "1961-12-11",
+        "price": "25.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 265,
+    "fields": {
+        "album": "Queen",
+        "artist": 115,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/0/03/Queen_Queen.png",
+        "attachment": "",
+        "date": "1973-07-19",
+        "price": "23.99",
+        "owner": [
+            "demo"
+        ]
+    }
+},
+{
+    "model": "records.record",
+    "pk": 266,
+    "fields": {
+        "album": "Z",
+        "artist": 152,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f4/SZA_-_Z.png",
+        "attachment": "",
+        "date": "2014-04-08",
+        "price": "50.00",
         "owner": [
             "demo"
         ]
@@ -5521,6 +5604,114 @@
         "object_repr": "Briana",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-07-26T06:36:02.795Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "256",
+        "object_repr": "Drake / Take Care",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-07-26T06:36:33.346Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "255",
+        "object_repr": "Drake / Take Care",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-07-26T06:57:23.224Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "260",
+        "object_repr": "Drake / Take Care Yo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-07-26T06:57:23.226Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "259",
+        "object_repr": "Drake / Take Care Yo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-07-26T06:57:23.227Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "258",
+        "object_repr": "Drake / Take Care Yo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-07-26T06:57:23.228Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "257",
+        "object_repr": "Drake / Take Care",
+        "action_flag": 3,
+        "change_message": ""
     }
 }
 ]

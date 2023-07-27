@@ -3,7 +3,7 @@
 {% block content %}
   <body>
     <main>
-        <h3 class="update-title">Update {{record.artist}}'s Album, {{ record.album }}</h3>
+        <h3 class="update-title">Update {{record.artist}}'s, {{ record.album }}</h3>
         <form class="record-form" method="post">
           {% csrf_token %}
           <p class="update-form-artist"><label>Artist:</label>{{ form.artist }}</p>
