@@ -492,7 +492,7 @@ form > p > select {
 
 .form-artist,
 .artist-form {
-    font-size: 150%;
+    font-size: 130%;
     margin-top: 10px;
 }
 
@@ -501,7 +501,7 @@ form > p > select {
 .form-artwork,
 .form-date,
 .form-price {
-    font-size: 140%;
+    font-size: 130%;
     margin-top: -95px;
 }
 
@@ -762,6 +762,15 @@ form > p > select {
     margin: 1rem;
     text-align: center;
 }
+
+.update-form-artist,
+.update-form-album,
+.update-form-artwork,
+.update-form-date,
+.update-form-price {
+    font-size: 130%;
+}
+/* ^^^^^^END UPDATE RECORD FORM^^^^^^^^^^ */
 
 /* SEARCH RESULTS PAGE */
 .search-title {

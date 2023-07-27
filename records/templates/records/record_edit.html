@@ -6,11 +6,11 @@
         <h3 class="update-title">Update {{record.artist}}'s Album, {{ record.album }}</h3>
         <form class="record-form" method="post">
           {% csrf_token %}
-          <p><label>Artist:</label>{{ form.artist }}</p>
-          <p><label>Album:</label>{{ form.album }}</p>
-          <p><label>Artwork:</label>{{ form.artwork }}</p>
-          <p><label>Date:</label>{{ form.date }}</p>
-          <p><label>Price:</label>{{ form.price }}</p>
+          <p class="update-form-artist"><label>Artist:</label>{{ form.artist }}</p>
+          <p class="update-form-album"><label>Album:</label>{{ form.album }}</p>
+          <p class="update-form-artwork"><label>Artwork:</label>{{ form.artwork }}</p>
+          <p class="update-form-date"><label>Date:</label>{{ form.date }}</p>
+          <p class="update-form-price"><label>Price:</label>{{ form.price }}</p>
           <div class="form-button">
             <button type="submit">Update</button>
           </div>

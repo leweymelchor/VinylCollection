@@ -57,14 +57,20 @@ class ProfileForm(forms.ModelForm):
 
 
 class RecordForm(forms.ModelForm):
-    album = forms.CharField(initial='Album Title Here', max_length=100, required=True)
-    artwork = forms.CharField(initial='URL link to album art', max_length=300)
+    album = forms.CharField(max_length=100,
+                            required=True,
+                            widget = forms.TextInput(
+                            attrs={'placeholder': 'Album Title Here'}))
+    artwork = forms.CharField(max_length=300,
+                            widget = forms.TextInput(
+                            attrs={'placeholder': 'URL link to album art'}))
     artist = forms.ModelChoiceField(
         queryset = Artist.objects.all(),
         initial = 0
         )
     date = forms.DateField(widget=NumberInput(attrs={'type': 'date'}))
-    price = forms.DecimalField(initial=20.00)
+    price = forms.DecimalField(widget = forms.TextInput(
+                            attrs={'placeholder': '25.99'}))
 
     class Meta:
         model = Record
@@ -75,14 +81,6 @@ class RecordForm(forms.ModelForm):
             "date",
             "price",
         )
-
-        widgets = {
-            'album': forms.TextInput(attrs={'class': 'form-artist'}),
-            'artwork': forms.TextInput(attrs={'class': 'form-artist'}),
-            'artist': forms.TextInput(attrs={'class': 'form-artist'}),
-            'date': forms.TextInput(attrs={'class': 'form-artist'}),
-            'price': forms.TextInput(attrs={'class': 'form-artist'}),
-        }
 
     def __init__(self, *args, **kwargs):
         self.request = kwargs.pop('request', None)
