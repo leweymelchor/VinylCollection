@@ -150,12 +150,25 @@ class RecordDetailView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
 # EDITS SELECTED RECORD
 class RecordUpdateView(LoginRequiredMixin, PageTitleViewMixin, UpdateView):
     model = Record
+    form_class = RecordForm
     template_name = "records/record_edit.html"
-    fields = ["artist", "album", "artwork", "date", "price"]
+    # fields = ["artist", "album", "artwork", "date", "price"]
 
     def get_success_url(self):
         record_id = self.kwargs['pk']
         return reverse_lazy("record_detail", kwargs={"pk": record_id})
+
+    def get_form_kwargs(self):
+        """ Passes the request object to the form class.
+         This is necessary to only display artist that belong to a given user"""
+
+        kwargs = super(RecordUpdateView, self).get_form_kwargs()
+        kwargs['request'] = self.request
+        return kwargs
+
+    def form_valid(self, form):
+        form.save()
+        return super().form_valid(form)
 
     def get_title(self):
         return "EDIT - " + str(self.object.album) + " BY - " + str(self.object.artist)
