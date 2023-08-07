@@ -2,11 +2,10 @@
 {% load static %}
 {% block content %}
   <body>
-    {% comment %} Main Card List Start {% endcomment %}
     <main>
-      <div class="created-cont">
-        <a class="created-link" href="{% url 'records_created_list' %}">Recently Added</a>
-      </div>
+        <div class="created-cont">
+            <a class="created-link" href="{% url 'records_list' %}">Alphabetical</a>
+          </div>
       <div class="container-list-albums">
         {% for record in records %}
           {% if user == record.owner %}

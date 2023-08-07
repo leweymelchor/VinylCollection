@@ -77,6 +77,7 @@ class RecordForm(forms.ModelForm):
         fields = (
             "album",
             "artwork",
+            "attachment",
             "artist",
             "date",
             "price",

@@ -122,6 +122,25 @@ class RecordListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
         return context
 
 
+# LISTS ALL RECORDS IN USERS DB
+class CreatedListView(LoginRequiredMixin, PageTitleViewMixin, ListView):
+    paginate_by = 10
+    model = Record
+    template_name = "records/record_created_list.html"
+    title = "Vinyl Reserve"
+    context_object_name = "records"
+
+    def get_queryset(self):
+        owner = self.request.user.id
+
+        records = Record.objects.filter(owner=owner).order_by('-created_at', 'artist')
+        return records
+
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     return context
+
+
 # LISTS ALL RECORDS BY SELECTED ARTIST
 class ArtistRecordsView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
     model = Record
@@ -136,6 +155,7 @@ class ArtistRecordsView(LoginRequiredMixin, PageTitleViewMixin, DetailView):
 
     def get_title(self):
         return str(self.object.artist) + "'s Albums"
+
 
 
 # SHOWS DETAILS OF SELECTED RECORD

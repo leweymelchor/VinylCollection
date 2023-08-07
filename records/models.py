@@ -1,5 +1,7 @@
 from django.db import models
 from django.conf import settings
+from django.utils.timezone import now
+
 
 USER_MODEL = settings.AUTH_USER_MODEL
 
@@ -24,6 +26,7 @@ class Record(models.Model):
     date = models.DateField(auto_now_add=False, blank=True, null=True)
     price= models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     owner = models.ForeignKey(USER_MODEL, related_name="record_owner", on_delete=models.CASCADE, default=1, null=True)
+    created_at = models.DateTimeField(default=now)
 
     def __str__(self):
         return str(self.artist) + " / " + self.album

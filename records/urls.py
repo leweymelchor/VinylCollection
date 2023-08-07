@@ -9,11 +9,13 @@ from records.views import (
     ArtistCreateView,
     ArtistRecordsView,
     SearchResultsView,
+    CreatedListView,
 )
 
 
 urlpatterns = [
     path("", RecordListView.as_view(), name="records_list"),
+    path("created", CreatedListView.as_view(), name="records_created_list"),
     path("add/record", RecordCreateView.as_view(), name="record_add"),
     path("add/artist/", ArtistCreateView.as_view(), name="artist_add"),
     path("record/<int:pk>/", RecordDetailView.as_view(), name="record_detail"),
