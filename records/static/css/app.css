@@ -298,8 +298,7 @@ li > form > button:hover {
 
 .created-cont {
     position: static;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 15px;
     width: 150px;
 }
 
@@ -330,11 +329,11 @@ li > form > button:hover {
     justify-content: center;
 
     max-width: 80%;
-    height: 97%;
+    height: 88%;
     padding: 3.5%;
     border-radius: 25px;
-    margin-top: 4.5rem;
-    margin-bottom: 3.6rem;
+    /* margin-top: 2.5rem; */
+    /* margin-bottom: 3.6rem; */
     margin-left: auto;
     margin-right: auto;
 
@@ -371,18 +370,30 @@ li > form > button:hover {
 /* pagination */
 .pagination {
     text-align: center;
-    position: relative;
-    bottom: 1rem;
-    width: 100%;
+    position: static;
+
+    /* bottom: 1rem; */
+    width: 24rem;
     height: 2.5rem;
+
+    /* margin-top: .5rem; */
+
+    border-radius: 8px;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 #page {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
     text-decoration: none;
     transition-property: color;
     transition: all 0.3s ease-in-out;
     font-size: 140%;
-    color: rgb(80, 80, 80);
+    color: #000000;
 }
 
 #page:hover {
@@ -1032,7 +1043,7 @@ form > p > select {
 
 /* ......../ MOBILE VERSION LARGE /.......... */
 
-@media (max-width: 890px) {
+@media (max-width: 950px) {
     .navbar {
         opacity: 0.95;
     }
@@ -1186,12 +1197,19 @@ form > p > select {
         transform: scale(1.1);
     }
 
+    .created-cont {
+        position: static;
+        margin-top: 15px;
+        margin-bottom: -45px;
+        width: 150px;
+    }
+
     .card {
         width: 14rem;
-        height: 18.5rem;
+        height: 25rem;
         margin-left: 2%;
         margin-right: 2%;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
         text-align: center;
     }
 
@@ -1247,7 +1265,7 @@ form > p > select {
 }
 
 /* ......../ MOBILE VERSION SMALL /.......... */
-@media (max-width: 575px) {
+@media (max-width: 700px) {
     html {
         font-size: 65%;
     }
@@ -1283,10 +1301,10 @@ form > p > select {
 
     .card {
         width: 12rem;
-        height: 17rem;
+        height: 22rem;
         margin-left: 2%;
         margin-right: 2%;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
         text-align: center;
     }
 
