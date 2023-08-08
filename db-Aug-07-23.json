@@ -3,7 +3,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$320000$HBW3cqwrnZ7MwvvTJVsE8W$D7D73eWBo1NCnSDbTNIReGLjJe2G72WpcHd7GcBwYro=",
-        "last_login": "2023-07-27T02:21:42.430Z",
+        "last_login": "2023-08-08T00:37:46.170Z",
         "is_superuser": true,
         "username": "Lewey",
         "first_name": "",
@@ -37,7 +37,7 @@
     "model": "auth.user",
     "fields": {
         "password": "pbkdf2_sha256$320000$C5zwABRxdDeMsdGmVoQLdG$gsdreOZwpzzvy/0GL88UZqe0Rh4Ls8xoUtyYEd8KhAU=",
-        "last_login": "2023-07-27T02:30:50.100Z",
+        "last_login": "2023-08-08T00:37:29.874Z",
         "is_superuser": false,
         "username": "demo",
         "first_name": "demo",
@@ -60,14 +60,6 @@
 },
 {
     "model": "sessions.session",
-    "pk": "29mp0gg51nnbsxl2mc9k0cv4kx024in2",
-    "fields": {
-        "session_data": ".eJxVjEEOwiAQAP_C2RBxgYJH730DWdhFqgaS0p6MfzckPeh1ZjJvEXDfStg7r2EhcRUgTr8sYnpyHYIeWO9Npla3dYlyJPKwXc6N-HU72r9BwV7G1kTP7MBME4ElrXMCq7y2kc4GkC5RY86WsndWAWblWCVC56PxhtmIzxfmtzhP:1qOoa6:21GJ2_TsrBcP6FHJFKAHp-aaEy_qh5Y4WE-8O-pCk2w",
-        "expire_date": "2023-08-10T00:10:14.762Z"
-    }
-},
-{
-    "model": "sessions.session",
     "pk": "9x0xmj1ipnrygw54d2x3m7wfoui4g9ky",
     "fields": {
         "session_data": ".eJxVjEEOgjAQRe_StWmYTqGDS_ecoZm2U0FNSSisjHcXEha6_e-9_1aet3X0W5XFT0ldFarL7xY4PqUcID243Gcd57IuU9CHok9a9TAned1O9-9g5DrudQMOO-a-DdhYdAacTZgzGCBH1HUIEqM1YrmXTNLuAlBuTaTUA4WoPl-v_zbu:1qORIL:szHaj8Hp_q-SZRCwKImjIPrvgwZr4x8-bft_uwQmvCU",
@@ -76,10 +68,10 @@
 },
 {
     "model": "sessions.session",
-    "pk": "iugd331zzal9tyz3vpknun3rttxzdo2p",
+    "pk": "suy7ca87rhf0b1j8wwtlbnq3nc3qoxel",
     "fields": {
-        "session_data": ".eJxVjEEOwiAQAP_C2RBxgYJH730DWdhFqgaS0p6MfzckPeh1ZjJvEXDfStg7r2EhcRUgTr8sYnpyHYIeWO9Npla3dYlyJPKwXc6N-HU72r9BwV7G1kTP7MBME4ElrXMCq7y2kc4GkC5RY86WsndWAWblWCVC56PxhtmIzxfmtzhP:1qOqmA:riH9L5f51DGqi4VQl19RSXrXQECwpX2zzTCN9FOFcEE",
-        "expire_date": "2023-08-10T02:30:50.101Z"
+        "session_data": ".eJxVjMsOgjAUBf-la9PQa2mpS_d8A7kvLGpKQmFl_HclYaHbMzPnZQbc1jxsVZdhEnMxzpx-N0J-aNmB3LHcZstzWZeJ7K7Yg1bbz6LP6-H-HWSs-VsTR6DG8RjH1kMQpNAmJ51AIvAdauhSAuIG5NxGjIoQHatnwTQmH8z7A-8zODw:1qTAjK:tMvdj-9pPxV702ZUVBzIy1EENc_NEelc74uw8xYW52Y",
+        "expire_date": "2023-08-22T00:37:46.171Z"
     }
 },
 {
@@ -88,6 +80,14 @@
     "fields": {
         "session_data": ".eJxVjMsOwiAQRf-FtSFQGB4u3fsNhIFBqgaS0q6M_65NutDtPefcFwtxW2vYBi1hzuzMJDv9bhjTg9oO8j22W-ept3WZke8KP-jg157peTncv4MaR_3WmMgJY5QmUwiKVRq88iI64a0EsGhLNKgwF1IJrEwiFemEtpObwBti7w_X_Dda:1q4Dlm:RZ85tC5KXcdesm4YL6tou4Dv460B1cmhiYC593OSb0o",
         "expire_date": "2023-06-14T04:49:10.406Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zsi7m1qp71g6uasjqstzb91g6eahli8v",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAUBf-la9PQa2mpS_d8A7kvLGpKQmFl_HclYaHbMzPnZQbc1jxsVZdhEnMxzpx-N0J-aNmB3LHcZstzWZeJ7K7Yg1bbz6LP6-H-HWSs-VsTR6DG8RjH1kMQpNAmJ51AIvAdauhSAuIG5NxGjIoQHatnwTQmH8z7A-8zODw:1qTANP:wLYdlPS4YKI_qAxBEOxhV0bZH-qAkvbw2PukUkYeAf0",
+        "expire_date": "2023-08-22T00:15:07.146Z"
     }
 },
 {
@@ -1622,7 +1622,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1637,7 +1638,8 @@
         "price": "33.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1652,7 +1654,8 @@
         "price": "19.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1667,7 +1670,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1682,7 +1686,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1697,7 +1702,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1712,7 +1718,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1727,7 +1734,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1742,7 +1750,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1757,7 +1766,8 @@
         "price": "2.29",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1772,7 +1782,8 @@
         "price": "25.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1787,7 +1798,8 @@
         "price": "34.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1802,7 +1814,8 @@
         "price": "20.68",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1817,7 +1830,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1832,7 +1846,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1847,7 +1862,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1862,7 +1878,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1877,7 +1894,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1892,7 +1910,8 @@
         "price": "31.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1907,7 +1926,8 @@
         "price": "35.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1922,7 +1942,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1937,7 +1958,8 @@
         "price": "34.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1952,7 +1974,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1967,7 +1990,8 @@
         "price": "3.29",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1982,7 +2006,8 @@
         "price": "5.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -1997,7 +2022,8 @@
         "price": "4.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2012,7 +2038,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2027,7 +2054,8 @@
         "price": "59.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2042,7 +2070,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2057,7 +2086,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2072,7 +2102,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2087,7 +2118,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2102,7 +2134,8 @@
         "price": "43.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2117,7 +2150,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2132,7 +2166,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2147,7 +2182,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2162,7 +2198,8 @@
         "price": "31.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2177,7 +2214,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2192,7 +2230,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2207,7 +2246,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2222,7 +2262,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2237,7 +2278,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2252,7 +2294,8 @@
         "price": "89.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2267,7 +2310,8 @@
         "price": "42.24",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2282,7 +2326,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2297,7 +2342,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2312,7 +2358,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2327,7 +2374,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2342,7 +2390,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2357,7 +2406,8 @@
         "price": "2.29",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2372,7 +2422,8 @@
         "price": "2.29",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2387,7 +2438,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2402,7 +2454,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2417,7 +2470,8 @@
         "price": "31.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2432,7 +2486,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2447,7 +2502,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2462,7 +2518,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2477,7 +2534,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2492,7 +2550,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2507,7 +2566,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2522,7 +2582,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2537,7 +2598,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2552,7 +2614,8 @@
         "price": "32.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2567,7 +2630,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2582,7 +2646,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2597,7 +2662,8 @@
         "price": "28.24",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2612,7 +2678,8 @@
         "price": "39.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2627,7 +2694,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2642,7 +2710,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2657,7 +2726,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2672,7 +2742,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2687,7 +2758,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2702,7 +2774,8 @@
         "price": "14.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2717,7 +2790,8 @@
         "price": "39.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2732,7 +2806,8 @@
         "price": "30.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2747,7 +2822,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2762,7 +2838,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2777,7 +2854,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2792,7 +2870,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2807,7 +2886,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2822,7 +2902,8 @@
         "price": "23.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2837,7 +2918,8 @@
         "price": "24.77",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2852,7 +2934,8 @@
         "price": "22.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2867,7 +2950,8 @@
         "price": "34.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2882,7 +2966,8 @@
         "price": "23.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2897,7 +2982,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2912,7 +2998,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2927,7 +3014,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2942,7 +3030,8 @@
         "price": "28.77",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2957,7 +3046,8 @@
         "price": "33.77",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2972,7 +3062,8 @@
         "price": "2.29",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -2987,7 +3078,8 @@
         "price": "26.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3002,7 +3094,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3017,7 +3110,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3032,7 +3126,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3047,7 +3142,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3062,7 +3158,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3077,7 +3174,8 @@
         "price": "32.71",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3092,7 +3190,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3107,7 +3206,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3122,7 +3222,8 @@
         "price": "22.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3137,7 +3238,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3152,7 +3254,8 @@
         "price": "13.87",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3167,7 +3270,8 @@
         "price": "15.86",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3182,7 +3286,8 @@
         "price": "19.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3197,7 +3302,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3212,7 +3318,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3227,7 +3334,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3242,7 +3350,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3257,7 +3366,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3272,7 +3382,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3287,7 +3398,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3302,7 +3414,8 @@
         "price": "42.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3317,7 +3430,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3332,7 +3446,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3347,7 +3462,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3362,7 +3478,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3377,7 +3494,8 @@
         "price": "31.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3392,7 +3510,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3407,7 +3526,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3422,7 +3542,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3437,7 +3558,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3452,7 +3574,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3467,7 +3590,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3482,7 +3606,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3497,7 +3622,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3512,7 +3638,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3527,7 +3654,8 @@
         "price": "5.98",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3542,7 +3670,8 @@
         "price": "10.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3557,7 +3686,8 @@
         "price": "5.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3572,7 +3702,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3587,7 +3718,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3602,7 +3734,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3617,7 +3750,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3632,7 +3766,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3647,7 +3782,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3662,7 +3798,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3677,7 +3814,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3692,7 +3830,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3707,7 +3846,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3722,7 +3862,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3737,7 +3878,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3752,7 +3894,8 @@
         "price": "25.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3767,7 +3910,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3782,7 +3926,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3797,7 +3942,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3812,7 +3958,8 @@
         "price": "37.54",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3827,7 +3974,8 @@
         "price": "39.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3842,7 +3990,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3857,7 +4006,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3872,7 +4022,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3887,7 +4038,8 @@
         "price": "47.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3902,7 +4054,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3917,7 +4070,8 @@
         "price": "30.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3932,7 +4086,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3947,7 +4102,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3962,7 +4118,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3977,7 +4134,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -3992,7 +4150,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4007,7 +4166,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4022,7 +4182,8 @@
         "price": "10.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4037,7 +4198,8 @@
         "price": "28.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4052,7 +4214,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4067,7 +4230,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4082,7 +4246,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4097,7 +4262,8 @@
         "price": "34.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4112,7 +4278,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4127,7 +4294,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4142,7 +4310,8 @@
         "price": "34.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4157,7 +4326,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4172,7 +4342,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4187,7 +4358,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4202,7 +4374,8 @@
         "price": "27.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4217,7 +4390,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4232,7 +4406,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4247,7 +4422,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4262,7 +4438,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4277,7 +4454,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4292,7 +4470,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4307,7 +4486,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4322,7 +4502,8 @@
         "price": "55.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4337,7 +4518,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4352,7 +4534,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4367,7 +4550,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4382,7 +4566,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4397,7 +4582,8 @@
         "price": "31.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4412,7 +4598,8 @@
         "price": "35.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4427,7 +4614,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4442,7 +4630,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4457,7 +4646,8 @@
         "price": "31.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4472,7 +4662,8 @@
         "price": "65.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4487,7 +4678,8 @@
         "price": "45.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4502,7 +4694,8 @@
         "price": "17.47",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4517,7 +4710,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4532,7 +4726,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4547,7 +4742,8 @@
         "price": "21.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4562,7 +4758,8 @@
         "price": "35.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4577,7 +4774,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4592,7 +4790,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4607,7 +4806,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4622,7 +4822,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4637,7 +4838,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4652,7 +4854,8 @@
         "price": "25.07",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4667,7 +4870,8 @@
         "price": "32.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4682,7 +4886,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4697,7 +4902,8 @@
         "price": "32.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4712,7 +4918,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4727,7 +4934,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4742,7 +4950,8 @@
         "price": "10.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4757,7 +4966,8 @@
         "price": "26.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4772,7 +4982,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4787,7 +4998,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4802,7 +5014,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4817,7 +5030,8 @@
         "price": "1.00",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4832,7 +5046,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4847,7 +5062,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4862,7 +5078,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4877,7 +5094,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4892,7 +5110,8 @@
         "price": "27.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4907,7 +5126,8 @@
         "price": "37.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4922,7 +5142,8 @@
         "price": "22.70",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4937,7 +5158,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4952,7 +5174,8 @@
         "price": "27.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4967,7 +5190,8 @@
         "price": "27.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4982,7 +5206,8 @@
         "price": "25.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -4997,7 +5222,8 @@
         "price": "25.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5012,7 +5238,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5027,7 +5254,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5042,7 +5270,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5057,7 +5286,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5072,7 +5302,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5087,7 +5318,8 @@
         "price": "24.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5102,7 +5334,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5117,7 +5350,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5132,7 +5366,8 @@
         "price": null,
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5147,7 +5382,8 @@
         "price": "36.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5162,7 +5398,8 @@
         "price": "26.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5177,7 +5414,8 @@
         "price": "29.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5192,7 +5430,8 @@
         "price": "25.99",
         "owner": [
             "Lewey"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5207,7 +5446,8 @@
         "price": "34.99",
         "owner": [
             "Briana"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5222,7 +5462,8 @@
         "price": "34.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5237,7 +5478,8 @@
         "price": "14.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5252,7 +5494,8 @@
         "price": "26.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5267,7 +5510,8 @@
         "price": "23.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5282,7 +5526,8 @@
         "price": "24.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5297,7 +5542,8 @@
         "price": "34.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5312,7 +5558,8 @@
         "price": "45.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5327,7 +5574,8 @@
         "price": "27.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5342,7 +5590,8 @@
         "price": "15.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5357,7 +5606,8 @@
         "price": "25.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5372,7 +5622,8 @@
         "price": "23.99",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
     }
 },
 {
@@ -5383,11 +5634,28 @@
         "artist": 152,
         "artwork": "https://upload.wikimedia.org/wikipedia/en/f/f4/SZA_-_Z.png",
         "attachment": "",
-        "date": "2014-04-08",
+        "date": "2014-04-18",
         "price": "50.00",
         "owner": [
             "demo"
-        ]
+        ],
+        "created_at": "2023-08-07T22:39:02.432Z"
+    }
+},
+{
+    "model": "records.record",
+    "pk": 267,
+    "fields": {
+        "album": "Follow The Leader",
+        "artist": 86,
+        "artwork": "https://upload.wikimedia.org/wikipedia/en/5/52/Korn_follow_the_leader.jpg",
+        "attachment": "",
+        "date": "1998-07-16",
+        "price": "30.99",
+        "owner": [
+            "Lewey"
+        ],
+        "created_at": "2023-08-07T22:46:15.230Z"
     }
 },
 {
@@ -5712,6 +5980,42 @@
         "object_repr": "Drake / Take Care",
         "action_flag": 3,
         "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-08-07T22:40:23.451Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "266",
+        "object_repr": "SZA / Z",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-08-07T22:41:37.256Z",
+        "user": [
+            "Lewey"
+        ],
+        "content_type": [
+            "records",
+            "record"
+        ],
+        "object_id": "266",
+        "object_repr": "SZA / Z",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
     }
 }
 ]
