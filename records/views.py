@@ -35,14 +35,14 @@ class PageTitleViewMixin:
 
 # SEARCH ARTIST / ALBUMS
 class SearchResultsView(LoginRequiredMixin, PageTitleViewMixin, ListView):
-    paginate_by = 15
+    paginate_by = 25
     model = Record
     template_name = "records/search_results.html"
 
     def get_queryset(self, *args, **kwargs):
         query = self.request.GET.get("q")
         return Record.objects.filter(
-        Q(album__icontains=query) | Q(artist__artist__icontains=query) | Q(date__icontains=query)).order_by('artist', 'date')
+        Q(album__icontains=query) | Q(artist__artist__icontains=query) | Q(date__icontains=query) | Q(price__icontains=query)).order_by('artist', 'date')
 
     def get_title(self):
         query = self.request.GET.get("q")
