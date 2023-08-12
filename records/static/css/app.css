@@ -141,8 +141,9 @@ a > img:hover {
 
 /* spinning record logo */
 .spinning-record {
-    margin-top: 17px;
-    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 28px;
 
     -webkit-animation:fa-spin 2s infinite linear;
     animation: fa-spin 2s infinite linear;
@@ -173,7 +174,7 @@ a > img:hover {
   background:rgba(255, 255, 255, 0.8);
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 52px;
   z-index: 12;
 }
 
@@ -1144,6 +1145,25 @@ form > p > select {
         margin-bottom: 1.5rem;
         font-size: 1.3rem;
         font-weight: 500;
+    }
+
+    .spinning-record {
+        margin-top: 18px;
+        margin-bottom: auto;
+        height: 28px;
+
+        -webkit-animation:fa-spin 2s infinite linear;
+        animation: fa-spin 2s infinite linear;
+    }
+
+    @-webkit-keyframes fa-spin{
+        0%{-webkit-transform:rotate(0deg);
+        transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
+    }
+
+    @keyframes fa-spin{
+        0%{-webkit-transform:rotate(0deg);
+        transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}
     }
 
     .logo {
