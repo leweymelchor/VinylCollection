@@ -174,7 +174,7 @@ a > img:hover {
   background:rgba(255, 255, 255, 0.8);
   color: #000;
   opacity: 0.85;
-  height: 52px;
+  height: 56px;
   z-index: 12;
 }
 
@@ -183,7 +183,7 @@ a > img:hover {
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  height: 64px;
+  height: 68px;
   align-items: center;
 }
 
@@ -1140,7 +1140,7 @@ video {
     .navbar-container {
         display: block;
         position: relative;
-        height: 64px;
+        height: 68px;
     }
 
     .navbar-container input[type="checkbox"] {
