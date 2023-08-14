@@ -5,19 +5,29 @@
   <body>
     <main>
         <h2 class="login-title">Log In</h2>
-        <h3>Try the Demo User</h3>
-        <h3>by retyping the default info</h3>
-        <div class="login-card">
 
-          <form class="login-form2" method="post">
-            {% csrf_token %}
-            <p><label>Username:</label><input type="input" class="form-control" name="username" id="inputEmail" placeholder="demo" required ></p>
-            <p><label>Password:</label><input type="password" class="form-control" name="password" id="inputPass" placeholder="DemoUser1234" required></p>
-            <div class="login-form-buttons">
-              <button class="login" type="submit">Log In</button>
-              <a class="signup" href="{% url 'signup' %}">Sign up</a>
-            </div>
-          </form>
+        <div class="login-main">
+          <video controls autoplay muted loop>
+            <source src="{% static "VR-Demo.mp4" %}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="login-card">
+
+            <form class="login-form2" method="post">
+              {% csrf_token %}
+              <div class="demo-text">
+                <h3>Try the Demo User</h3>
+                <h3>by retyping the default info</h3>
+              </div>
+              <p><label>Username:</label><input type="input" class="form-control" name="username" id="inputEmail" placeholder="demo" required ></p>
+              <p><label>Password:</label><input type="password" class="form-control" name="password" id="inputPass" placeholder="DemoUser1234" required></p>
+              <div class="login-form-buttons">
+                <button class="login" type="submit">Log In</button>
+                <a class="signup" href="{% url 'signup' %}">Sign up</a>
+              </div>
+            </form>
+          </div>
+
         </div>
     </main>
   </body>
