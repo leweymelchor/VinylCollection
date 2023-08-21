@@ -16,11 +16,11 @@
             <form class="login-form2" method="post">
               {% csrf_token %}
               <div class="demo-text">
-                <h3>Try the Demo User</h3>
-                <h3>by retyping the default info</h3>
+                {% comment %} <h3>Try the Demo User</h3>
+                <h3>by retyping the default info</h3> {% endcomment %}
               </div>
-              <p><label>Username:</label><input type="input" class="form-control" name="username" id="inputEmail" placeholder="demo" required ></p>
-              <p><label>Password:</label><input type="password" class="form-control" name="password" id="inputPass" placeholder="DemoUser1234" required></p>
+              <p><label>Username:</label><input type="input" class="form-control" name="username" id="inputEmail" placeholder="username" required ></p>
+              <p><label>Password:</label><input type="password" class="form-control" name="password" id="inputPass" placeholder="password" required></p>
               <div class="login-form-buttons">
                 <button class="login" type="submit">Log In</button>
                 <a class="signup" href="{% url 'signup' %}">Sign up</a>
